@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+    
 }
 
 * {
@@ -15,6 +15,21 @@ body {
     min-height: auto;
     min-width: 100%;
     position: relative;
+}
+
+h6 { font-size: 1.25rem; }
+h5 { font-size: 1.56rem; }
+h4 { font-size: 1.95rem; }
+h3 { font-size: 2.44rem; }
+h2 { font-size: 3.05rem; }
+h1 { font-size: 3.81rem; }
+
+b { font-weight: 600; }
+
+.primary {
+    color: white;
+    background-color: #FF481F;
+    border-radius: 5px;
 }
 
 /********** HEADER **********/
@@ -297,6 +312,39 @@ main {
     border-radius: 5px;
     margin-top: 1.5rem;
     font-size: 1rem;
+}
+
+.documentation-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.documentation-container {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.documentation-inner {
+    display: flex;
+    grid-column: 2 / 3;
+}
+
+.documentation-content {
+    flex-direction: column;
+    flex: 1;
+    color: dimgray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.documentation-content i {
+    color: #0095C6;
+}
+
+.documentation-content img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /********** FOOTER **********/
