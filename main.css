@@ -330,6 +330,22 @@ main {
     grid-column: 2 / 3;
 }
 
+.docnav-container {
+    min-height: 100%;
+    min-width: 25%;
+    grid-column: 1 / 2;
+    position: fixed;
+    padding-top: 3rem;
+}
+
+.docnav-inner {
+    left: 400px;
+}
+
+.docnav-content {
+    
+}
+
 .documentation-content {
     flex-direction: column;
     flex: 1;
@@ -343,9 +359,12 @@ main {
 }
 
 .documentation-content img {
+    max-width: 100%;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+
 
 /********** FOOTER **********/
 
