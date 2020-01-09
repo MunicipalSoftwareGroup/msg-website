@@ -17,12 +17,17 @@ body {
     position: relative;
 }
 
-h6 { font-size: 1.25rem; }
-h5 { font-size: 1.56rem; }
-h4 { font-size: 1.95rem; }
-h3 { font-size: 2.44rem; }
-h2 { font-size: 3.05rem; }
-h1 { font-size: 3.81rem; }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab';
+    margin-bottom: 0.5em;
+}
+
+h6 { font-size: 1.00rem; }
+h5 { font-size: 1.25rem; font-weight: 600;}
+h4 { font-size: 1.56rem; }
+h3 { font-size: 1.95rem; }
+h2 { font-size: 2.44rem; }
+h1 { font-size: 3.05rem; }
 
 b { font-weight: 600; }
 
@@ -375,13 +380,16 @@ main {
 }
 
 .documentation-content i {
+    display: flex;
     color: #0095C6;
+}
+
+.documentation-content p {
+    margin-bottom: 1rem;
 }
 
 .documentation-content img {
     max-width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 
