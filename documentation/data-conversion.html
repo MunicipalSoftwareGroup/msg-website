@@ -58,7 +58,15 @@
                         <li><a href="tables.html">Tables</a></li>
                         <li><a href="payments.html">Payments</a></li>
                         <li><a href="printing.html">Printing</a></li>
-                        <li><a href="data-conversion.html" style="text-decoration: underline">Data Conversion</a></li>
+                        <li>
+                            <a href="data-conversion.html" style="text-decoration: underline">Data Conversion</a>
+                            <ul>
+                                <li><a href="#startup-charges">Startup Charges</a></li>
+                                <li><a href="#unique-charge">Unique Charge</a></li>
+                                <li><a href="#transfer-arrest-charges">Transfer Arrest Charges</a></li>
+                                <li><a href="#warrant-charges">Warrant Charges</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -76,7 +84,7 @@
                         <img src="images/data-conversion/image001.png"/>
                     </p>
 
-                    <h3>Startup Charges</h3>
+                    <h3 id="startup-charges">Startup Charges</h3>
                     <img src="images/data-conversion/image002.png"/>
                     <p>
                         The ‘Charge’ field is used to identify this charge and must be unique.  It is a DROP DOWN from the ‘State Charges’ Table.  You do not, however, have
@@ -87,7 +95,7 @@
                         If this is a local charge (not state) the ordinance number should be placed in the‘Local Ordinance’ field. If this is a state statute, your adopting ordinance number should be placed in ‘Local Ordinance’.   A local charge would not have a ‘Charge Code’, ‘State Charge Code’,  ‘Statute’ or ‘Paragraph’.  All charges must have the ‘Charge’ wording and a number in ‘Local Ordinance’.
                     </p>
 
-                    <h3>Unique Charge</h3>
+                    <h3 id="unique-charge">Unique Charge</h3>
                     <img src="images/data-conversion/image003.png"/>
                     <p>
                         A point to repeat is that the Charge wording must be unique.  Thus, if you have 4 types of DISORDERLY CONDUCT with different paragraphs you need to find some way to distinguish them from each other. For Example:
@@ -99,7 +107,7 @@
                         It is very important that your ‘Startup Charges’ be accurate and decided upon before proceeding to translating the original charges.
                     </p>
                     
-                    <h3>Transfer Arrest Charges</h3>
+                    <h3 id="transfer-arrest-charges">Transfer Arrest Charges</h3>
                     <img src="images/data-conversion/image004.png"/>
                     <p>
                         After the first phase of conversion routines run, the original charges are placed in the ‘Transfer Arrest Charges’ table.  Likewise, the charges from the original ‘Warrants’ are placed in the ‘Transfer Warrant Charges’ located in the ‘Conversion Menu’
@@ -119,7 +127,7 @@
                         Every record in the ‘Transfer Arrest Charges’ table should have an entry in the ‘Translate To’ field.   You should only edit the ‘Translate To’ field and not touch the fields above from the original data.
                     </p>
 
-                    <h3>Warrant Charges</h3>
+                    <h3 id="warrant-charges">Warrant Charges</h3>
                     <p>
                         In the same manner the charges from the original Warrants need to be translated to charges in the ‘Startup Charges’.
                     </p>
