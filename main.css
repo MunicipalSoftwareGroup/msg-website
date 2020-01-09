@@ -33,8 +33,7 @@ b { font-weight: 600; }
 
 .primary {
     color: white;
-    background-color: #FF481F;
-    border-radius: 5px;
+    background-color: #FAC173;
 }
 
 /********** HEADER **********/
@@ -56,7 +55,7 @@ header {
 #header-top-inner {
     display: flex;
     height: 100%;
-    color: #0095C6;
+    color: #707070;
 }
 
 #msg-logo {
@@ -113,7 +112,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     grid-column: 1 / 4;
-    background-image: linear-gradient(#0095C6BB 20%, #C7FF93BB 200%), url("images/streetmap.jpg");
+    background-color: #FAC173;
+    /*background-image: linear-gradient(#FAC173, #FAC173EE), url("images/streetmap.jpg");*/
     height: 80vh;
 }
 
@@ -200,8 +200,6 @@ main {
     text-align: left;
     align-items: center;
     grid-row; 1;
-    color: white;
-    background-color: #FF7F54;
     height: 100%;
 }
 
@@ -233,34 +231,43 @@ main {
     display: flex;
     grid-column: 2 / 3;
     align-items: center;
-    text-align: center;
 }
 
 #about-us-content {
     display: flex;
-    flex-direction: column;
+    justify-content:space-between;
+    flex-direction: row;
     width: 100%;
     align-items: center;
 /*    height: 10rem;*/
+}
+
+#about-us-image {
+    height: auto;
+    max-width: 55%;
+}
+
+#about-us-text {
+    max-width: 45%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #about-us-header {
     flex: 1;
     font-family: 'Roboto Slab', 'serif';
     font-size: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     color: dimgray;
 }
 
 #about-us-body {
     flex: 1;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 100;
-    max-width: 35em;
     line-height: 1.55em;
     text-align: left;
     color: dimgray;
-    padding-top: 1rem;
 }
 
 #contact-container {
@@ -269,7 +276,7 @@ main {
     height: auto;
     min-height: 100vh;
     grid-template-columns: 1fr 4fr 1fr;
-    background: linear-gradient(#EEEEEE, white 30%);
+    background-color: #fffcf7;
 }
 
 #contact-inner {
@@ -329,10 +336,7 @@ main {
 }
 
 #contact-submit {
-    background-color: #FF7F54;
-    color: white;
     border: 0px;
-    border-radius: 5px;
     margin-top: 1.5rem;
     font-size: 1rem;
 }
@@ -368,7 +372,7 @@ main {
 .docnav-content {
     display: table;
     margin: 0 auto;
-    overflow-wrap: break-word;
+    overflow-wrap: break-all;
     list-style: none;
 }
 
