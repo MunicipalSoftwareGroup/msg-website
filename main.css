@@ -368,7 +368,14 @@ main {
 .docnav-content {
     display: table;
     margin: 0 auto;
+    overflow-wrap: break-word;
     list-style: none;
+}
+
+.docnav-content li ul {
+    list-style: none;   
+    font-size: 0.8rem;
+    text-indent: 1rem;
 }
 
 .documentation-content {
@@ -381,6 +388,7 @@ main {
 
 .documentation-content i {
     display: flex;
+    flex-direction: row;
     color: #0095C6;
 }
 
