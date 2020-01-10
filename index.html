@@ -12,7 +12,29 @@
         
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400|Roboto+Slab:200,300,400&display=swap" rel="stylesheet">
+        
+        <style type="text/css">
+            @font-face {
+                font-family: "Pitch Bold";
+                src: url("./fonts/otf/pitch-collection/pitch/PitchTest-Bold.otf");
+            }
+            
+            @font-face {
+                font-family: "Pitch Sans Bold";
+                src: url("./fonts/otf/pitch-collection/pitch-sans/PitchSansTest-Bold.otf");
+            }
+            
+            @font-face {
+                font-family: "National Book";
+                src: url("./fonts/otf/national/NationalTest-Book.otf");
+            }
+            
+            @font-face {
+                font-family: "National Bold";
+                src: url("./fonts/otf/national/NationalTest-Bold.otf");
+            }
+        </style>
+        <!--<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400|Roboto+Slab:200,300,400&display=swap" rel="stylesheet">-->
         
     </head>
     <body>
@@ -54,8 +76,9 @@
                 <div id="splash-container">
                     <div id="splash-inner">
                         <div id="splash-content">
-                            <div id="splash-body">
-                                Excellence in municipal court software<br>and support
+                            <div id="splash-line"></div>
+                            <div id="splash-body" class="pitch-bold">
+                                Committed to excellence in municipal court software and support.
                             </div>
                             <div id=#splash-period>
                                 
@@ -105,7 +128,9 @@
                             <img id="about-us-image" src="images/auburn-al-banner.jpg "/>
                             
                             <div id="about-us-text">
-                                <div id="about-us-header">About Us</div>
+                                <div id="about-us-header" class="pitch-bold">
+                                    About Us
+                                </div>
                                 <div id="about-us-body">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </div>
@@ -117,27 +142,31 @@
                 <div id="contact-container">
                     <div id="contact-inner">
                         <div id="contact-content">
-                            <div id="contact-header">Drop us a line.</div>
-                            <div id="contact-details">
-                                <div>
-                                    Municipal Software Group, LLC<br>
-                                    P.O. Box 2521<br>
-                                    Auburn, AL 36831
-                                </div>    
-                                <div>
-                                    Help Desk: (334) 821-1330<br>
-                                    Email: municipalsoftware@outlook.com<br>
-                                    Fax: (888) 519-5443
+                            <div id="contact-header" class="pitch-bold">Drop us a line.</div>
+                            <div id="contact-header-line"></div>
+                            <div id="contact-body">
+                                <div id="contact-send-email">
+                                    <form id="contact-form" method="get">
+                                        <input placeholder="Name" type="text" tabindex="1" required/>
+                                        <input placeholder="Email" type="email" tabindex="2" required/>
+                                        <input placeholder="Phone Number (optional)" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" tabindex="3"/>
+                                        <textarea rows="10" cols="60" placeholder="Message" id="contact-message" tabindex="4" required></textarea>
+                                        <button type="submit"  id="contact-submit" class="primary national-bold">SUBMIT</button>
+                                    </form>
+                                </div>
+                                <div id="contact-details">
+                                    <div>
+                                        Municipal Software Group, LLC<br>
+                                        P.O. Box 2521<br>
+                                        Auburn, AL 36831
+                                    </div>    
+                                    <div>
+                                        Email: municipalsoftware@outlook.com<br>
+                                        Help Desk: (334) 821-1330<br>
+                                        Fax: (888) 519-5443
+                                    </div>
                                 </div>
                             </div>
-                            <span id="contact-label">Send us an email:</span>
-                            <form id="contact-form" method="get">
-                                <input placeholder="Name" type="text" tabindex="1" required/>
-                                <input placeholder="Email" type="email" tabindex="2" required/>
-                                <input placeholder="Phone Number (optional)" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" tabindex="3"/>
-                                <textarea rows="10" cols="60" placeholder="Message" id="contact-message" tabindex="4" required></textarea>
-                                <button type="submit"  id="contact-submit" class="primary">Submit</button>
-                            </form>
                         </div>
                     </div>
                 </div>
