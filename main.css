@@ -196,10 +196,21 @@ main {
 
 #about-us-container {
     display: grid;
+    position: relative;
     grid-template-columns: 1fr 8fr 1fr;
     grid-column: 1 / 4;
     height: auto;
     min-height: 100vh;
+    background-color: #fffcf7;
+}
+
+#about-us-bg-box {
+    position: absolute;
+    width: 53rem;;
+    height: 17rem;
+    z-index: 0;
+    background-color: #FFF6EB;
+    margin: -4rem 0 0 -4rem;
 }
 
 #about-us-inner {
@@ -214,16 +225,18 @@ main {
     flex-direction: row;
     width: 100%;
     align-items: center;
-/*    height: 10rem;*/
 }
 
 #about-us-image {
     height: auto;
+    z-index: 1;
     max-width: 40rem;
 }
 
 #about-us-text {
     max-width: 45%;
+    min-width: 45%;
+    z-index: 1;
     padding-left: 5%;
     padding-right: 5%;
 }
