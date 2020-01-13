@@ -1,0 +1,353 @@
+@media (min-width: 1200px) {
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0.5em;
+    }
+
+    h6 { font-size: 1.00rem; }
+    h5 { font-size: 1.25rem; font-weight: 600;}
+    h4 { font-size: 1.56rem; }
+    h3 { font-size: 1.95rem; }
+    h2 { font-size: 2.44rem; }
+    h1 { font-size: 3.05rem; }
+
+    b { font-weight: 600; }
+
+    .heading {
+        font-size: 2.75rem;
+    }
+
+    .orange-line {
+        border-bottom: 8px solid #FAC173;
+    }
+
+    .text-block {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    /********** HEADER **********/
+
+    header {
+        position: relative;
+        grid-column: 1 / 4;
+        grid-row: 1;
+        height: 100px;
+        width: auto%;
+    }
+
+    #header-top-container {
+        height: 100%;
+        width: auto%;
+        background: transparent;
+    }
+
+    #header-top-inner {
+        display: flex;
+        height: 100%;
+    }
+
+    #msg-logo {
+        font-family: "Pitch Sans Bold";
+        font-size: 1.4rem;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    #msg-logo-content {
+    }
+
+    #header-menu {
+        font-family: "Pitch Bold";
+        flex: 1;
+        margin-right: 3rem;
+    }
+
+    #header-menu-inner {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    #header-menu-content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header-menu-item {
+        text-align: center;
+        padding-left: 4.1rem;
+        list-style-type: none;
+    }
+
+    /********** MAIN **********/
+
+    main {
+        position: relative;
+        grid-column: 1 / 4;
+        grid-row: 2;
+        height: auto;
+    }
+
+    #main-container {
+        display: grid;
+        background: transparent;
+    }
+
+    #splash-container {
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        grid-column: 1 / 4;
+        background-color: #FAC173;
+        height: 80vh;
+    }
+
+    #splash-inner {
+        display: flex;
+        grid-column: 2 / 3;
+        height: inherit;
+    }
+
+    #splash-content {
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        width: 100%;
+    }
+
+    #splash-line {
+        height: 40vh;
+        width: 45rem;
+        border-bottom: 8px solid white;
+    }
+
+    #splash-body {
+        font-size: 2.75rem;
+        height: 40vh;
+        width: 40rem;
+        padding-top: 2rem;
+        color: white;
+    }
+
+    #product-container {
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        grid-column: 1 / 4;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #product-inner {
+        display: flex;
+        grid-column: 2 / 3;
+        margin: 5rem 0 5rem 0;
+    }
+
+    #product-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #pitch-header {
+        max-width: 31rem;
+        color: dimgray;
+    }
+
+    #pitch-line {
+        width: 45rem;
+        margin: 0.5rem 0 1.5rem 0;
+    }
+
+    #pitch-body {
+        max-width: 27rem;
+    }
+
+    #about-us-container {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 8fr 1fr;
+        grid-column: 1 / 4;
+        height: auto;
+        min-height: 100vh;
+        background-color: #fffcf7;
+    }
+
+    #about-us-bg-box {
+        position: absolute;
+        width: 53rem;;
+        height: 17rem;
+        z-index: 0;
+        background-color: #FFF6EB;
+        margin: -4rem 0 0 -4rem;
+    }
+
+    #about-us-inner {
+        display: flex;
+        grid-column: 2 / 3;
+        align-items: center;
+    }
+
+    #about-us-content {
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    #about-us-image {
+        height: auto;
+        z-index: 1;
+        max-width: 40rem;
+    }
+
+    #about-us-text {
+        max-width: 45%;
+        min-width: 45%;
+        z-index: 1;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #about-us-header {
+        flex: 1;
+        padding-bottom: 0.5rem;
+        color: dimgray;
+    }
+
+    #about-us-body {
+        flex: 1;
+        font-weight: 100;
+        line-height: 1.55em;
+        text-align: left;
+        color: dimgray;
+    }
+
+    #contact-container {
+        grid-column: 1 / 4;
+        display: grid;
+        height: auto;
+        min-height: 100vh;
+        grid-template-columns: 1fr 4fr 1fr;
+        background-color: #fffcf7;
+    }
+
+    #contact-inner {
+        grid-column: 2 / 3;
+        display: flex;
+        margin: 3em 0 3rem 0;
+    }
+
+    #contact-content {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    #contact-header {
+        color: dimgray;
+        padding-left: 5rem;
+    }
+
+    #contact-header-line {
+        width: 35rem;
+        margin: 0.5rem 0 1rem 5rem;
+    }
+
+    #contact-body {
+        display: flex;
+        line-height: 1.5rem;
+    }
+
+
+    #contact-form {
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.6rem;
+        padding-left: 5rem;
+    }
+
+    #contact-form input, textarea {
+        padding: 0.5rem 1rem; 0.5rem 1rem;
+        margin-top: 1em;
+        font-size: 0.9rem;
+        box-sizing: border-box;
+    }
+
+    #contact-message {
+        margin-top: 1.25rem;
+        height: 13rem;
+        resize: none;
+    }
+
+    #contact-submit {
+        border: 0px;
+        margin-top: 1rem;
+        padding: 0.3rem 0 0.3rem 1rem;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    #contact-thanks {
+        margin: auto 14.1rem 7rem 5rem;
+    }
+
+    #contact-thanks-line {
+        width: 20rem;
+        margin-top: 1.4rem;
+    }
+
+    #contact-details {
+        display: flex;
+        line-height: 1.5rem;
+        min-width: 50%;
+        margin: 1rem 0 0 5rem;
+        padding-top: 1.1rem;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 1rem;
+    }
+
+    #contact-address {
+        margin-right: 1.5rem;
+    }
+
+    /********** FOOTER **********/
+
+    footer {
+        position: relative;
+        height: 200px;
+        grid-column: 1 / 4;
+        grid-row: 3;
+        background-color: white;
+    }
+
+    #footer-top-container {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+
+    #footer-top-inner {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        text-align: center;;
+    }
+
+    #footer-content {
+        flex: 1;
+        padding-top: 40px;
+        font-size: 0.75em;
+        color: dimgray;
+    }
+
+}

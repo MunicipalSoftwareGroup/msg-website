@@ -1,0 +1,32 @@
+html {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pitch Bold';
+}
+
+body, input, textarea {
+    font-family: "National Book";
+    color: #707070;
+    min-height: auto;
+    min-width: 100%;
+    position: relative;
+}
+
+.primary {
+    color: white;
+    background-color: #FAC173;
+}
+
+.pitch-bold {
+    font-family: 'Pitch Bold';
+}
+
+.pitch-sans-bold {
+    font-family: 'Pitch Sans Bold';
+}
+
+.national-bold {
+    font-family: 'National Bold';
+}
