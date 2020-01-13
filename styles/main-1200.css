@@ -53,10 +53,12 @@
         display: flex;
         flex: 1;
         align-items: center;
+        max-width: 22rem;
         margin-left: 3rem;
     }
 
     #msg-logo-content {
+        white-space: nowrap;
     }
 
     #header-menu {
@@ -69,19 +71,30 @@
         display: flex;
         height: 100%;
         align-items: center;
-        margin-left: auto;
     }
 
     #header-menu-content {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
     }
 
     .header-menu-item {
         text-align: center;
-        padding-left: 4.1rem;
+        padding-left: 5%;
         list-style-type: none;
+        white-space: nowrap;
+    }
+    
+    @media (max-width: 1396px) {
+        #msg-logo {
+            font-size: 1.2rem;
+            max-width: 18rem;
+        }
+        
+        #header-menu {
+            font-size: 0.86rem;   
+        }
     }
 
     /********** MAIN **********/
