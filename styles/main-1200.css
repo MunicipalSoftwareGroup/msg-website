@@ -204,12 +204,11 @@
     #about-us-image {
         height: auto;
         z-index: 1;
-        max-width: 40rem;
+        max-width: 55%;
     }
 
     #about-us-text {
         max-width: 45%;
-        min-width: 45%;
         z-index: 1;
         padding-left: 5%;
         padding-right: 5%;
@@ -263,6 +262,7 @@
     #contact-body {
         display: flex;
         line-height: 1.5rem;
+        justify-content: space-between;
     }
 
 
@@ -296,7 +296,7 @@
     }
 
     #contact-thanks {
-        margin: auto 14.1rem 7rem 5rem;
+        margin: auto 5rem 7rem 5rem;
     }
 
     #contact-thanks-line {
