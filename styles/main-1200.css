@@ -203,7 +203,6 @@
     #about-us-inner {
         display: flex;
         grid-column: 2 / 3;
-        align-items: center;
     }
 
     #about-us-content {
@@ -234,18 +233,77 @@
 
     #about-us-body {
         flex: 1;
-        font-weight: 100;
         line-height: 1.55em;
         text-align: left;
-        color: dimgray;
+    }
+    
+    #team-container {
+        grid-column: 1 / 4;
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        height: auto;
+        background-color: white;
+    }
+    
+    #team-inner {
+        grid-column: 2 / 3;
+        display: flex;
+    }
+    
+    #team-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        margin: 5rem 0 10rem 0;
+    }
+    
+    #team-header {
+        
+    }
+    
+    #team-line {
+        margin-bottom: 5%;
+    }
+    
+    .profile {
+        display: flex;
+        justify-content: space-between
+    }
+    
+    .profile-image {
+        min-width: 400px;
+        width: 45%;
+        height: 400px;
+        background-color: #FAC173;
+    }
+    
+    .profile-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 50%;
+        margin-bottom: 5%;
+    }
+    
+    .profile-header {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .profile-body {
+    }
+    
+    #daryl {
+        margin-bottom: 13%;
     }
 
     #contact-container {
         grid-column: 1 / 4;
         display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
         height: auto;
         min-height: 100vh;
-        grid-template-columns: 1fr 4fr 1fr;
         background-color: #fffcf7;
     }
 
@@ -276,7 +334,6 @@
         line-height: 1.5rem;
         justify-content: space-between;
     }
-
 
     #contact-form {
         width: 22rem;

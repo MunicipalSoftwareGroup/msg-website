@@ -2,18 +2,6 @@ html {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Pitch Bold';
-}
-
-body, input, textarea {
-    font-family: "National Book";
-    color: #707070;
-    min-height: auto;
-    min-width: 100%;
-    position: relative;
-}
-
 .primary {
     color: white;
     background-color: #FAC173;
@@ -27,6 +15,26 @@ body, input, textarea {
     font-family: 'Pitch Sans Bold';
 }
 
+.national-book {
+    font-family: 'National Book';
+}
+
 .national-bold {
     font-family: 'National Bold';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pitch Bold';
+}
+
+body, input, textarea {
+    font-family: "National Book";
+    color: #707070;
+    min-height: auto;
+    min-width: 100%;
+    position: relative;
+}
+
+.profile-header {
+    color: #FAC173;
 }
