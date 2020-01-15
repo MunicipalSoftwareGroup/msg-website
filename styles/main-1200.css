@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+
 
     h1, h2, h3, h4, h5, h6 {
         margin-bottom: 0.5em;
@@ -29,14 +29,14 @@
     /********** HEADER **********/
 
     header {
+        display: grid;
+        grid-template-columns: 1fr 20fr 1fr;
         position: relative;
-        grid-column: 1 / 4;
-        grid-row: 1;
         height: 100px;
-        width: auto%;
     }
 
     #header-top-container {
+        grid-column: 2 / 3;
         height: 100%;
         width: auto%;
         background: transparent;
@@ -54,7 +54,6 @@
         flex: 1;
         align-items: center;
         max-width: 22rem;
-        margin-left: 3rem;
     }
 
     #msg-logo-content {
@@ -64,7 +63,7 @@
     #header-menu {
         font-family: "Pitch Bold";
         flex: 1;
-        margin-right: 3rem;
+        padding-left: 10%;
     }
 
     #header-menu-inner {
@@ -75,15 +74,14 @@
 
     #header-menu-content {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
     }
 
     .header-menu-item {
         text-align: center;
-        padding-left: 5%;
         list-style-type: none;
-        white-space: nowrap;
     }
     
     @media (max-width: 1396px) {
@@ -93,7 +91,8 @@
         }
         
         #header-menu {
-            font-size: 0.86rem;   
+            font-size: 0.86rem;
+            white-space: nowrap;
         }
     }
 
@@ -107,8 +106,6 @@
     }
 
     #main-container {
-        display: grid;
-        background: transparent;
     }
 
     #splash-container {
@@ -117,12 +114,12 @@
         grid-column: 1 / 4;
         background-color: #FAC173;
         height: 80vh;
+        min-height: 720px;
     }
 
     #splash-inner {
         display: flex;
         grid-column: 2 / 3;
-        height: inherit;
     }
 
     #splash-content {
@@ -134,14 +131,16 @@
 
     #splash-line {
         height: 40vh;
-        width: 45rem;
+        width: 75%;
+        min-width: 790px;
+        max-width: 1503px;
         border-bottom: 8px solid white;
     }
 
     #splash-body {
         font-size: 2.75rem;
         height: 40vh;
-        width: 40rem;
+        width: 790px; /*width of center column at 992 window size*/
         padding-top: 2rem;
         color: white;
     }
@@ -173,7 +172,8 @@
     }
 
     #pitch-line {
-        width: 45rem;
+        width: 75%;
+        min-width: 700px;
         margin: 0.5rem 0 1.5rem 0;
     }
 
@@ -193,11 +193,11 @@
 
     #about-us-bg-box {
         position: absolute;
-        width: 53rem;;
+        width: 65%;;
         height: 17rem;
         z-index: 0;
         background-color: #FFF6EB;
-        margin: -4rem 0 0 -4rem;
+        margin: -4rem 0 0 -10%;
     }
 
     #about-us-inner {
@@ -272,7 +272,7 @@
     }
     
     .profile-image {
-        min-width: 400px;
+        max-width: 45%;
         width: 45%;
         height: 400px;
         background-color: #FAC173;
@@ -325,8 +325,8 @@
     }
 
     #contact-header-line {
-        width: 35rem;
-        margin: 0.5rem 0 1rem 5rem;
+        max-width: 35rem;
+        margin: 0.5rem 0 1rem 10%;
     }
 
     #contact-body {
@@ -336,7 +336,7 @@
     }
 
     #contact-form {
-        width: 22rem;
+        max-width: 22rem;
         display: flex;
         flex-direction: column;
         padding-top: 0.6rem;
@@ -365,11 +365,10 @@
     }
 
     #contact-thanks {
-        margin: auto 5rem 7rem 5rem;
+        margin: auto 10% 7rem 10%;
     }
 
     #contact-thanks-line {
-        width: 20rem;
         margin-top: 1.4rem;
     }
 
@@ -377,7 +376,7 @@
         display: flex;
         line-height: 1.5rem;
         min-width: 50%;
-        margin: 1rem 0 0 5rem;
+        margin: 1rem 0 0 10%;
         padding-top: 1.1rem;
         flex-direction: row;
         justify-content: flex-start;
@@ -385,7 +384,6 @@
     }
 
     #contact-address {
-        margin-right: 1.5rem;
     }
 
     /********** FOOTER **********/
@@ -419,4 +417,3 @@
         color: dimgray;
     }
 
-}
