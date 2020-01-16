@@ -139,7 +139,7 @@
     }
 
     #pitch-header {
-        max-width: 31rem;
+        width: 12em;
         color: dimgray;
     }
 
@@ -151,7 +151,7 @@
     }
 
     #pitch-body {
-        max-width: 27rem;
+        width: 23em;
     }
 
     #about-us-container {
@@ -177,7 +177,7 @@
 
     #about-us-content {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         flex-direction: row;
         width: 100%;
         align-items: center;
@@ -185,11 +185,15 @@
 
     #about-us-image {
         z-index: 1;
-        max-width: 55%;
+        width: 100%;
+    }
+    
+    #about-us-image img {
+        height: inherit;
+        width: inherit;
     }
 
     #about-us-text {
-        max-width: 45%;
         z-index: 1;
         padding-left: 5%;
     }
@@ -199,6 +203,7 @@
     }
 
     #about-us-body {
+        width: 20em;
     }
     
     #team-container {
@@ -301,7 +306,6 @@
 
     #contact-body {
         display: flex;
-        line-height: 1.5rem;
         justify-content: space-between;
     }
 
