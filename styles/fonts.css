@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Pitch Bold";
+    src: url("../fonts/otf/pitch-collection/pitch/PitchTest-Bold.otf");
+}
+
+@font-face {
+    font-family: "Pitch Sans Bold";
+    src: url("../fonts/otf/pitch-collection/pitch-sans/PitchSansTest-Bold.otf");
+}
+
+@font-face {
+    font-family: "National Book";
+    src: url("../fonts/otf/national/NationalTest-Book.otf");
+}
+
+@font-face {
+    font-family: "National Bold";
+    src: url("../fonts/otf/national/NationalTest-Bold.otf");
+}
+
+/******** SIZES ********/
+
+@media (min-width: 1200px) {
+    .f-x-large {
+        font-size: 2.75rem;
+    }
+    
+    .f-large {
+        font-size: 2rem;
+    }
+    
+    .f-medium {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    
+    .f-small {
+        font-size: 0.9rem;
+    }
+    
+    .f-x-small {
+        font-size: 0.75rem;
+    }
+    
+    .f-logo {
+        font-size: 1.2rem;
+    }
+    
+    .f-menu {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1396px) {
+    .f-logo {
+        font-size: 1.4rem;
+    }
+    
+    .f-menu {
+        font-size: 1rem;
+    }
+}

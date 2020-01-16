@@ -13,30 +13,9 @@
         
         <link rel="stylesheet" href="styles/reset.css">
         <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/fonts.css">
         <link rel="stylesheet" href="styles/main-992.css">
         <link rel="stylesheet" href="styles/main-1200.css">
-        
-        <style type="text/css">
-            @font-face {
-                font-family: "Pitch Bold";
-                src: url("./fonts/otf/pitch-collection/pitch/PitchTest-Bold.otf");
-            }
-            
-            @font-face {
-                font-family: "Pitch Sans Bold";
-                src: url("./fonts/otf/pitch-collection/pitch-sans/PitchSansTest-Bold.otf");
-            }
-            
-            @font-face {
-                font-family: "National Book";
-                src: url("./fonts/otf/national/NationalTest-Book.otf");
-            }
-            
-            @font-face {
-                font-family: "National Bold";
-                src: url("./fonts/otf/national/NationalTest-Bold.otf");
-            }
-        </style>
         <!--<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400|Roboto+Slab:200,300,400&display=swap" rel="stylesheet">-->
         
     </head>
@@ -47,11 +26,11 @@
             <div id="header-top-container">
                 <div id="header-top-inner">
                     <div id="msg-logo">
-                        <div id="msg-logo-content">
+                        <div id="msg-logo-content" class="pitch-sans-bold f-logo">
                             <a href="index.html">Municipal Software Group</a>
                         </div>
                     </div>
-                    <nav id="header-menu">
+                    <nav id="header-menu" class="pitch-bold f-menu">
                         <div id="header-menu-inner">
                             <ul id="header-menu-content">
                                 <li class="header-menu-item">
@@ -80,7 +59,7 @@
                     <div id="splash-inner">
                         <div id="splash-content">
                             <div id="splash-line"></div>
-                            <div id="splash-body" class="pitch-bold">
+                            <div id="splash-body" class="pitch-bold f-x-large">
                                 Committed to excellence in municipal court software and support.
                             </div>
                             <div id=#splash-period>
@@ -93,11 +72,11 @@
                 <div id="pitch-container">
                     <div id="pitch-inner">
                         <div id="pitch-content">
-                            <div id="pitch-header" class="pitch-bold heading">
+                            <div id="pitch-header" class="pitch-bold f-x-large">
                                 Municipal courts are our specialty.
                             </div>
                             <div id="pitch-line" class="orange-line"></div>
-                            <div id="pitch-body" class="text-block">
+                            <div id="pitch-body" class="f-medium">
                                 Our software stands apart from the rest because of its ease of use, superior reliability, and dependable tech support. With our flexible pricing, we find what works best for you and your budget and deliver the same reliable support regardless of what you pay.
                             </div>
                         </div>
@@ -111,10 +90,10 @@
                             <img id="about-us-image" src="images/auburn-al-banner.jpg "/>
                             
                             <div id="about-us-text">
-                                <div id="about-us-header" class="pitch-bold heading">
+                                <div id="about-us-header" class="pitch-bold f-x-large">
                                     About Us
                                 </div>
-                                <div id="about-us-body" class="text-block">
+                                <div id="about-us-body" class="f-medium">
                                     Located in Auburn within the Heart of Dixie, Municipal Software Group has been serving municipalities and communities of the Southeast for over 30 years. Our passions are impeccable customer service and user friendly software. Need to add more to this. I felt like the last line in the layout was over-promising...
                                 </div>
                             </div>
@@ -124,17 +103,17 @@
                 <div id="team-container">
                     <div id="team-inner">
                         <div id="team-content">
-                            <div id="team-header" class="pitch-bold heading">
+                            <div id="team-header" class="pitch-bold f-x-large">
                                 Meet the Team
                             </div>
                             <div id="team-line" class="orange-line"></div>
                             <div id="daryl" class="profile">
                                 <div src="" class="profile-image"></div>
                                 <div class="profile-text">
-                                    <div class="profile-header national-bold">
+                                    <div class="profile-header national-bold f-large">
                                         PRINCIPAL ENGINEER
                                     </div>
-                                    <div class="profile-body text-block">
+                                    <div class="profile-body f-medium">
                                         Daryl is the founder and visionary behind Municipal Software Group. He has been married to his wife, Kelley, for over 25 years and they have four children. In his free time, he enjoys gardening, traveling, and going to concerts.
                                     </div>
                                 </div>
@@ -142,10 +121,10 @@
                             <div id="collin" class="profile">
                                 <div id="profile-bg-box"></div>
                                 <div class="profile-text">
-                                    <div class="profile-header national-bold">
+                                    <div class="profile-header national-bold" f-large>
                                         SENIOR ENGINEER
                                     </div>
-                                    <div class="profile-body text-block">
+                                    <div class="profile-body f-medium">
                                         Collin is the newest addition to the team. He and his wife, Cara, enjoy spending time with their puppy and kitten, watching Auburn football, and brewing perfect cups of coffee.
                                     </div>
                                 </div>
@@ -158,19 +137,19 @@
                 <div id="contact-container">
                     <div id="contact-inner">
                         <div id="contact-content">
-                            <div id="contact-header" class="pitch-bold heading">Drop us a line.</div>
+                            <div id="contact-header" class="pitch-bold f-x-large">Drop us a line.</div>
                             <div id="contact-header-line" class="orange-line"></div>
                             <div id="contact-body">
                                 <div id="contact-send-email">
-                                    <form id="contact-form" method="get">
+                                    <form id="contact-form" class="f-small" method="get">
                                         <input placeholder="Name" type="text" tabindex="1" required/>
                                         <input placeholder="Email" type="email" tabindex="2" required/>
                                         <input placeholder="Phone Number (optional)" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" tabindex="3"/>
                                         <textarea rows="10" cols="60" placeholder="Message" id="contact-message" tabindex="4" required></textarea>
-                                        <button type="submit"  id="contact-submit" class="primary national-bold">SUBMIT</button>
+                                        <button type="submit"  id="contact-submit" class="primary national-bold f-medium">SUBMIT</button>
                                     </form>
                                 </div>
-                                <div id="contact-thanks" class="text-block">
+                                <div id="contact-thanks" class="f-medium">
                                     <div>
                                         Thank you for reaching out to us! We look forward to helping you with all of your municipal software needs!
                                     </div>
