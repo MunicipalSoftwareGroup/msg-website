@@ -116,7 +116,7 @@
 
     #splash-body {
         height: 40vh;
-        width: 790px; /*width of center column at 992 window size*/
+        width: 15em; /*width of center column at 992 window size*/
         padding-top: 2rem;
         color: white;
     }
