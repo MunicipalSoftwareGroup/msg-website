@@ -315,7 +315,8 @@
     }
 
     #contact-form {
-        min-width: 27rem;
+        max-width: 27rem;
+        width: 110%;
         display: flex;
         flex-direction: column;
         padding-top: 0.6rem;
@@ -341,7 +342,7 @@
     }
 
     #contact-thanks {
-        max-width: 20rem;
+        width: 14.6em;
         margin: auto 0 7rem 0;
     }
 
