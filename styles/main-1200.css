@@ -259,12 +259,16 @@
         background-color: #FAC173;
     }
     
+    .profile-image img {
+        height: inherit;
+        width: inherit;
+    }
+    
     .profile-text {
         display: flex;
         z-index: 1;
         flex-direction: column;
         justify-content: center;
-        max-width: 50%;
         margin-bottom: 5%;
     }
     
@@ -273,6 +277,7 @@
     }
     
     .profile-body {
+        max-width: 22em;
     }
     
     #daryl {
@@ -310,7 +315,7 @@
     }
 
     #contact-form {
-        max-width: 22rem;
+        min-width: 27rem;
         display: flex;
         flex-direction: column;
         padding-top: 0.6rem;
