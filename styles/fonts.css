@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "Pitch Medium Italic";
+    src: url("../fonts/otf/pitch-collection/pitch/PitchTest-MediumItalic.otf");
+}
+
+@font-face {
     font-family: "Pitch Sans Bold";
     src: url("../fonts/otf/pitch-collection/pitch-sans/PitchSansTest-Bold.otf");
 }
