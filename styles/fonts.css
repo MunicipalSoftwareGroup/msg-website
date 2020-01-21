@@ -25,6 +25,10 @@
 
 /******** SIZES ********/
 
+* {
+    line-height: 1.45em;
+}
+
 @media (min-width: 992px) {
     .f-x-large {
         font-size: 2rem;
@@ -36,7 +40,6 @@
     
     .f-medium {
         font-size: 0.908rem;
-        line-height: 1.45rem;
     }
     
     .f-small {
@@ -67,7 +70,6 @@
     
     .f-medium {
         font-size: 1rem;
-        line-height: 1.6rem;
     }
     
     .f-small {
@@ -98,7 +100,6 @@
     
     .f-medium {
         font-size: 1.25rem;
-        line-height: 2rem;
     }
     
     .f-small {
