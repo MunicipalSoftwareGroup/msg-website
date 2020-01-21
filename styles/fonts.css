@@ -29,6 +29,36 @@
     line-height: 1.45em;
 }
 
+@media (min-width: 480px) {
+    .f-x-large {
+        font-size: 2rem;
+    }
+    
+    .f-large {
+        font-size: 1.452rem;
+    }
+    
+    .f-medium {
+        font-size: 0.908rem;
+    }
+    
+    .f-small {
+        font-size: 0.66rem;
+    }
+    
+    .f-x-small {
+        font-size: 0.55rem;
+    }
+    
+    .f-logo {
+        font-size: 0.88rem;
+    }
+    
+    .f-menu {
+        font-size: 0.66rem;
+    }
+}
+
 @media (min-width: 992px) {
     .f-x-large {
         font-size: 2rem;
