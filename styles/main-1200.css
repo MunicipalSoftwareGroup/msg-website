@@ -58,8 +58,13 @@
         height: 100%;
         align-items: center;
     }
+    
+    #burger {
+        visibility: hidden;
+    }
 
     #header-menu-content {
+        visibility: visible;
         display: flex;
         justify-content: space-between;
         align-items: center;
