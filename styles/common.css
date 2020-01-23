@@ -48,7 +48,6 @@ because it is under the scrollbar on the right
 side of the screen. Not sure how this looks
 on mobile yet. */ 
 body {
-    width: 100vw;
     overflow-x: hidden;
     overflow-y: scroll;
 }
