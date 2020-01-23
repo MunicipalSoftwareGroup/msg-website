@@ -207,6 +207,7 @@ main {
 }
 
 #team-container {
+    min-height: 100vh;
     background-color: white;
 }
 
@@ -219,7 +220,6 @@ main {
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
-    margin: 5rem 0 10rem 0;
 }
 
 #team-header {
@@ -307,6 +307,7 @@ main {
     display: flex;
     width: 100%;
     flex-direction: column;
+    justify-content: center;
 }
 
 #contact-header {
