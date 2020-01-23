@@ -47,9 +47,13 @@ does mean the layout looks slightly offcenter
 because it is under the scrollbar on the right
 side of the screen. Not sure how this looks
 on mobile yet. */ 
-body {
+#wrapper {
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+body {
+    width: 100%;
 }
 
 .profile-header {

@@ -272,11 +272,13 @@
     }
     
     .profile-header {
+        text-align: left;
         line-height: 1em;
         margin-bottom: 0.1em;
     }
     
     .profile-title {
+        text-align: left;
         margin-bottom: 1rem;
     }
     
