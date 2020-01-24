@@ -14,13 +14,15 @@
         <link rel="stylesheet" href="styles/reset.css">
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/fonts.css">
+        <link rel="stylesheet" href="styles/main-default.css">
+        <link rel="stylesheet" href="styles/main-480.css">
         <link rel="stylesheet" href="styles/main-992.css">
         <link rel="stylesheet" href="styles/main-1200.css">
+        <link rel="stylesheet" href="styles/burger.css">
         <!--<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400|Roboto+Slab:200,300,400&display=swap" rel="stylesheet">-->
-        
     </head>
     <body>
-        
+        <div id="wrapper">
 <!--- HEADER --->
         <header id="grid-site-header">
             <div id="header-top-container">
@@ -32,18 +34,40 @@
                     </div>
                     <nav id="header-menu" class="pitch-bold f-menu">
                         <div id="header-menu-inner">
+                            <div id="burger">
+                                <input id="burger-input" type="checkbox" />
+                                
+                                <div id="burger-top-line"></div>
+                                <div id="burger-middle-line"></div>
+                                <div id="burger-bottom-line"></div>
+                                
+                                <ul id="burger-menu">
+                                    <li class="header-menu-item">
+                                        <a href="#pitch-section" class="burger-link">Our Software</a>
+                                    </li>
+                                    <li class="header-menu-item">
+                                        <a href="#about-us-section" class="burger-link">About Us</a>
+                                    </li>
+                                    <li class="header-menu-item">
+                                        <a href="#contact-section" class="burger-link">Contact Us</a>
+                                    </li>
+                                    <li class="header-menu-item">
+                                        <a href="documentation/introduction.html" class="burger-link">Documentation</a>
+                                    </li>
+                                </ul>
+                            </div>
                             <ul id="header-menu-content">
                                 <li class="header-menu-item">
                                     <a href="#pitch-section">Our Software</a>
-                                </li>
-                                <li class="header-menu-item">
-                                    <a href="documentation/introduction.html">Documentation</a>
                                 </li>
                                 <li class="header-menu-item">
                                     <a href="#about-us-section">About Us</a>
                                 </li>
                                 <li class="header-menu-item">
                                     <a href="#contact-section">Contact Us</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="documentation/introduction.html">Documentation</a>
                                 </li>
                             </ul>
                         </div>
@@ -59,7 +83,7 @@
                     <div id="splash-inner">
                         <div id="splash-content">
                             <div id="splash-line"></div>
-                            <div id="splash-body" class="pitch-bold f-x-large">
+                            <div id="splash-body" class="pitch-bold f-splash-body">
                                 Committed to excellence in municipal court software and support.
                             </div>
                             <div id=#splash-period>
@@ -72,7 +96,7 @@
                 <div id="pitch-container">
                     <div id="pitch-inner">
                         <div id="pitch-content">
-                            <div id="pitch-header" class="pitch-bold f-x-large">
+                            <div id="pitch-header" class="pitch-bold f-pitch-body">
                                 Municipal courts are our specialty.
                             </div>
                             <div id="pitch-line" class="orange-line"></div>
@@ -109,9 +133,7 @@
                             </div>
                             <div id="team-line" class="orange-line"></div>
                             <div id="daryl" class="profile">
-                                <div src="" class="profile-image">
-                                    
-                                </div>
+                                <img src="images/about-us.png" class="profile-image" />
                                 <div class="profile-text">
                                     <div class="profile-header national-bold f-large">
                                         DARYL ROTTA
@@ -137,7 +159,7 @@
                                         Collin is the newest addition to the team. He and his wife, Cara, enjoy spending time with their puppy and kitten, watching Auburn football, and brewing perfect cups of coffee.
                                     </div>
                                 </div>
-                                <div src="" class="profile-image"></div>
+                                    <img src="images/about-us.png" class="profile-image"/>
                             </div>
                         </div>
                     </div>
@@ -149,15 +171,13 @@
                             <div id="contact-header" class="pitch-bold f-x-large">Drop us a line.</div>
                             <div id="contact-header-line" class="orange-line"></div>
                             <div id="contact-body">
-                                <div id="contact-send-email">
-                                    <form id="contact-form" class="f-small" method="get">
-                                        <input placeholder="Name" type="text" tabindex="1" required/>
-                                        <input placeholder="Email" type="email" tabindex="2" required/>
-                                        <input placeholder="Phone Number (optional)" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" tabindex="3"/>
-                                        <textarea rows="10" cols="60" placeholder="Message" id="contact-message" tabindex="4" required></textarea>
-                                        <button type="submit"  id="contact-submit" class="primary national-bold f-medium">SUBMIT</button>
-                                    </form>
-                                </div>
+                                <form id="contact-form" class="f-small" method="get">
+                                    <input placeholder="Name" type="text" tabindex="1" required/>
+                                    <input placeholder="Email" type="email" tabindex="2" required/>
+                                    <input placeholder="Phone Number (optional)" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" tabindex="3"/>
+                                    <textarea rows="10" cols="60" placeholder="Message" id="contact-message" tabindex="4" required></textarea>
+                                    <button type="submit"  id="contact-submit" class="primary national-bold f-medium">SUBMIT</button>
+                                </form>
                                 <div id="contact-thanks" class="f-medium">
                                     <div id="contact-details">    
                                         <div id="contact-other">
@@ -193,5 +213,9 @@
                 </div>
             </div>
         </footer>
+        </div>
     </body>
+    <script src="js/toggleScrolling.js"></script>
+    <script src="js/closeMenu.js"></script>
+    <script src="js/onload.js"></script>
 </html>

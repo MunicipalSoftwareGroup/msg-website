@@ -58,8 +58,14 @@
         height: 100%;
         align-items: center;
     }
+    
+    #burger {
+        visibility: hidden;
+    }
 
     #header-menu-content {
+        visibility: visible;
+        position: static;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -158,6 +164,7 @@
         position: relative;
         height: auto;
         min-height: 100vh;
+        padding: 0;
         background-color: #fffcf7;
     }
     
@@ -186,6 +193,7 @@
     #about-us-image {
         z-index: 1;
         width: 100%;
+        max-width: none;
     }
     
     #about-us-image img {
@@ -194,6 +202,7 @@
     }
 
     #about-us-text {
+        margin-top: 0;
         z-index: 1;
         padding-left: 5%;
     }
@@ -233,11 +242,13 @@
     
     .profile {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
 
     #collin {
         position: relative;
+        flex-direction: row;
     }
 
     #profile-bg-box {
@@ -255,8 +266,11 @@
         z-index: 1;
         max-width: 45%;
         width: 45%;
-        height: 400px;
+        height: auto;
+        max-height: none;
+        padding-bottom: 0;
         background-color: #FAC173;
+        margin-bottom: 0;
     }
     
     .profile-image img {
@@ -269,15 +283,18 @@
         z-index: 1;
         flex-direction: column;
         justify-content: center;
+        margin: 0;
         margin-bottom: 5%;
     }
     
     .profile-header {
+        text-align: left;
         line-height: 1em;
         margin-bottom: 0.1em;
     }
     
     .profile-title {
+        text-align: left;
         margin-bottom: 1rem;
     }
     
@@ -317,11 +334,11 @@
     #contact-body {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
     }
 
     #contact-form {
-        max-width: 27rem;
-        width: 110%;
+        max-width: 50%;
         display: flex;
         flex-direction: column;
         padding-top: 0.6rem;
@@ -336,6 +353,7 @@
     #contact-message {
         margin-top: 1.25rem;
         height: 13rem;
+        width: 100%;
         resize: none;
     }
 
@@ -347,8 +365,9 @@
     }
 
     #contact-thanks {
+        display: block;
         width: 17em;
-        margin: auto 0 7rem 0;
+        margin: auto 0 7rem 2rem;
     }
     
     #contact-details {
@@ -376,17 +395,8 @@
 
     
     #contact-thanks-text {
+        margin-top: 0;
         line-height: 1.6em;
-    }
-    
-    @media (min-width: 1350px) {
-        header {
-            grid-template-columns: auto 1203px auto;
-        }
-        
-        #splash-container, #pitch-container, #about-us-container, #team-container, #contact-container {
-            grid-template-columns: auto 1080px auto;
-        }
     }
 
     /********** FOOTER **********/

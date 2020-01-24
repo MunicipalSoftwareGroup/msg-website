@@ -1,4 +1,5 @@
 html {
+    scroll-behavior: smooth;
 }
 
 .primary {
@@ -37,6 +38,22 @@ body, input, textarea {
     min-height: auto;
     min-width: 100%;
     position: relative;
+}
+
+/* Added this so that when the scroll bar
+disappears when the menu is open, the width
+of the layout does not shift. However, it
+does mean the layout looks slightly offcenter
+because it is under the scrollbar on the right
+side of the screen. Not sure how this looks
+on mobile yet. */ 
+#wrapper {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body {
+    width: 100%;
 }
 
 .profile-header {
