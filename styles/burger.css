@@ -55,3 +55,14 @@
 #burger input:checked ~ #burger-menu {
     transform: translate(-100%, 0);
 } 
+
+.burger-menu-item {
+    text-align: center;
+    list-style-type: none;
+}
+
+@media (min-width: 375px) {
+    .burger-menu-item {
+        font-size: 1.2rem;  
+    }
+}
