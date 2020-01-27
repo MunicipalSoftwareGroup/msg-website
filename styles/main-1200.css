@@ -263,11 +263,6 @@
         background-color: #FAC173;
     }
     
-    .profile-image img {
-        height: inherit;
-        width: inherit;
-    }
-    
     .profile-text {
         display: flex;
         z-index: 1;

@@ -253,14 +253,8 @@
         z-index: 1;
         width: 100%;
         max-width: 22em;
-        max-height: 16.5em;
         background-color: #FAC173;
         box-sizing: border-box;
-    }
-    
-    .profile-image img {
-        height: inherit;
-        width: inherit;
     }
     
     .profile-text {
