@@ -73,16 +73,6 @@ header {
     list-style-type: none;
 }
 
-@media (max-width: 1396px) {
-    #msg-logo {
-        max-width: 18rem;
-    }
-
-    #header-menu {
-        white-space: nowrap;
-    }
-}
-
 /********** MAIN **********/
 
 #splash-container {
@@ -112,7 +102,7 @@ header {
 
 #splash-body {
     height: 40vh;
-    width: 14.13em;; /*width of center column at 992 window size*/
+    width: 14.13em;
     padding-top: 2rem;
     color: white;
 }
@@ -136,7 +126,6 @@ header {
 
 #pitch-header {
     width: 12em;
-    color: dimgray;
 }
 
 #pitch-line {
@@ -183,11 +172,6 @@ header {
     max-width: 22em
 }
 
-#about-us-image img {
-    height: inherit;
-    width: inherit;
-}
-
 #about-us-text {
     margin-top: 1em;
     z-index: 1;
@@ -203,11 +187,6 @@ header {
 
 #team-container {
     min-height: 100vh;
-    background-color: white;
-}
-
-#team-inner {
-    display: flex;
 }
 
 #team-content {
@@ -215,10 +194,6 @@ header {
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
-}
-
-#team-header {
-
 }
 
 #team-line {
@@ -299,10 +274,6 @@ header {
     justify-content: center;
 }
 
-#contact-header {
-    color: dimgray;
-}
-
 #contact-header-line {
     margin: 0.5rem 0 1rem 0;
 }
@@ -322,7 +293,7 @@ header {
 }
 
 #contact-form input, textarea {
-    padding: 0.5rem 1rem; 0.5rem 1rem;
+    padding: 0.5rem 1rem;
     margin-top: 1em;
     box-sizing: border-box;
 }
