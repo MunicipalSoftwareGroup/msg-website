@@ -65,12 +65,27 @@
     font-size: 1rem;
 }
 
+.f-thanks-text {
+    font-size: 0.55rem;
+}
+
 @media (min-width: 350px) {
     .f-splash-body {
         font-size: 1rem;
     }
 }
 
+@media (min-width: 375px) {
+    .f-thanks-text {
+        font-size: 0.65rem;
+    }
+}
+
+@media (min-width: 414px) {
+    .f-thanks-text {
+        font-size: 0.7rem;
+    }
+}
 
 @media (min-width: 480px) {
     
