@@ -249,6 +249,7 @@ main {
 
 .profile-image {
     z-index: 1;
+    width: 100%;
     max-width: 22em;
     background-color: #FAC173;
     box-sizing: border-box;
