@@ -85,12 +85,6 @@ header {
 
 /********** MAIN **********/
 
-main {
-}
-
-#main-container {
-}
-
 #splash-container {
     background-color: #FAC173;
     height: -o-calc(100vh - 100px); /* opera */
