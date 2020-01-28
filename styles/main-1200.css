@@ -6,10 +6,6 @@
 
     /********** HEADER **********/
     
-    #burger {
-        visibility: hidden;
-    }
-    
     @media (max-width: 1396px) {
         #msg-logo {
             max-width: 18rem;

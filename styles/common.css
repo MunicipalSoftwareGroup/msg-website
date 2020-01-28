@@ -36,7 +36,6 @@ body, input, textarea {
     font-family: "National Book";
     color: #707070;
     min-height: auto;
-    min-width: 100%;
     position: relative;
 }
 
@@ -53,6 +52,7 @@ on mobile yet. */
 
 body {
     width: 100%;
+    min-width: 100%;
 }
 
 .profile-header {
