@@ -10,7 +10,7 @@
         white-space: nowrap;
     }
     
-    #burger {
+    #burger-wrapper, #burger-menu, #burger {
         visibility: hidden;
     }
 

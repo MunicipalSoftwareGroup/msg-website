@@ -9,5 +9,11 @@ window.onload = function () {
     
     var checkbox = document.getElementById("burger-input");
     
-    checkbox.addEventListener("change", toggleScrolling);
+    checkbox.addEventListener("change", toggleMenu);
+    
+    window.addEventListener("resize", function() {
+        if (document.documentElement.clientWidth >= 992) {
+            closeMenu();
+        }
+    }, false);
 }
