@@ -36,7 +36,6 @@ body, input, textarea {
     font-family: "National Book";
     color: #707070;
     min-height: auto;
-    min-width: 100%;
     position: relative;
 }
 
@@ -49,11 +48,11 @@ side of the screen. Not sure how this looks
 on mobile yet. */ 
 #wrapper {
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 body {
     width: 100%;
+    min-width: 100%;
 }
 
 .profile-header {

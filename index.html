@@ -14,11 +14,11 @@
         <link rel="stylesheet" href="styles/reset.css">
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/fonts.css">
+        <link rel="stylesheet" href="styles/burger.css">
         <link rel="stylesheet" href="styles/main-default.css">
         <link rel="stylesheet" href="styles/main-480.css">
         <link rel="stylesheet" href="styles/main-992.css">
         <link rel="stylesheet" href="styles/main-1200.css">
-        <link rel="stylesheet" href="styles/burger.css">
         <!--<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400|Roboto+Slab:200,300,400&display=swap" rel="stylesheet">-->
     </head>
     <body>
@@ -32,30 +32,30 @@
                             <a href="index.html">Municipal Software Group</a>
                         </div>
                     </div>
+                    <div id="burger-wrapper">
+                        <input id="burger-input" type="checkbox" />
+                        <div id="burger">
+                            <span id="burger-top-line"></span>
+                            <span id="burger-middle-line"></span>
+                            <span id="burger-bottom-line"></span>
+                        </div>
+                        <ul id="burger-menu" class="pitch-bold">
+                            <li class="burger-menu-item">
+                                <a href="#pitch-section" class="burger-link">Our Software</a>
+                            </li>
+                            <li class="burger-menu-item">
+                                <a href="#about-us-section" class="burger-link">About Us</a>
+                            </li>
+                            <li class="burger-menu-item">
+                                <a href="#contact-section" class="burger-link">Contact Us</a>
+                            </li>
+                            <!--<li class="header-menu-item">
+                                <a href="documentation/introduction.html" class="burger-link">Documentation</a>
+                            </li>-->
+                        </ul>
+                    </div>
                     <nav id="header-menu" class="pitch-bold f-menu">
                         <div id="header-menu-inner">
-                            <div id="burger">
-                                <input id="burger-input" type="checkbox" />
-                                
-                                <div id="burger-top-line"></div>
-                                <div id="burger-middle-line"></div>
-                                <div id="burger-bottom-line"></div>
-                                
-                                <ul id="burger-menu">
-                                    <li class="header-menu-item">
-                                        <a href="#pitch-section" class="burger-link">Our Software</a>
-                                    </li>
-                                    <li class="header-menu-item">
-                                        <a href="#about-us-section" class="burger-link">About Us</a>
-                                    </li>
-                                    <li class="header-menu-item">
-                                        <a href="#contact-section" class="burger-link">Contact Us</a>
-                                    </li>
-                                    <li class="header-menu-item">
-                                        <a href="documentation/introduction.html" class="burger-link">Documentation</a>
-                                    </li>
-                                </ul>
-                            </div>
                             <ul id="header-menu-content">
                                 <li class="header-menu-item">
                                     <a href="#pitch-section">Our Software</a>
@@ -66,9 +66,9 @@
                                 <li class="header-menu-item">
                                     <a href="#contact-section">Contact Us</a>
                                 </li>
-                                <li class="header-menu-item">
+                                <!--<li class="header-menu-item">
                                     <a href="documentation/introduction.html">Documentation</a>
-                                </li>
+                                </li>-->
                             </ul>
                         </div>
                     </nav>
@@ -111,9 +111,7 @@
                     <div id="about-us-inner">
                         <div id="about-us-content">
                             <div id="about-us-bg-box"></div>
-                            <div id="about-us-image">
-                                <img src="images/about-us.png "/>
-                            </div>
+                            <img src="images/about-us.png" id="about-us-image" />
                             <div id="about-us-text">
                                 <div id="about-us-header" class="pitch-bold f-x-large">
                                     About Us
@@ -192,7 +190,7 @@
                                         </div>
                                     </div>
                                     <div id="contact-thanks-line" class="orange-line"></div>
-                                    <div id="contact-thanks-text" class="pitch-medium-italic f-small">
+                                    <div id="contact-thanks-text" class="pitch-medium-italic f-thanks-text">
                                         Thank you for reaching out to us! We look forward to helping you with all of your municipal software needs!
                                     </div>
                                 </div>
@@ -215,7 +213,7 @@
         </footer>
         </div>
     </body>
-    <script src="js/toggleScrolling.js"></script>
+    <script src="js/toggleMenu.js"></script>
     <script src="js/closeMenu.js"></script>
     <script src="js/onload.js"></script>
 </html>

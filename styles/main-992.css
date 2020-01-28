@@ -1,362 +1,92 @@
 @media (min-width: 992px) {
 
-    .orange-line {
-        border-bottom: 6px solid #FAC173;
-    }
-    
-    /********** COLUMN LAYOUT **********/
-    
-    header {
-        display: grid;
-        grid-template-columns: 1fr 20fr 1fr;
-    }
-
-    #splash-container, #pitch-container, #about-us-container, #team-container, #contact-container {
-        display: grid;
-        grid-template-columns: 1fr 8fr 1fr;
-        grid-column: 1 / 4;
-    }
-    
-    #header-top-container, #splash-inner, #pitch-inner, #about-us-inner, #team-inner, #contact-inner {
-        grid-column: 2 / 3;
-    }
-
     /********** HEADER **********/
 
-    header {
-        position: relative;
-        height: 100px;
-    }
-
-    #header-top-container {
-        height: 100%;
-    }
-
-    #header-top-inner {
-        display: flex;
-        height: 100%;
-    }
-
     #msg-logo {
-        display: flex;
-        flex: 1;
-        align-items: center;
         max-width: 22rem;
     }
 
     #msg-logo-content {
         white-space: nowrap;
     }
-
-    #header-menu {
-        flex: 1;
-        padding-left: 10%;
-    }
-
-    #header-menu-inner {
-        display: flex;
-        height: 100%;
-        align-items: center;
-    }
     
-    #burger {
+    #burger-wrapper, #burger-menu, #burger {
         visibility: hidden;
     }
 
     #header-menu-content {
         visibility: visible;
         position: static;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-
-    .header-menu-item {
-        text-align: center;
-        list-style-type: none;
-    }
-    
-    @media (max-width: 1396px) {
-        #msg-logo {
-            max-width: 18rem;
-        }
-        
-        #header-menu {
-            white-space: nowrap;
-        }
     }
 
     /********** MAIN **********/
 
-    main {
-    }
-
-    #main-container {
-    }
-
-    #splash-container {
-        background-color: #FAC173;
-        height: 80vh;
-        min-height: 720px;
-    }
-
-    #splash-inner {
-        display: flex;
-    }
-
-    #splash-content {
-        display: flex;
-        flex-direction: column;
-        height: inherit;
-        width: 100%;
-    }
-
     #splash-line {
-        height: 40vh;
         width: 75%;
         min-width: 700px;
         max-width: 800px;
-        border-bottom: 6px solid white;
-    }
-
-    #splash-body {
-        height: 40vh;
-        width: 15em;; /*width of center column at 992 window size*/
-        padding-top: 2rem;
-        color: white;
-    }
-
-    #pitch-container {
-        height: auto;
-        min-height: 100vh;
-    }
-
-    #pitch-inner {
-        display: flex;
-        margin: 5rem 0 5rem 0;
-    }
-
-    #pitch-content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-    }
-
-    #pitch-header {
-        width: 12em;
-        color: dimgray;
     }
 
     #pitch-line {
         width: 75%;
         min-width: 700px;
         max-width: 800px;
-        margin: 0.5rem 0 1.5rem 0;
-    }
-
-    #pitch-body {
-        width: 23em;
     }
 
     #about-us-container {
-        position: relative;
-        height: auto;
-        min-height: 100vh;
         padding: 0;
-        background-color: #fffcf7;
-    }
-    
-    #about-us-bg-box {
-        position: absolute;
-        width: 65%;;
-        max-width: 48rem;
-        height: 17rem;
-        z-index: 0;
-        background-color: #FFF6EB;
-        margin: -4rem 0 0 -5%;
-    }
-
-    #about-us-inner {
-        display: flex;
     }
 
     #about-us-content {
-        display: flex;
         justify-content: space-between;
         flex-direction: row;
-        width: 100%;
         align-items: center;
     }
-
+    
     #about-us-image {
-        z-index: 1;
-        width: 100%;
-        max-width: none;
-    }
-    
-    #about-us-image img {
-        height: inherit;
-        width: inherit;
-    }
-
-    #about-us-text {
-        margin-top: 0;
-        z-index: 1;
-        padding-left: 5%;
-    }
-
-    #about-us-header {
-        padding-bottom: 0.5rem;
-    }
-
-    #about-us-body {
-        width: 20em;
-    }
-    
-    #team-container {
-        background-color: white;
-    }
-    
-    #team-inner {
-        display: flex;
-    }
-    
-    #team-content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: space-between;
-        margin: 5rem 0 10rem 0;
-    }
-    
-    #team-header {
-        
+        max-width: 45%;
     }
     
     #team-line {
-        margin-bottom: 5%;
         width: 75%;
     }
     
     .profile {
-        display: flex;
         flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #collin {
-        position: relative;
-        flex-direction: row;
-    }
-
-    #profile-bg-box {
-        position: absolute;
-        width: 80%;
-        height: 17rem;
-        z-index: 0;
-        background-color: #fffcf7;
-        bottom: 0;
-        right: 0;
-        margin: 0 -5% -5% 0;
     }
     
     .profile-image {
-        z-index: 1;
         max-width: 45%;
         width: 45%;
         height: auto;
         max-height: none;
         padding-bottom: 0;
-        background-color: #FAC173;
         margin-bottom: 0;
     }
     
     .profile-text {
-        display: flex;
-        z-index: 1;
-        flex-direction: column;
-        justify-content: center;
         margin: 0;
         margin-bottom: 5%;
-    }
-    
-    .profile-header {
-        text-align: left;
-        line-height: 1em;
-        margin-bottom: 0.1em;
-    }
-    
-    .profile-title {
-        text-align: left;
-        margin-bottom: 1rem;
-    }
-    
-    .profile-body {
-        max-width: 22em;
     }
     
     #daryl {
         margin-bottom: 13%;
     }
 
-    #contact-container {
-        min-height: 100vh;
-        background-color: #fffcf7;
-    }
-
-    #contact-inner {
-        display: flex;
-        margin: 3em 0 3rem 0;
-    }
-
-    #contact-content {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-    }
-
-    #contact-header {
-        color: dimgray;
+    #collin {
+        flex-direction: row;
     }
 
     #contact-header-line {
         max-width: 35rem;
-        margin: 0.5rem 0 1rem 0;
     }
-
+    
     #contact-body {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
+        flex-direction: row; 
     }
 
     #contact-form {
         max-width: 50%;
-        display: flex;
-        flex-direction: column;
-        padding-top: 0.6rem;
-    }
-
-    #contact-form input, textarea {
-        padding: 0.5rem 1rem; 0.5rem 1rem;
-        margin-top: 1em;
-        box-sizing: border-box;
-    }
-
-    #contact-message {
-        margin-top: 1.25rem;
-        height: 13rem;
-        width: 100%;
-        resize: none;
-    }
-
-    #contact-submit {
-        border: 0px;
-        margin-top: 1rem;
-        padding: 0.3rem 0 0.3rem 1rem;
-        text-align: left;
     }
 
     #contact-thanks {
@@ -366,55 +96,14 @@
     }
     
     #contact-details {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.5rem;
-        min-width: 50%;
-        margin: 1rem 0 0 0;
-        padding-top: 1.1rem;
-        justify-content: center;    
-    }
-    
-    #contact-other {
-        margin-bottom: 1em;
-    }
-    
-    #contact-address {
-        padding-right: 10%;
-        white-space: nowrap;
+        padding-top: 1.1rem;    
     }
 
     #contact-thanks-line {
         margin: 1.6rem 0 1.4rem 0;
     }
-
     
     #contact-thanks-text {
         margin-top: 0;
-        line-height: 1.6em;
-    }
-
-    /********** FOOTER **********/
-
-    footer {
-        height: 200px;
-        grid-column: 1 / 4;
-        grid-row: 3;
-    }
-
-    #footer-top-container {
-        height: 100%;
-    }
-
-    #footer-top-inner {
-        display: flex;
-        height: 100%;
-        align-items: center;
-        text-align: center;;
-    }
-
-    #footer-content {
-        flex: 1;
-        padding-top: 40px;
     }
 }

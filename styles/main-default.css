@@ -33,14 +33,17 @@ header {
 }
 
 #header-top-inner {
+    position: relative;
     display: flex;
     height: 100%;
+    justify-content: space-between;
 }
 
 #msg-logo {
     display: flex;
     flex: 1;
     align-items: center;
+    z-index: 1;
 }
 
 #msg-logo-content {
@@ -49,7 +52,7 @@ header {
 
 #header-menu {
     flex: 1;
-    padding-left: 10%;
+    max-width: 30em;
 }
 
 #header-menu-inner {
@@ -73,28 +76,13 @@ header {
     list-style-type: none;
 }
 
-@media (max-width: 1396px) {
-    #msg-logo {
-        max-width: 18rem;
-    }
-
-    #header-menu {
-        white-space: nowrap;
-    }
-}
-
 /********** MAIN **********/
-
-main {
-}
-
-#main-container {
-}
 
 #splash-container {
     background-color: #FAC173;
-    height: 80vh;
-    min-height: 720px;
+    height: -o-calc(100vh - 100px); /* opera */
+    height: -webkit-calc(100vh - 100px); /* google, safari */
+    height: -moz-calc(100vh - 100px); /* firefox */
 }
 
 #splash-inner {
@@ -117,7 +105,7 @@ main {
 
 #splash-body {
     height: 40vh;
-    width: 14.13em;; /*width of center column at 992 window size*/
+    width: 14.13em;
     padding-top: 2rem;
     color: white;
 }
@@ -141,7 +129,6 @@ main {
 
 #pitch-header {
     width: 12em;
-    color: dimgray;
 }
 
 #pitch-line {
@@ -188,11 +175,6 @@ main {
     max-width: 22em
 }
 
-#about-us-image img {
-    height: inherit;
-    width: inherit;
-}
-
 #about-us-text {
     margin-top: 1em;
     z-index: 1;
@@ -208,11 +190,6 @@ main {
 
 #team-container {
     min-height: 100vh;
-    background-color: white;
-}
-
-#team-inner {
-    display: flex;
 }
 
 #team-content {
@@ -220,10 +197,6 @@ main {
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
-}
-
-#team-header {
-
 }
 
 #team-line {
@@ -249,6 +222,7 @@ main {
 
 .profile-image {
     z-index: 1;
+    width: 100%;
     max-width: 22em;
     background-color: #FAC173;
     box-sizing: border-box;
@@ -303,10 +277,6 @@ main {
     justify-content: center;
 }
 
-#contact-header {
-    color: dimgray;
-}
-
 #contact-header-line {
     margin: 0.5rem 0 1rem 0;
 }
@@ -326,7 +296,7 @@ main {
 }
 
 #contact-form input, textarea {
-    padding: 0.5rem 1rem; 0.5rem 1rem;
+    padding: 0.5rem 1rem;
     margin-top: 1em;
     box-sizing: border-box;
 }
