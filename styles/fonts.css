@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Pitch Bold";
-    src: url("../fonts/woff/pitch-collection/pitch/pitch-test-bold.woff");
+    src: url("../fonts/pitch-web-bold.woff"), url("../fonts/pitch-web-bold.woff2");
 }
 
 @font-face {
     font-family: "Pitch Medium Italic";
-    src: url("../fonts/woff/pitch-collection/pitch/pitch-test-medium-italic.woff");
+    src: url("../fonts/pitch-web-medium-italic.woff"), url("../fonts/pitch-web-medium-italic.woff2");
 }
 
 /******** SIZES ********/
