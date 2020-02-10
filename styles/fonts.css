@@ -8,21 +8,6 @@
     src: url("../fonts/otf/pitch-collection/pitch/PitchTest-MediumItalic.otf");
 }
 
-@font-face {
-    font-family: "Pitch Sans Bold";
-    src: url("../fonts/otf/pitch-collection/pitch-sans/PitchSansTest-Bold.otf");
-}
-
-@font-face {
-    font-family: "National Book";
-    src: url("../fonts/otf/national/NationalTest-Book.otf");
-}
-
-@font-face {
-    font-family: "National Bold";
-    src: url("../fonts/otf/national/NationalTest-Bold.otf");
-}
-
 /******** SIZES ********/
 
 * {
