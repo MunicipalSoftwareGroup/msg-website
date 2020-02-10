@@ -15,17 +15,16 @@ html {
     font-family: 'Pitch Medium Italic';
 }
 
-
-.pitch-sans-bold {
-    font-family: 'Pitch Sans Bold';
+.acumin-pro {
+    font-family: acumin-pro,sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
-.national-book {
-    font-family: 'National Book';
-}
-
-.national-bold {
-    font-family: 'National Bold';
+.acumin-pro-bold {
+    font-family: acumin-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;   
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body, input, textarea {
-    font-family: "National Book";
     color: #707070;
     min-height: auto;
     position: relative;
