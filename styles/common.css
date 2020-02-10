@@ -15,15 +15,20 @@ html {
     font-family: 'Pitch Medium Italic';
 }
 
+
+/* Since I can't get the adobe fonts (acumin) local right now,
+Open Sans is a temporary replacement*/
 .acumin-pro {
-    font-family: acumin-pro,sans-serif;
-    font-weight: 100;
+    font-family: "Open Sans Regular";
+    /*font-family: acumin-pro,sans-serif;
+    font-weight: 100;*/
     font-style: normal;
 }
 
 .acumin-pro-bold {
-    font-family: acumin-pro,sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans Bold";
+    /*font-family: acumin-pro,sans-serif;
+    font-weight: 700;*/
     font-style: normal;   
 }
 

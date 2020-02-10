@@ -8,6 +8,18 @@
     src: url("../fonts/pitch-web-medium-italic.woff"), url("../fonts/pitch-web-medium-italic.woff2");
 }
 
+
+/*These two are temporary until we can get the adobe fonts downloaded*/
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
 /******** SIZES ********/
 
 * {
