@@ -36,9 +36,11 @@
     #pitch-body {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     
     .feature {
+        max-width: 40%;
     }
 
     #about-us-container {
