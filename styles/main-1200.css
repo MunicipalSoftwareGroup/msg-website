@@ -24,6 +24,15 @@
         border-bottom: 8px solid white;
     }
     
+    #pitch-body {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .feature {
+        max-width: 26%;  
+    }
+    
     #contact-form {
         max-width: 27rem;
         width: 110%;

@@ -136,7 +136,33 @@ header {
 }
 
 #pitch-body {
-    max-width: 22em;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.feature {
+    width: 100%;
+    margin: 2 0 6rem 0;
+}
+
+.feature-image {
+    width: 100%;
+    text-align: center;
+}
+
+.feature-image img {
+    height: 10rem;
+}
+
+.feature-title {
+    color: #FAC173;
+    text-align: center;
+    margin: 2rem 0 1rem 0
+}
+
+.feature-body {
+    text-align: center;
 }
 
 #about-us-container {
@@ -149,7 +175,7 @@ header {
 
 #about-us-bg-box {
     position: absolute;
-    width: 65%;;
+    width: 65%;
     max-width: 48rem;
     height: 17rem;
     z-index: 0;
