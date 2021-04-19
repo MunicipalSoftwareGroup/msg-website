@@ -11,7 +11,7 @@ header {
     grid-template-columns: 1fr 20fr 1fr;
 }
 
-#splash-container, #pitch-container, #about-us-container, #team-container, #contact-container {
+#pitch-container, #about-us-container, #team-container, #contact-container {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     grid-column: 1 / 4;
@@ -80,34 +80,107 @@ header {
 
 #splash-container {
     background-color: #FAC173;
+/*    background: url(../images/joe-woods-4Zaq5xY5M_c-unsplash.jpg) rgba(250, 193, 115, 1);*/
+/*
+    background-size: contain;
+    background-blend-mode: multiply;
+*/
+/*    box-shadow: inset 0 0 0 2000px rgba(250, 193, 115, 0.6);*/
     height: -o-calc(100vh - 100px); /* opera */
     height: -webkit-calc(100vh - 100px); /* google, safari */
     height: -moz-calc(100vh - 100px); /* firefox */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #splash-inner {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
 }
 
-#splash-content {
+#splash-content { 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: -o-calc(40vh - 100px); /* opera */
+    height: -webkit-calc(40vh - 100px); /* google, safari */
+    height: -moz-calc(40vh - 100px); /* firefox */
+}
+
+#splash-content-inner {
     height: inherit;
-    width: 100%;
+    display: flex;   
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
 }
 
 #splash-line {
-    height: 40vh;
+    display: none;
     width: 100%;
-    max-width: 35em;
-    border-bottom: 6px solid white;
+    border-bottom: 4px solid white;
 }
 
 #splash-body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     height: 40vh;
     width: 14.13em;
-    padding-top: 2rem;
     color: white;
+}
+
+#splash-image {
+    display: flex;
+    background-color: #fffcf7;
+    height: -o-calc(60vh - 100px); /* opera */
+    height: -webkit-calc(60vh - 100px); /* google, safari */
+    height: -moz-calc(60vh - 100px); /* firefox */
+    flex-grow: 1.5;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#splash-image img {
+    width: 100%;
+}
+
+@media (orientation:landscape) {
+        #splash-container {
+            flex-direction: row;
+        }
+    
+        #splash-content {
+            height: inherit;
+            width: 60vw;
+        }
+    
+        #splash-content-inner {
+            width: 45vw;
+            align-items: flex-start;
+            justify-content: flex-end;
+            text-align: left;
+        }
+    
+        #splash-line {
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        #splash-body {
+            height: auto;
+            margin-bottom: 20vh;
+        }
+
+        #splash-image {
+            height: 100%;
+            width: 40vw;
+        }
 }
 
 #pitch-container {

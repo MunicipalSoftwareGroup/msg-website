@@ -1,0 +1,25 @@
+#feature-popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#feature-popup-content {
+    width: 60%;
+    margin: 0 20% 0 20%;
+    color: rgba(240, 240, 240, 1);
+}
+
+#feature-popup-image {
+    width: 100%;
+}
+
+#feature-popup-title {
+    text-align: left;
+}

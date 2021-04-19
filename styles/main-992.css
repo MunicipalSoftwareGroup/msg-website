@@ -1,5 +1,19 @@
 @media (min-width: 992px) {
 
+    @media (orientation:landscape) {
+        #splash-content-inner {
+            width: 45vw;
+            align-items: flex-start;
+            justify-content: flex-end;
+            text-align: left;
+        }
+
+        #splash-body {
+            height: auto;
+            margin-bottom: 25vh;
+        }
+    }
+    
     /********** HEADER **********/
 
     #msg-logo {
@@ -20,12 +34,6 @@
     }
 
     /********** MAIN **********/
-
-    #splash-line {
-        width: 75%;
-        min-width: 700px;
-        max-width: 800px;
-    }
 
     #pitch-line {
         width: 75%;
