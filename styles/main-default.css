@@ -26,6 +26,8 @@ header {
 header {
     position: relative;
     height: 100px;
+    z-index: 11;
+    background-color: white;
 }
 
 #header-top-container {

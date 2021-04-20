@@ -22,9 +22,25 @@
         <link rel="stylesheet" href="styles/popup.css">
         <link rel="stylesheet" href="https://use.typekit.net/smw6ofn.css">
     </head>
-    <body class="acumin-pro">
+    <body class="acumin-pro" onscroll="highlight()">
+        <a id="top"></a>
         <div id="wrapper">
-        
+        <div id="scroll-menu" hidden>
+            <ul id="scroll-menu-list">
+                <a href="#top">
+                    <li class="scroll-menu-item">Top</li>
+                </a>
+                <a href="#pitch-section">
+                    <li class="scroll-menu-item">Our Software</li>
+                </a>
+                <a href="#about-us-section">
+                    <li class="scroll-menu-item">About Us</li>
+                </a>
+                <a href="#contact-section">
+                    <li class="scroll-menu-item">Contact Us</li>
+                </a>
+            </ul>
+        </div>
         <div id="feature-popup" onclick="closePopup()">
             <div id="feature-popup-content">
                 <div id="feature-popup-close">X</div>
@@ -48,7 +64,7 @@
                 <div id="header-top-inner">
                     <div id="msg-logo">
                         <div id="msg-logo-content" class="acumin-pro-bold f-logo">
-                            <a href="index.html">Municipal Software Group</a>
+                            <a href="index.html"><p id="logo-text">Municipal Software Group</p></a>
                         </div>
                     </div>
                     <div id="burger-wrapper">
@@ -288,6 +304,7 @@
         </footer>
         </div>
     </body>
+    <script src="js/highlightScrollMenu.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/closeMenu.js"></script>
     <script src="js/popup.js"></script>
