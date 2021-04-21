@@ -7,7 +7,7 @@
             display: block;
             position: fixed;
             visibility: visible;
-            z-index: 10;
+            z-index: 9;
             width: auto;
             right: 0;
             height: 100px;
