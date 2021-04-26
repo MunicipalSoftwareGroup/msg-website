@@ -15,21 +15,57 @@
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/fonts.css">
         <link rel="stylesheet" href="styles/burger.css">
+        <link rel="stylesheet" href="styles/scrollArrow.css">
         <link rel="stylesheet" href="styles/main-default.css">
         <link rel="stylesheet" href="styles/main-480.css">
         <link rel="stylesheet" href="styles/main-992.css">
         <link rel="stylesheet" href="styles/main-1200.css">
+        <link rel="stylesheet" href="styles/popup.css">
         <link rel="stylesheet" href="https://use.typekit.net/smw6ofn.css">
     </head>
-    <body class="acumin-pro">
+    <body class="acumin-pro" onscroll="highlight()">
+        <a id="top"></a>
         <div id="wrapper">
+        <div id="scroll-menu" hidden>
+            <ul id="scroll-menu-list">
+                <a href="#top">
+                    <li class="scroll-menu-item">Top</li>
+                </a>
+                <a href="#pitch-section">
+                    <li class="scroll-menu-item">Our Software</li>
+                </a>
+                <a href="#about-us-section">
+                    <li class="scroll-menu-item">About Us</li>
+                </a>
+                <a href="#contact-section">
+                    <li class="scroll-menu-item">Contact Us</li>
+                </a>
+            </ul>
+        </div>
+        <div id="feature-popup" onclick="closePopup()">
+            <div id="feature-popup-content">
+                <div id="feature-popup-close">X</div>
+                <img id="feature-popup-image"/>
+                <div id="feature-popup-title" class="acumin-pro-bold f-x-large">
+                    Data Entry
+                </div>
+                <div id="feature-popup-body">
+                    Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah
+                    Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah 
+                    Blah blah blah blah Blah blah blah blah Blah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blah 
+                    Blah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blah
+                    Blah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blah
+                </div>
+            </div>
+        </div>
+            
 <!--- HEADER --->
         <header id="grid-site-header">
             <div id="header-top-container">
                 <div id="header-top-inner">
                     <div id="msg-logo">
-                        <div id="msg-logo-content" class="pitch-bold f-logo">
-                            <a href="index.html">Municipal Software Group</a>
+                        <div id="msg-logo-content" class="acumin-pro-bold f-logo">
+                            <a href="index.html"><p id="logo-text">Municipal Software Group</p></a>
                         </div>
                     </div>
                     <div id="burger-wrapper">
@@ -41,10 +77,13 @@
                         </div>
                         <ul id="burger-menu" class="pitch-bold">
                             <li class="burger-menu-item">
-                                <a href="#pitch-section" class="burger-link">Our Software</a>
+                                <a href="#" class="burger-link">Demo</a>
                             </li>
                             <li class="burger-menu-item">
-                                <a href="#about-us-section" class="burger-link">About Us</a>
+                                <a href="#" class="burger-link">Documentation</a>
+                            </li>
+                            <li class="burger-menu-item">
+                                <a href="#" class="burger-link">FAQ</a>
                             </li>
                             <li class="burger-menu-item">
                                 <a href="#contact-section" class="burger-link">Contact Us</a>
@@ -58,10 +97,13 @@
                         <div id="header-menu-inner">
                             <ul id="header-menu-content">
                                 <li class="header-menu-item">
-                                    <a href="#pitch-section">Our Software</a>
+                                    <a href="#">Demo</a>
                                 </li>
                                 <li class="header-menu-item">
-                                    <a href="#about-us-section">About Us</a>
+                                    <a href="#">Documentation</a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="#">FAQ</a>
                                 </li>
                                 <li class="header-menu-item">
                                     <a href="#contact-section">Contact Us</a>
@@ -80,17 +122,20 @@
         <main id="site-main">
             <div id="main-container">
                 <div id="splash-container">
-                    <div id="splash-inner">
-                        <div id="splash-content">
+<!--                    <div id="splash-inner">-->
+                    <div id="splash-content">
+                        <div id="splash-content-inner">
                             <div id="splash-line"></div>
                             <div id="splash-body" class="pitch-bold f-splash-body">
                                 Committed to excellence in municipal court software and support.
                             </div>
-                            <div id=#splash-period>
-                                
-                            </div>
                         </div>
                     </div>
+                    <div id="splash-image">
+<!--                        <img src="images/map_v1-02.svg" />-->
+                    </div>
+<!--                    </div>-->
+                    <a href="#pitch-section"><div id="scroll-arrow"></div></a>
                 </div>
                 <a name="pitch-section"></a>
                 <div id="pitch-container">
@@ -101,7 +146,61 @@
                             </div>
                             <div id="pitch-line" class="orange-line"></div>
                             <div id="pitch-body" class="f-medium">
-                                Our software stands apart from the rest because of its ease of use, superior reliability, and dependable tech support. With our flexible pricing, we find what works best for you and your budget and deliver the same reliable support regardless of what you pay.
+                                <div id="feature1" class="feature" onclick="openPopup(this)">
+                                    <div class="feature-image">
+                                        <img id="feature1-image" src="images/CaseDataGraphic.svg" />
+                                    </div>
+                                    <div id="feature1-title" class="feature-title acumin-pro-bold f-feature-title">
+                                        Data Entry                                      
+                                    </div>
+                                    <div id="feature1-body" class="feature-body">
+                                        Manage defendents, cases, warrants, and eCitation records with detailed data entry interfaces.
+                                    </div>
+                                </div>
+                                <div id="feature2" class="feature" onclick="openPopup(this)">
+                                    <div class="feature-image">
+                                        <img id="feature2-image" src="images/PDFGraphic.svg" />
+                                    </div>
+                                    <div id="feature2-title" class="feature-title acumin-pro-bold f-feature-title">
+                                        Create and Edit Documents
+                                    </div>
+                                    <div id="feature2-body" class="feature-body">
+                                        With our intuitive PDF viewer, you can manage and print all of the documents attached to a case or defendent.
+                                    </div>
+                                </div>
+                                <div id="feature5" class="feature" onclick="openPopup(this)">
+                                    <div class="feature-image">
+                                        <img id="feature5-image" src="images/ReportGraphic.svg" />
+                                    </div>
+                                    <div id="feature5-title" class="feature-title acumin-pro-bold f-feature-title">
+                                        Generate Reports
+                                    </div>
+                                    <div id="feature5-body" class="feature-body">
+                                        Periodic and one-off reports can be generated in state-standard format effortlessly.
+                                    </div>
+                                </div>
+                                <div id="feature4" class="feature" onclick="openPopup(this)">
+                                    <div class="feature-image">
+                                        <img id="feature4-image" src="images/SignaturePadGraphic.svg" />
+                                    </div>
+                                    <div id="feature4-title" class="feature-title acumin-pro-bold f-feature-title">
+                                        Sign Documents
+                                    </div>
+                                    <div id="feature4-body" class="feature-body">
+                                        Employees sign with a click, defendents can sign with a signature pad.
+                                    </div>
+                                </div>
+                                <div id="feature3" class="feature" onclick="openPopup(this)">
+                                    <div class="feature-image">
+                                        <img id="feature3-image" src="images/PaymentGraphic.svg" />
+                                    </div>
+                                    <div id="feature3-title" class="feature-title acumin-pro-bold f-feature-title">
+                                        Take Payments
+                                    </div>
+                                    <div id="feature3-body" class="feature-body">
+                                        Enter card details directly or use an external device. Defendents can also pay online.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -206,14 +305,16 @@
             <div id="footer-top-container">
                 <div id="footer-top-inner">
                     <div id="footer-content" class="f-x-small">
-                        Copyright © 2019-2020
+                        Copyright © 2019-2021
                     </div>
                 </div>
             </div>
         </footer>
         </div>
     </body>
+    <script src="js/highlightScrollMenu.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/closeMenu.js"></script>
+    <script src="js/popup.js"></script>
     <script src="js/onload.js"></script>
 </html>

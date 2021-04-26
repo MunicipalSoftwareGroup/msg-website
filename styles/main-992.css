@@ -1,5 +1,50 @@
 @media (min-width: 992px) {
 
+    @media (orientation:landscape) {
+        /********** SCROLL MENU **********/
+        
+        #scroll-menu {
+            display: block;
+            position: fixed;
+            visibility: visible;
+            z-index: 9;
+            width: auto;
+            right: 0;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        
+        #scroll-menu-list {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            padding-right: 1rem;
+            height: 100%;
+        }
+        
+        .scroll-menu-item {
+            margin: 0 0.5rem 0 0.5rem;
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        }
+        
+        .scroll-menu-item:focus { color: red;}
+        
+        /********** MAIN **********/
+        
+        #splash-content-inner {
+            width: 45vw;
+            align-items: flex-start;
+            justify-content: flex-end;
+            text-align: left;
+        }
+
+        #splash-body {
+            height: auto;
+            margin-bottom: 25vh;
+        }
+    }
+    
     /********** HEADER **********/
 
     #msg-logo {
@@ -21,16 +66,20 @@
 
     /********** MAIN **********/
 
-    #splash-line {
-        width: 75%;
-        min-width: 700px;
-        max-width: 800px;
-    }
-
     #pitch-line {
         width: 75%;
         min-width: 700px;
         max-width: 800px;
+    }
+    
+    #pitch-body {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .feature {
+        max-width: 40%;
     }
 
     #about-us-container {
