@@ -1,0 +1,28 @@
+<svg width="192" height="250" viewBox="0 0 192 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 1.5H96H143.379L190.5 48.6213V248.5H1.5V1.5Z" fill="white" stroke="#CBCBCB" stroke-width="3"/>
+<path d="M110 225H170" stroke="#878787" stroke-width="6"/>
+<path d="M22 185H170" stroke="#878787" stroke-width="6"/>
+<path d="M22 160H170" stroke="#878787" stroke-width="6"/>
+<path d="M22 135H170" stroke="#878787" stroke-width="6"/>
+<path d="M22 110H170" stroke="#878787" stroke-width="6"/>
+<rect x="115" y="204" width="50" height="20" fill="#FAFF00" fill-opacity="0.32"/>
+<rect x="22" y="80" width="46" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="22" y="208" width="46" height="20" fill="#555555" fill-opacity="0.32"/>
+<rect x="22" y="67" width="27" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="53" y="67" width="13" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="70" y="67" width="37" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="111" y="67" width="30" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="22" y="54" width="31" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="57" y="54" width="38" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="99" y="54" width="16" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="119" y="54" width="29" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="152" y="54" width="18" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="145" y="67" width="18" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="75" y="80" width="29" height="8" fill="#555555" fill-opacity="0.32"/>
+<rect x="22" y="95" width="148" height="14" fill="#7ADFFF" fill-opacity="0.5"/>
+<rect x="22" y="145" width="148" height="14" fill="#7ADFFF" fill-opacity="0.5"/>
+<rect x="22" y="170" width="148" height="14" fill="#7ADFFF" fill-opacity="0.5"/>
+<rect x="22" y="120" width="148" height="14" fill="#7ADFFF" fill-opacity="0.5"/>
+<line x1="29.5" y1="95" x2="29.5" y2="108" stroke="black" stroke-width="3"/>
+<path d="M27.5586 38.9824V48H22.2852V22.4062H32.2695C34.1914 22.4062 35.8789 22.7578 37.332 23.4609C38.7969 24.1641 39.9219 25.166 40.707 26.4668C41.4922 27.7559 41.8848 29.2266 41.8848 30.8789C41.8848 33.3867 41.0234 35.3672 39.3008 36.8203C37.5898 38.2617 35.2168 38.9824 32.1816 38.9824H27.5586ZM27.5586 34.7109H32.2695C33.6641 34.7109 34.7246 34.3828 35.4512 33.7266C36.1895 33.0703 36.5586 32.1328 36.5586 30.9141C36.5586 29.6602 36.1895 28.6465 35.4512 27.873C34.7129 27.0996 33.6934 26.7012 32.3926 26.6777H27.5586V34.7109ZM45.5234 48V22.4062H53.3984C55.6484 22.4062 57.6582 22.916 59.4277 23.9355C61.209 24.9434 62.5977 26.3848 63.5938 28.2598C64.5898 30.123 65.0879 32.2441 65.0879 34.623V35.8008C65.0879 38.1797 64.5957 40.2949 63.6113 42.1465C62.6387 43.998 61.2617 45.4336 59.4805 46.4531C57.6992 47.4727 55.6895 47.9883 53.4512 48H45.5234ZM50.7969 26.6777V43.7637H53.3457C55.4082 43.7637 56.9844 43.0898 58.0742 41.7422C59.1641 40.3945 59.7207 38.4668 59.7441 35.959V34.6055C59.7441 32.0039 59.2051 30.0352 58.127 28.6992C57.0488 27.3516 55.4727 26.6777 53.3984 26.6777H50.7969ZM84.3359 37.541H74.2109V48H68.9375V22.4062H85.6016V26.6777H74.2109V33.2871H84.3359V37.541Z" fill="#FAC173"/>
+</svg>

@@ -19,9 +19,12 @@
     /********** MAIN **********/
 
     #splash-line {
-        min-width: 790px;
-        max-width: 1503px;
-        border-bottom: 8px solid white;
+        border-bottom: 6px solid white;
+    }
+    
+    #pitch-body {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     
     #contact-form {
@@ -38,7 +41,7 @@
             grid-template-columns: auto 1203px auto;
         }
         
-        #splash-container, #pitch-container, #about-us-container, #team-container, #contact-container {
+        #pitch-container, #about-us-container, #team-container, #contact-container {
             grid-template-columns: auto 1080px auto;
         }
     }
