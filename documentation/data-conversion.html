@@ -12,7 +12,13 @@
     <meta name="description" content>
 
     <link rel="stylesheet" href="..\styles\reset.css">
-    <link rel="stylesheet" href="..\styles\main.css">
+    <link rel="stylesheet" href="..\styles\common.css">
+    <link rel="stylesheet" href="..\styles\fonts.css">
+    <link rel="stylesheet" href="..\styles\burger.css">
+    <link rel="stylesheet" href="..\styles\main-default.css">
+    <link rel="stylesheet" href="..\styles\main-480.css">
+    <link rel="stylesheet" href="..\styles\main-992.css">
+    <link rel="stylesheet" href="..\styles\main-1200.css">
     <link rel="stylesheet" href="..\styles\documentation.css">
 </head>
 
@@ -78,11 +84,11 @@
 
                     <p>
                         The old charges may have different spellings, statute numbers and ordinance numbers.  All combinations of charges and numbers need to be converted to the new charges and numbers.  Before mapping the old to the new we need to firmly establish what the new Charges are to be.  This should be completed in the ‘Startup Charges’ Table under the Conversion Menu.  Each time the conversion routines are run, ‘Startup Charges’ is copied into the regular ‘Charges’ table.  For this reason, no changes should be made to the regular ‘Charges’ table until after the final conversion.  Instead ‘Startup Charges’ should be set to exactly the charges to which you want to convert.
-                        <img src="images/data-conversion/image001.png"/>
+                        <img src="../docs/images/data-conversion/image001.png"/>
                     </p>
 
                     <h3 id="startup-charges">Startup Charges</h3>
-                    <img src="images/data-conversion/image002.png"/>
+                    <img src="../docs/images/data-conversion/image002.png"/>
                     <p>
                         The ‘Charge’ field is used to identify this charge and must be unique.  It is a DROP DOWN from the ‘State Charges’ Table.  You do not, however, have
                         to use the State Charge wording.  Unlike most DROP DOWN fields you may type what you want in this field without an error.   If this is a State Charge, you should use the ‘Charge Code’ from that charge even if you don’t use the wording.   Normally the ‘Charge Code’ field and the ‘State Charge Code’ will be the same.  The Statute would come from the appropriate title (32, 13A, etc) with the appropriate paragraph if needed.  
@@ -93,7 +99,7 @@
                     </p>
 
                     <h3 id="unique-charge">Unique Charge</h3>
-                    <img src="images/data-conversion/image003.png"/>
+                    <img src="../docs/images/data-conversion/image003.png"/>
                     <p>
                         A point to repeat is that the Charge wording must be unique.  Thus, if you have 4 types of DISORDERLY CONDUCT with different paragraphs you need to find some way to distinguish them from each other. For Example:
                     </p>
@@ -105,19 +111,19 @@
                     </p>
                     
                     <h3 id="transfer-arrest-charges">Transfer Arrest Charges</h3>
-                    <img src="images/data-conversion/image004.png"/>
+                    <img src="../docs/images/data-conversion/image004.png"/>
                     <p>
                         After the first phase of conversion routines run, the original charges are placed in the ‘Transfer Arrest Charges’ table.  Likewise, the charges from the original ‘Warrants’ are placed in the ‘Transfer Warrant Charges’ located in the ‘Conversion Menu’
                     </p>
 
                     <p>
                         The ‘Transfer Arrest Charges’ will contain every DISTINCT combination of Charge, Section, Paragraph, and Type from the old data. You may have many different versions of the same charge with only subtle differences.  The transfer routines need to know how to translate each combination.
-                        <img src="images/data-conversion/image005.png"/>
+                        <img src="../docs/images/data-conversion/image005.png"/>
                     </p>
 
                     <p>
                         Notice that the difference may be in the ‘Charge’ field or an added 0 in the ‘Section’ field or a ‘Paragraph’. Each one needs to be translated to a record in your ‘Startup Charges’ Table.  This is why it is so important that ‘Startup Charges’ is perfected before proceeding to ‘Transfer Charges’.
-                        <img src="images/data-conversion/image006.png"/>
+                        <img src="../docs/images/data-conversion/image006.png"/>
                     </p>
 
                     <p>
