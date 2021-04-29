@@ -1,0 +1,95 @@
+#header-top-container {
+    height: 100px;
+    grid-column: 2 / 3;
+}
+
+#header-top-inner {
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#msg-logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    z-index: 1;
+}
+
+#msg-logo-content {
+    width: 8rem;
+}
+
+#logo-text {
+    line-height: 1.14rem;
+}
+
+#header-menu {
+    flex: 1;
+    max-width: 30em;
+}
+
+#header-menu-inner {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#header-menu-content {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-menu-item {
+    text-align: center;
+    list-style-type: none;
+}
+
+@media (min-width: 992px) {
+    #msg-logo {
+        max-width: 22rem;
+    }
+
+    #msg-logo-content {
+        width: 10rem;
+    }
+
+    #burger-wrapper,
+    #burger-menu,
+    #burger {
+        visibility: hidden;
+    }
+
+    #header-menu-content {
+        visibility: visible;
+        position: static;
+    }
+}
+
+@media (min-width: 1200px) {
+    #msg-logo-content {
+        width: 12rem;   
+    }
+    
+    @media (max-width: 1396px) {
+        #msg-logo {
+            max-width: 18rem;
+        }
+
+        #header-menu {
+            white-space: nowrap;
+        }
+    }
+}
+
+@media (min-width: 1350px) {
+    header {
+        grid-template-columns: auto 1203px auto;
+    }
+}

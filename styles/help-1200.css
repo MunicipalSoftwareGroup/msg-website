@@ -1,0 +1,6 @@
+@media (min-width: 1350px) {
+    #title-inner
+    {
+        grid-template-columns: auto 1200px auto;
+    }
+}

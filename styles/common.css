@@ -2,23 +2,27 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    max-width: 100%;
+}
+
 .primary {
     color: white;
     background-color: #FAC173;
 }
 
-.pitch-bold {
-    font-family: 'Pitch Bold';
+.lora-bold {
+    font-family: 'Lora Bold';
 }
 
-.pitch-medium-italic {
-    font-family: 'Pitch Medium Italic';
+.lora-italic {
+    font-family: 'Lora Italic';
 }
 
 
 /* Since I can't get the adobe fonts (acumin) local right now,
 Open Sans is a temporary replacement*/
-.acumin-pro {
+.open-sans {
     font-family: "Open Sans Regular";
     /*font-family: acumin-pro,sans-serif;
     font-weight: 100;*/
@@ -26,7 +30,7 @@ Open Sans is a temporary replacement*/
     letter-spacing: -0.03rem
 }
 
-.acumin-pro-bold {
+.open-sans-bold {
     font-family: "Open Sans Bold";
     /*font-family: acumin-pro,sans-serif;*/
 /*    font-weight: 700;*/
@@ -35,7 +39,7 @@ Open Sans is a temporary replacement*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Pitch Bold';
+    font-family: 'lora Bold';
 }
 
 body, input, textarea {

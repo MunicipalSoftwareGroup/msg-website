@@ -20,6 +20,26 @@
     src: url("../fonts/OpenSans-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Lora Regular";
+    src: url("../fonts/Lora-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lora Medium";
+    src: url("../fonts/Lora-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Lora Bold";
+    src: url("../fonts/Lora-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lora Italic";
+    src: url("../fonts/Lora-Italic.ttf");
+}
+
 /******** SIZES ********/
 
 * {

@@ -1,0 +1,112 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    z-index: 11;
+    background-color: white;
+    color: #1F2457;
+}
+
+#title-container {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    align-items: center;
+}
+
+#title-inner {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+
+#title-content {
+    display: flex;
+    flex-direction: column;
+    color: #1F2457;
+    grid-column: 2 / 3;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 100%;
+    border: 1px solid #CCC;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+}
+
+#search-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0 0.5rem;
+}
+
+#search-bar-icon, #search-image {
+    width: 1rem;
+    height: inherit;   
+}
+
+#search-bar-entry {
+    width: 100%; 
+    height: inherit;
+    padding: 0 0.5rem;
+    color: #CCC;
+}
+
+#questions-container {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    width: 100%;
+    height: auto;
+    background-color: #1F2457;
+}
+
+#questions-inner {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    grid-column: 2 / 3;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 20rem;
+    margin: 1rem 0 2rem 0;
+}
+
+#questions-card-title {
+    grid-column: 2 / 3 ;
+    color: white;
+}
+
+#questions-card {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    min-height: 5rem;
+    background-color: white;
+    border-radius: 0.75rem;
+    margin-top: 1rem;
+    color: #1F2457;
+    padding: 1rem;
+}
+
+.question:first-child {
+    padding-bottom: 0.75rem;
+}
+
+.question:not(.question:first-child) {
+    border-top: 1px solid #CCC;
+    padding: 0.75rem 0;
+}

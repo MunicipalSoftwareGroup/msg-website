@@ -6,80 +6,27 @@
 
 /********** COLUMN LAYOUT **********/
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 20fr 1fr;
-}
-
 #pitch-container, #about-us-container, #team-container, #contact-container {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     grid-column: 1 / 4;
 }
 
-#header-top-container, #splash-inner, #pitch-inner, #about-us-inner, #team-inner, #contact-inner {
+#splash-inner, #pitch-inner, #about-us-inner, #team-inner, #contact-inner {
     grid-column: 2 / 3;
 }
 
 /********** HEADER **********/
 
 header {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
     position: relative;
     height: 100px;
+    width: 100%;
     z-index: 11;
     background-color: white;
-}
-
-#header-top-container {
-    height: 100%;
-}
-
-#header-top-inner {
-    position: relative;
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-}
-
-#msg-logo {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    z-index: 1;
-}
-
-#msg-logo-content {
-    width: 6em;
-}
-
-#logo-text {
-    line-height: 1.14rem;
-}
-
-#header-menu {
-    flex: 1;
-    max-width: 30em;
-}
-
-#header-menu-inner {
-    position: relative;
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-
-#header-menu-content {
-    visibility: hidden;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.header-menu-item {
-    text-align: center;
-    list-style-type: none;
+    color: #1F2457;
 }
 
 /********** MAIN **********/
