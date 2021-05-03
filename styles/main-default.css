@@ -403,27 +403,3 @@ header {
     line-height: 1.6em;
     width: 23em;
 }
-
-/********** FOOTER **********/
-
-footer {
-    height: 200px;
-    grid-column: 1 / 4;
-    grid-row: 3;
-}
-
-#footer-top-container {
-    height: 100%;
-}
-
-#footer-top-inner {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    text-align: center;;
-}
-
-#footer-content {
-    flex: 1;
-    padding-top: 40px;
-}
