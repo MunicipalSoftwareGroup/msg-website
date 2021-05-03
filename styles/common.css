@@ -2,10 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    max-width: 100%;
-}
-
 .primary {
     color: white;
     background-color: #FAC173;
@@ -62,6 +58,8 @@ on mobile yet. */
 body {
     width: 100%;
     min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .profile-header {
