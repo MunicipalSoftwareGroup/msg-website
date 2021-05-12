@@ -1,9 +1,17 @@
 @media (min-width: 480px) {
 
     /********** MAIN **********/
-
-    #splash-body {
-        width: 15em;
+    #splash-line {
+        width: 110%;
+        border-bottom: 12px solid white;
+    }
+    
+    #splash-body p {
+        line-height: 4rem;
+    }
+    
+    .button {
+        margin: 0 2rem;
     }
     
     #team-content {

@@ -1,3 +1,14 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    z-index: 11;
+    background-color: white;
+    color: #003375;
+}
+
 #header-top-container {
     height: 100px;
     grid-column: 2 / 3;

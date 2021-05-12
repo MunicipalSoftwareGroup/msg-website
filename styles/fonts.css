@@ -75,6 +75,10 @@
 }
 
 .f-splash-body {
+    font-size: 3rem;
+}
+
+.f-splash-buttons {
     font-size: 0.8rem;
 }
 
@@ -88,12 +92,6 @@
 
 .f-thanks-text {
     font-size: 0.55rem;
-}
-
-@media (min-width: 350px) {
-    .f-splash-body {
-        font-size: 1rem;
-    }
 }
 
 @media (min-width: 375px) {
@@ -143,13 +141,7 @@
     }
     
     .f-splash-body {
-        font-size: 2.2rem;
-    }
-    
-    @media (orientation:landscape) {
-        .f-splash-body {
-            font-size: 1.32rem;
-        }
+        font-size: 4rem;
     }
     
     .f-pitch-body {
@@ -173,16 +165,6 @@
             line-height: 1.6em;
         }
         
-        .f-splash-body {
-            font-size: 1.5rem;
-        }
-        
-        @media (orientation:landscape) {
-            .f-splash-body {
-                font-size: 0.9rem;
-            }
-        }
-        
         .f-pitch-body {
             font-size: 1.5rem;
         }
@@ -197,15 +179,6 @@
             font-size: 1.3rem;
         }
         
-        .f-splash-body {
-            font-size: 1.3rem;
-        }
-        
-        @media (orientation:landscape) {
-            .f-splash-body {
-                font-size: 0.78rem;
-            }
-        }
     
         .f-pitch-body {
             font-size: 1.3rem;
@@ -243,13 +216,11 @@
     }
     
     .f-splash-body {
-        font-size: 2rem;
+        font-size: 5rem;
     }
     
-    @media (orientation:landscape) {
-        .f-splash-body {
-            font-size: 1.2rem;
-        }
+    .f-splash-buttons {
+        font-size: 1rem;
     }
     
     .f-pitch-body {
@@ -291,13 +262,7 @@
     }
     
     .f-splash-body {
-        font-size: 2.2rem;
-    }
-    
-    @media (orientation:landscape) {
-        .f-splash-body {
-            font-size: 1.32rem;
-        }
+        font-size: 5.5rem;
     }
     
     .f-pitch-body {
@@ -339,13 +304,7 @@
     }
     
     .f-splash-body {
-        font-size: 2.75rem;
-    }
-    
-    @media (orientation:landscape) {
-        .f-splash-body {
-            font-size: 1.65rem;
-        }
+        font-size: 6rem;
     }
     
     .f-pitch-body {

@@ -39,9 +39,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body, input, textarea {
-    color: #707070;
     min-height: auto;
     position: relative;
+}
+
+.white-background-text {
+    color: #9090A0;
+}
+
+.light-blue-background-text {
+    color: #003375;
 }
 
 /* Added this so that when the scroll bar
@@ -60,8 +67,4 @@ body {
     min-width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-}
-
-.profile-header {
-    color: #FAC173;
 }

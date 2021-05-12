@@ -1,14 +1,3 @@
-header {
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    position: relative;
-    height: 100px;
-    width: 100%;
-    z-index: 11;
-    background-color: white;
-    color: #1F2457;
-}
-
 #title-container {
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
@@ -31,7 +20,7 @@ header {
 #title-content {
     display: flex;
     flex-direction: column;
-    color: #1F2457;
+    color: #003375;
     grid-column: 2 / 3;
 }
 
@@ -41,7 +30,7 @@ header {
     justify-content: center;
     height: 1.5rem;
     width: 100%;
-    border: 1px solid #1F2457;
+    border: 1px solid #003375;
     border-radius: 1.5rem;
     margin: 1rem 0;
 }
@@ -73,7 +62,7 @@ header {
     grid-template-columns: 1fr 10fr 1fr;
     width: 100%;
     min-height: calc(82vh - 100px);
-    background-color: #1F2457;
+    background-color: #003375;
 }
 
 #questions-inner {
@@ -98,7 +87,7 @@ header {
     min-height: 5rem;
     background-color: white;
     margin-top: 1rem;
-    color: #1F2457;
+    color: #003375;
     padding: 1rem;
 }
 
