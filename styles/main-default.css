@@ -6,147 +6,131 @@
 
 /********** COLUMN LAYOUT **********/
 
-header {
+#splash-container,
+#pitch-container,
+#about-us-container,
+#team-container,
+#contact-container {
     display: grid;
-    grid-template-columns: 1fr 20fr 1fr;
+    grid-template-columns: 1fr 10fr 1fr;
 }
 
-#pitch-container, #about-us-container, #team-container, #contact-container {
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    grid-column: 1 / 4;
-}
-
-#header-top-container, #splash-inner, #pitch-inner, #about-us-inner, #team-inner, #contact-inner {
+#splash-inner,
+#pitch-inner,
+#about-us-inner,
+#team-inner,
+#contact-inner {
     grid-column: 2 / 3;
-}
-
-/********** HEADER **********/
-
-header {
-    position: relative;
-    height: 100px;
-    z-index: 11;
-    background-color: white;
-}
-
-#header-top-container {
-    height: 100%;
-}
-
-#header-top-inner {
-    position: relative;
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-}
-
-#msg-logo {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    z-index: 1;
-}
-
-#msg-logo-content {
-    width: 6em;
-}
-
-#logo-text {
-    line-height: 1.14rem;
-}
-
-#header-menu {
-    flex: 1;
-    max-width: 30em;
-}
-
-#header-menu-inner {
-    position: relative;
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-
-#header-menu-content {
-    visibility: hidden;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.header-menu-item {
-    text-align: center;
-    list-style-type: none;
 }
 
 /********** MAIN **********/
 
+#pitch-header,
+#about-us-header,
+#contact-header,
+#team-header {
+    color: #003375;
+}
+
+.feature-title {
+    color: #003375;
+}
+
+.profile-header {
+    color: #FAC173;
+}
+
 #splash-container {
-    background-color: #FAC173;
-/*    background: url(../images/joe-woods-4Zaq5xY5M_c-unsplash.jpg) rgba(250, 193, 115, 1);*/
-/*
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    background-color: #003375;
+    /*    background: url(../images/joe-woods-4Zaq5xY5M_c-unsplash.jpg) rgba(250, 193, 115, 1);*/
+    /*
     background-size: contain;
     background-blend-mode: multiply;
 */
-/*    box-shadow: inset 0 0 0 2000px rgba(250, 193, 115, 0.6);*/
-    height: -o-calc(100vh - 100px); /* opera */
-    height: -webkit-calc(100vh - 100px); /* google, safari */
-    height: -moz-calc(100vh - 100px); /* firefox */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    /*    box-shadow: inset 0 0 0 2000px rgba(250, 193, 115, 0.6);*/
+    height: -o-calc(100vh - 100px);
+    /* opera */
+    height: -webkit-calc(100vh - 100px);
+    /* google, safari */
+    height: -moz-calc(100vh - 100px);
+    /* firefox */
+    height: calc(100vh - 100px);
 }
 
 #splash-inner {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;
-}
-
-#splash-content { 
-    display: flex;
     flex-direction: column;
     align-items: center;
-    height: -o-calc(40vh - 100px); /* opera */
-    height: -webkit-calc(40vh - 100px); /* google, safari */
-    height: -moz-calc(40vh - 100px); /* firefox */
+    grid-column: 2 / 3;
+    min-width: 100%;
+    height: -o-calc(100vh - 100px);
+    /* opera */
+    height: -webkit-calc(100vh - 100px);
+    /* google, safari */
+    height: -moz-calc(100vh - 100px);
+    /* firefox */
+    height: calc(100vh - 100px);
 }
 
-#splash-content-inner {
+#splash-content {
+    min-width: auto;
+    width: 90%;
+    display: flex;
     height: inherit;
-    display: flex;   
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
-    text-align: center;
-}
-
-#splash-line {
-    display: none;
-    width: 100%;
-    border-bottom: 4px solid white;
+    justify-content: center;
 }
 
 #splash-body {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    height: 40vh;
-    width: 14.13em;
     color: white;
+}
+
+#splash-line {
+    width: 100%;
+    border-bottom: 10px solid white;
+    margin-bottom: 0.3rem;
+}
+
+#splash-body p {
+    line-height: 3rem;
+}
+
+#splash-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 2rem;
+    background-color: #006DFF;
+    color: white;
+    border-radius: 5px;
+    margin: 0 1rem;
 }
 
 #splash-image {
     display: flex;
-    background-color: #fffcf7;
-    height: -o-calc(60vh - 100px); /* opera */
-    height: -webkit-calc(60vh - 100px); /* google, safari */
-    height: -moz-calc(60vh - 100px); /* firefox */
+    background-color: #EBF3FF;
+    height: -o-calc(60vh - 100px);
+    /* opera */
+    height: -webkit-calc(60vh - 100px);
+    /* google, safari */
+    height: -moz-calc(60vh - 100px);
+    /* firefox */
     flex-grow: 1.5;
     justify-content: center;
     align-items: stretch;
@@ -157,42 +141,10 @@ header {
     width: 100%;
 }
 
-@media (orientation:landscape) {
-        #splash-container {
-            flex-direction: row;
-        }
-    
-        #splash-content {
-            height: inherit;
-            width: 60vw;
-        }
-    
-        #splash-content-inner {
-            width: 45vw;
-            align-items: flex-start;
-            justify-content: flex-end;
-            text-align: left;
-        }
-    
-        #splash-line {
-            display: block;
-            margin-bottom: 1rem;
-        }
-
-        #splash-body {
-            height: auto;
-            margin-bottom: 20vh;
-        }
-
-        #splash-image {
-            height: 100%;
-            width: 40vw;
-        }
-}
-
 #pitch-container {
     height: auto;
     min-height: 100vh;
+    background-color: #EBF3FF;
 }
 
 #pitch-inner {
@@ -236,7 +188,6 @@ header {
 }
 
 .feature-title {
-    color: #FAC173;
     text-align: center;
     margin: 2rem 0 1rem 0
 }
@@ -250,7 +201,7 @@ header {
     height: auto;
     min-height: 100vh;
     padding: 5% 0 10% 0;
-    background-color: #fffcf7;
+    background-color: #003375;
 }
 
 #about-us-bg-box {
@@ -259,7 +210,7 @@ header {
     max-width: 48rem;
     height: 17rem;
     z-index: 0;
-    background-color: #FFF6EB;
+    background-color: #003375;
     margin: -4rem 0 0 -5%;
 }
 
@@ -288,14 +239,17 @@ header {
 
 #about-us-header {
     padding-bottom: 0.5rem;
+    color: white;
 }
 
 #about-us-body {
     max-width: 22em;
+    color: white;
 }
 
 #team-container {
     min-height: 100vh;
+    background-color: #EBF3FF;
 }
 
 #team-content {
@@ -320,7 +274,7 @@ header {
     width: 80%;
     height: 17rem;
     z-index: 0;
-    background-color: #fffcf7;
+    background-color: #EBF3FF;
     bottom: 0;
     right: 0;
     margin: 0 -5% -5% 0;
@@ -330,7 +284,7 @@ header {
     z-index: 1;
     width: 100%;
     max-width: 22em;
-    background-color: #FAC173;
+    background-color: #006DFF;
     box-sizing: border-box;
 }
 
@@ -368,7 +322,7 @@ header {
 
 #contact-container {
     min-height: 100vh;
-    background-color: #fffcf7;
+    background-color: #EBF3FF;
 }
 
 #contact-inner {
@@ -401,7 +355,8 @@ header {
     padding-top: 0.6rem;
 }
 
-#contact-form input, textarea {
+#contact-form input,
+textarea {
     padding: 0.5rem 1rem;
     margin-top: 1em;
     box-sizing: border-box;
@@ -434,7 +389,7 @@ header {
     line-height: 1.5rem;
     min-width: 50%;
     margin: 1rem 0 0 0;
-    justify-content: center;    
+    justify-content: center;
 }
 
 #contact-other {
@@ -455,28 +410,4 @@ header {
     margin-top: 3em;
     line-height: 1.6em;
     width: 23em;
-}
-
-/********** FOOTER **********/
-
-footer {
-    height: 200px;
-    grid-column: 1 / 4;
-    grid-row: 3;
-}
-
-#footer-top-container {
-    height: 100%;
-}
-
-#footer-top-inner {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    text-align: center;;
-}
-
-#footer-content {
-    flex: 1;
-    padding-top: 40px;
 }

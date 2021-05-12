@@ -1,50 +1,4 @@
 @media (min-width: 992px) {
-
-    @media (orientation:landscape) {
-        /********** SCROLL MENU **********/
-        
-        #scroll-menu {
-            display: block;
-            position: fixed;
-            visibility: visible;
-            z-index: 9;
-            width: auto;
-            right: 0;
-            height: 100px;
-            background: rgba(255, 255, 255, 0.9);
-        }
-        
-        #scroll-menu-list {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            list-style: none;
-            padding-right: 1rem;
-            height: 100%;
-        }
-        
-        .scroll-menu-item {
-            margin: 0 0.5rem 0 0.5rem;
-            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-        }
-        
-        .scroll-menu-item:focus { color: red;}
-        
-        /********** MAIN **********/
-        
-        #splash-content-inner {
-            width: 45vw;
-            align-items: flex-start;
-            justify-content: flex-end;
-            text-align: left;
-        }
-
-        #splash-body {
-            height: auto;
-            margin-bottom: 25vh;
-        }
-    }
-    
     /********** HEADER **********/
 
     #msg-logo {
@@ -65,6 +19,21 @@
     }
 
     /********** MAIN **********/
+    #splash-line {
+        width: 115%;
+        border-bottom: 14px solid white;
+        margin-bottom: 0.75rem;
+    }
+    
+    #splash-body p {
+        line-height: 4.8rem;
+    }
+    
+    .button {
+        margin: 0 3rem;
+        width: 9rem;
+        height: 2.6rem;
+    }
 
     #pitch-line {
         width: 75%;

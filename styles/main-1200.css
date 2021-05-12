@@ -17,9 +17,16 @@
     }
 
     /********** MAIN **********/
+    #splash-body p {
+        line-height: 5.4rem;
+    }
 
     #splash-line {
-        border-bottom: 6px solid white;
+        border-bottom: 16px solid white;
+    }
+    
+    #splash-buttons {
+        margin-top: 2.5rem;
     }
     
     #pitch-body {
@@ -39,6 +46,10 @@
     @media (min-width: 1350px) {
         header {
             grid-template-columns: auto 1203px auto;
+        }
+        
+        #splash-body p {
+            line-height: 5.7rem;
         }
         
         #pitch-container, #about-us-container, #team-container, #contact-container {

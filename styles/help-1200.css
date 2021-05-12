@@ -1,0 +1,24 @@
+@media (min-width: 1200px) {
+    #title-container {
+        height: 12rem;  
+    }
+    
+    #search-bar{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 1350px) {
+    #title-container {
+        height: 13rem;   
+    }
+    
+    #title-inner
+    {
+        grid-template-columns: 1fr 1200px 1fr;
+    }
+    
+    #search-bar {
+        margin: 1rem 0 2rem 0;   
+    }
+}
