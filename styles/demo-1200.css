@@ -1,7 +1,3 @@
-#demo-container-inner {
-    height: 100%;
-}
-
 @media (min-width: 1350px) {
     #launchpad-title-container, #launchpad-content-container {
         grid-template-columns: auto 1203px auto;

@@ -9,8 +9,8 @@ function startDemo() {
 function showDemo() {
     var demo = document.getElementById("demo-container");
     
-    if (demo.style.display != "grid")
-        demo.style.display = "grid";
+    if (demo.style.display != "flex")
+        demo.style.display = "flex";
 }
 
 function hideDemo() {
