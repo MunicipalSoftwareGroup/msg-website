@@ -1,0 +1,29 @@
+{
+    "faq": [
+        {
+            "id": "faq1",
+            "question": "How do I merge two profiles?",
+            "answer": ""
+        },
+        {
+            "id": "faq2",
+            "question": "How do I change or delete officer badge number?",
+            "answer": ""
+        },
+        {
+            "id": "faq3",
+            "question": "How do I add a new charge?",
+            "answer": ""
+        },
+        {
+            "id": "faq4",
+            "question": "How do I add a new employee?",
+            "answer": ""
+        },
+        {
+            "id": "faq5",
+            "question": "How do I add court dates?",
+            "answer": ""
+        }
+    ]
+}

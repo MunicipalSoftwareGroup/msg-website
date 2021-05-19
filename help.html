@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="styles/help-992.css">
     <link rel="stylesheet" href="styles/help-1200.css">
     <link rel="stylesheet" href="styles/footer.css">
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/search.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/closeMenu.js"></script>
     <script src="js/onload.js"></script>
@@ -100,9 +102,7 @@
                     <div id="search-bar-icon">
                         <img id="search-image" src="images/searchicon.svg">
                     </div>
-                    <div id="search-bar-entry" class="f-medium">
-                        Look up something
-                    </div>
+                    <input type="search" id="search-bar-entry" class="f-medium" oninput="search('faq', value)" />
                 </div>
             </div>
         </div>
@@ -113,9 +113,9 @@
             <div id="questions-card-title" class="open-sans-bold f-large">
                 Common Questions
             </div>
+            <div id="search-results" class="open-sans f-small"></div>
             <div id="questions-card" class="open-sans f-small">
-
-                <div class="question">
+                <div id="faq1" class="question">
                     <label for="1">
                         <div class="question-inner">
                             <input id="1" type="checkbox" class="question-toggle" />
@@ -131,7 +131,7 @@
                     </label>
                 </div>
 
-                <div class="question">
+                <div id="faq2" class="question">
                     <label for="2">
                         <div class="question-inner">
                             <input id="2" type="checkbox" class="question-toggle" />
@@ -147,12 +147,12 @@
                     </label>
                 </div>
 
-                <div class="question">
+                <div id="faq3" class="question">
                     <label for="3">
                         <div class="question-inner">
                             <input id="3" type="checkbox" class="question-toggle" />
                             <div class="question-text">
-                                How do I add a new charge
+                                How do I add a new charge?
                             </div>
                             <div class="answer">
                                 <div class="answer-text">
@@ -163,7 +163,7 @@
                     </label>
                 </div>
 
-                <div class="question">
+                <div id="faq4" class="question">
                     <label for="4">
                         <div class="question-inner">
                             <input id="4" type="checkbox" class="question-toggle" />
@@ -179,7 +179,7 @@
                     </label>
                 </div>
 
-                <div class="question">
+                <div id="faq5" class="question">
                     <label for="5">
                         <div class="question-inner">
                             <input id="5" type="checkbox" class="question-toggle" />

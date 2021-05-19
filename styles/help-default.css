@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1.5rem;
+    height: 2.2rem;
     width: 100%;
     border: 1px solid #003375;
     border-radius: 1.5rem;
@@ -53,8 +53,9 @@
     align-items: center;
     width: 100%; 
     height: inherit;
-    padding: 0 0.5rem;
-    color: #CCC;
+    padding: 0 1rem;
+    color: #444;
+    border: none;
 }
 
 #questions-container {
@@ -80,15 +81,18 @@
     color: white;
 }
 
-#questions-card {
+#questions-card, #search-results {
     display: flex;
     flex-direction: column;
     grid-column: 2 / 3;
-    min-height: 5rem;
     background-color: white;
     margin-top: 1rem;
     color: #003375;
     padding: 1rem;
+}
+
+#search-results {
+    display: none;
 }
 
 .question-toggle {
