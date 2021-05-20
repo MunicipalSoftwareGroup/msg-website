@@ -45,7 +45,7 @@ async function search(indexName, term) {
             if (results.style.display != "flex")
                 results.style.display = "flex";
 
-            var el = document.getElementById(index[key].id).innerHTML;
+            var el = document.getElementById(index[key].id).outerHTML;
 
             if (!results.innerHTML.includes(el)) {
                 results.innerHTML += el;

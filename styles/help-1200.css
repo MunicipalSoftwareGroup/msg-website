@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
     #title-container {
-        height: 12rem;  
+        height: 12rem; 
     }
     
     #search-bar{
@@ -9,7 +9,8 @@
 }
 
 @media (min-width: 1350px) {
-    #title-container {
+    #title-container, #questions-container {
+        grid-template-columns: auto 1203px auto;
         height: 13rem;   
     }
     

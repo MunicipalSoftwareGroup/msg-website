@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     width: 100%;
-    height: 7rem;
+    min-height: 7rem;
     background-color: white;
     align-items: center;
 }
@@ -51,11 +51,13 @@
 #search-bar-entry {
     display: flex;
     align-items: center;
-    width: 100%; 
+    width: 100%;
     height: inherit;
     padding: 0 1rem;
+    margin-right: 1rem;
     color: #444;
     border: none;
+    outline: none;
 }
 
 #questions-container {
@@ -88,7 +90,7 @@
     background-color: white;
     margin-top: 1rem;
     color: #003375;
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
 }
 
 #search-results {
@@ -107,11 +109,16 @@
     transition-delay: 0;
     overflow-y: scroll;
     border-bottom: 1px solid #CCC;
+    background-color: #EEE;
+}
+
+.answer:last-child {
+    border-bottom: none;
 }
 
 .answer-text {
+    color: #003375;
     padding: 0.25rem 0.5rem;
-    background-color: #EEE;
 }
 
 .question-toggle ~ .answer {
@@ -131,7 +138,7 @@
     user-select:none; 
 }
 
-.question-text:hover {
+.question:hover {
     color: #006DFF;   
 }
 
