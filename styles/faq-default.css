@@ -64,6 +64,7 @@
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     width: 100%;
+    height: auto;
     min-height: calc(82vh - 100px);
     background-color: #003375;
 }
@@ -74,8 +75,9 @@
     grid-column: 2 / 3;
     justify-content: flex-start;
     width: 100%;
+    height: auto;
     min-height: 20rem;
-    margin: 1rem 0 2rem 0;
+    margin: 0rem 0 2rem 0;
 }
 
 #questions-card-title, #other-resources-title {
@@ -91,6 +93,7 @@
     margin-top: 1rem;
     color: #003375;
     padding: 1rem 1rem 0.5rem 1rem;
+    border-radius: 1.5rem;
 }
 
 #search-results {

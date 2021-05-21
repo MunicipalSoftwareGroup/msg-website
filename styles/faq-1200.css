@@ -11,12 +11,10 @@
 @media (min-width: 1350px) {
     #title-container, #questions-container {
         grid-template-columns: auto 1203px auto;
-        height: 13rem;   
     }
     
-    #title-inner
-    {
-        grid-template-columns: 1fr 1200px 1fr;
+    #title-container {
+        height: 13rem;
     }
     
     #search-bar {

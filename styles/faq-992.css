@@ -2,7 +2,7 @@
     #questions-inner {
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 1.4rem;   
+        padding-top: 1rem;   
     }
     
     #common-questions {
