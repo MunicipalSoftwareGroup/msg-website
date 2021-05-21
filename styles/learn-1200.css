@@ -1,0 +1,15 @@
+@media (min-width: 1200px) {
+    #title-container {
+        height: 8.5rem; 
+    }
+}
+
+@media (min-width: 1350px) {
+    #title-container, #content-container {
+        grid-template-columns: auto 1203px auto;
+    }
+    
+    #title-container {
+        height: 9rem;
+    }
+}

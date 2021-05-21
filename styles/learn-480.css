@@ -1,0 +1,11 @@
+@media (min-width: 600px) {
+    #title-container {
+        height: 8rem;   
+    }
+}
+
+@media (min-width: 850px) {
+    #title-container {
+        height: 10rem;   
+    }
+}

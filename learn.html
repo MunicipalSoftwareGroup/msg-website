@@ -1,0 +1,167 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Municipal Software Group</title>
+
+    <meta name="viewport" , content="width=device-width, initial-scale=1">
+    <meta name="author" content="Collin Brittain">
+    <meta name="description" content>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/burger.css">
+    <link rel="stylesheet" href="styles/learn-default.css">
+    <link rel="stylesheet" href="styles/learn-480.css">
+    <link rel="stylesheet" href="styles/learn-992.css">
+    <link rel="stylesheet" href="styles/learn-1200.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/closeMenu.js"></script>
+    <script src="js/onload.js"></script>
+</head>
+
+<body style="max-width: 100%;  min-height: 100%">
+    <a id="top"></a>
+    <header>
+        <div id="header-top-container">
+            <div id="header-top-inner">
+                <div id="msg-logo">
+                    <div id="msg-logo-content" class="open-sans-bold f-logo">
+                        <a href="/">
+                            <img src="images/LogoWithText.svg" />
+                        </a>
+                    </div>
+                </div>
+                <div id="burger-wrapper">
+                    <input id="burger-input" type="checkbox" />
+                    <div id="burger">
+                        <span id="burger-top-line"></span>
+                        <span id="burger-middle-line"></span>
+                        <span id="burger-bottom-line"></span>
+                    </div>
+                    <ul id="burger-menu" class="open-sans-bold">
+                        <li class="burger-menu-item">
+                            <a href="" class="burger-link">Learn</a>
+                        </li>
+                        <li class="burger-menu-item">
+                            <a href="faq" class="burger-link">FAQ</a>
+                        </li>
+                        <li class="burger-menu-item">
+                            <a href="/#contact-section" class="burger-link">Contact Us</a>
+                        </li>
+                        <!--<li class="header-menu-item">
+                        <a href="documentation/introduction" class="burger-link">Documentation</a>
+                    </li>-->
+                    </ul>
+                </div>
+                <nav id="header-menu" class="open-sans-bold f-menu">
+                    <div id="header-menu-inner">
+                        <ul id="header-menu-content">
+                            <li class="header-menu-item">
+                                <a href="">Learn</a>
+                            </li>
+                            <li class="header-menu-item">
+                                <a href="faq">FAQ</a>
+                            </li>
+                            <li class="header-menu-item">
+                                <a href="/#contact-section">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <div id="title-container">
+        <div id="title-inner">
+            <div id="title-content" class="open-sans-bold f-x-large">
+                <p id="title">Learning Center</p>
+                
+                <div id="search-bar">
+                    <div id="search-bar-inner">
+                        <div id="search-bar-icon">
+                            <img id="search-image" src="images/searchicon.svg">
+                        </div>
+                        <input type="text" id="search-bar-entry" class="f-medium" oninput="search('learn', value)" />
+                    </div>
+                </div>
+            </div>
+            <div id="title-line"></div>
+        </div>
+    </div>
+    <div id="content-container">
+        <div id="content-inner">
+            <div id="main-content">
+                <div id="table-of-contents-container">
+                    <div id="table-of-contents-header" class="open-sans-bold f-large">
+                        Table of Contents
+                    </div>
+                    <ul id="table-of-contents" class="f-small">
+                        <li onclick="openSlide(0)">Case Management</li>
+                        <li onclick="openSlide(27)">
+                            Searching for Records
+                        </li>
+                        <li onclick="openSlide(47)">Red Alerts</li>
+                        <li onclick="openSlide(52)">Tables</li>
+                        <li onclick="openSlide(59)">Documents</li>
+                        <li onclick="openSlide(78)">Payments</li>
+                    </ul>
+                </div>
+                <div id="reading-content">
+                    <div id="reading-content-header" class="open-sans-bold f-large">
+                        Getting Started
+                    </div>
+                    <div id="reading-content-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>Mihi enim erit isdem istis fortasse iam utendum.</i> <a href="http://loripsum.net/" target="_blank">Nescio quo modo praetervolavit oratio.</a> <b>Aliter homines, aliter philosophos loqui putas oportere?</b> <a href="http://loripsum.net/" target="_blank">At iam decimum annum in spelunca iacet.</a> Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. <i>Sed ne, dum huic obsequor, vobis molestus sim.</i> <a href="http://loripsum.net/" target="_blank">Duo Reges: constructio interrete.</a> <a href="http://loripsum.net/" target="_blank">Ille incendat?</a> At iam decimum annum in spelunca iacet. Quid enim mihi potest esse optatius quam cum Catone, omnium virtutum auctore, de virtutibus disputare? </p>
+
+<p>De ingenio eius in his disputationibus, non de moribus quaeritur. Quorum altera prosunt, nocent altera. Habes, inquam, Cato, formam eorum, de quibus loquor, philosophorum. An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia? <a href="http://loripsum.net/" target="_blank">Ubi ut eam caperet aut quando?</a> Hanc ergo intuens debet institutum illud quasi signum absolvere. </p>
+
+<p>Sapiens autem semper beatus est et est aliquando in dolore; Sed quae tandem ista ratio est? An eum discere ea mavis, quae cum plane perdidiceriti nihil sciat? Quacumque enim ingredimur, in aliqua historia vestigium ponimus. <a href="http://loripsum.net/" target="_blank">Si longus, levis dictata sunt.</a> <i>Equidem, sed audistine modo de Carneade?</i> <b>Si longus, levis;</b> At enim hic etiam dolore. </p>
+
+<h2>Cur post Tarentum ad Archytam?</h2>
+
+<p>A primo, ut opinor, animantium ortu petitur origo summi boni. Vitiosum est enim in dividendo partem in genere numerare. Hoc est non modo cor non habere, sed ne palatum quidem. Illis videtur, qui illud non dubitant bonum dicere -; </p>
+
+<p><i>Praeteritis, inquit, gaudeo.</i> Aliter enim explicari, quod quaeritur, non potest. Cur id non ita fit? Ergo, si semel tristior effectus est, hilara vita amissa est? Nam diligi et carum esse iucundum est propterea, quia tutiorem vitam et voluptatem pleniorem efficit. Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi. </p>
+
+<p>Itaque primos congressus copulationesque et consuetudinum instituendarum voluntates fieri propter voluptatem; Respondeat totidem verbis. Primum in nostrane potestate est, quid meminerimus? Apparet statim, quae sint officia, quae actiones. Ipse Epicurus fortasse redderet, ut Sextus Peducaeus, Sex. Cur id non ita fit? Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi. At iam decimum annum in spelunca iacet. </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="other-resources">
+            <div id="other-resources-title" class="open-sans-bold f-large">
+                Other Resources
+            </div>
+            <div id="other-resources-links" class="open-sans f-small">
+                <a href="#">Demonstration slides</a>
+                <a href="#">Documentation</a>
+                <a href="#">Contact us</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--- FOOTER --->
+        <footer id="site-footer">
+            <div id="footer-top-container">
+                <div id="footer-top-inner">
+                    <div id="footer-content" class="f-x-small">
+                        Copyright © 2019-2021
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
