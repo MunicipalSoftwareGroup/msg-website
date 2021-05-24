@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="styles/popup.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="https://use.typekit.net/smw6ofn.css">
+    <link rel="stylesheet" href="styles/fontawesome-free-5.15.3-web/css/all.css">
+    
+    <script src="js/splash.js"></script>
 </head>
 
 <body class="open-sans" onscroll="highlight()">
@@ -144,13 +147,31 @@
                                 </a> -->
                             </div>
                         </div>
+                        <div id="info-container">
+                            <div id="tip-box">
+                                <div id="tip-box-header" class="open-sans-bold f-small">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>Did you know?</p>
+                                    <div id="close-tip" onclick="closeTip()">
+                                        <div class="close-tip-x"></div>
+                                        <div class="close-tip-x"></div>
+                                    </div>
+                                </div>
+                                <div id="tip-box-body" class="open-sans f-x-small">
+                                    Content coming soon!
+                                </div>
+                            </div>
+                            <div id="news-box">
+                                <div id="news-box-header" class="open-sans-bold f-small">
+                                    <p>News & Announcements</p>
+                                </div>
+                                <div id="news-box-body" class="f-x-small scrollable">
+                                    No news today!
+                                </div>
+                            </div>
+                        </div>
                     </div>
-<!--
-                    <div id="splash-image">
-                                                <img src="images/map_v1-02.svg" />
-                    </div>
--->
-                    <a href="#pitch-section">
+                    <a href="#pitch-section" hidden>
                         <div id="scroll-arrow"></div>
                     </a>
                 </div>
@@ -335,4 +356,10 @@
 <script src="js/popup.js"></script>
 <script src="js/onload.js"></script>
 
+                        <script>
+                            var infoContainer = document.getElementById("info-container");
+                            var splashContent = document.getElementById("splash-content");
+
+                            infoContainer.style.height = getComputedStyle(splashContent).height;
+                        </script>
 </html>

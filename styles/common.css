@@ -7,6 +7,12 @@ html {
     background-color: #FAC173;
 }
 
+.scrollable {
+    scrollbar-color: #003375 transparent;
+    scrollbar-width: thin;
+    overflow-y: scroll;
+}
+
 .lora-bold {
     font-family: 'Lora Bold';
 }

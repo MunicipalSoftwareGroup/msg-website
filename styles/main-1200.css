@@ -16,18 +16,20 @@
         }
     }
 
-    /********** MAIN **********/
+    /********** MAIN **********/    
     #splash-body p {
-        line-height: 5.4rem;
+        line-height: 4.4rem;
     }
 
     #splash-line {
-        border-bottom: 16px solid white;
+        border-bottom: 14px solid #FAC173;
     }
     
     #splash-buttons {
-        margin-top: 2.5rem;
+        margin-top: 2.0rem;
+        height: auto;
     }
+    
     
     #pitch-body {
         flex-direction: row;
@@ -48,12 +50,16 @@
             grid-template-columns: auto 1203px auto;
         }
         
-        #splash-body p {
-            line-height: 5.7rem;
+        #splash-line {
+            width: 115%;
         }
         
-        #pitch-container, #about-us-container, #team-container, #contact-container {
-            grid-template-columns: auto 1080px auto;
+        #splash-body p {
+            line-height: 4.7rem;
+        }
+        
+        #splash-container, #pitch-container, #about-us-container, #team-container, #contact-container {
+            grid-template-columns: auto 1203px auto;
         }
     }
 }

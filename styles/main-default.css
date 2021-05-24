@@ -65,13 +65,6 @@
     align-items: center;
     grid-column: 2 / 3;
     min-width: 100%;
-    height: -o-calc(100vh - 100px);
-    /* opera */
-    height: -webkit-calc(100vh - 100px);
-    /* google, safari */
-    height: -moz-calc(100vh - 100px);
-    /* firefox */
-    height: calc(100vh - 100px);
 }
 
 #splash-content {
@@ -105,7 +98,6 @@
     display: flex;
     justify-content: space-around;
     align-self: center;
-    height: 2rem;
     margin-top: 2rem;
 }
 
@@ -120,6 +112,11 @@
     color: white;
     border-radius: 5px;
     margin: 0 1rem;
+    box-shadow: 0px 14px 20px 10px rgba(0, 0, 0, .2);
+}
+
+.button:hover {
+    background-color: #008FFF;
 }
 
 #splash-image {
@@ -139,6 +136,10 @@
 
 #splash-image img {
     width: 100%;
+}
+
+#info-container {
+    display: none;
 }
 
 #pitch-container {
