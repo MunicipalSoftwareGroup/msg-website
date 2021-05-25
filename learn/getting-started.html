@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Municipal Software Group</title>
+
+    <meta name="viewport" , content="width=device-width, initial-scale=1">
+    <meta name="author" content="Collin Brittain">
+    <meta name="description" content>
+
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/burger.css">
+    <link rel="stylesheet" href="/styles/learn-default.css">
+    <link rel="stylesheet" href="/styles/learn-480.css">
+    <link rel="stylesheet" href="/styles/learn-992.css">
+    <link rel="stylesheet" href="/styles/learn-1200.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/fontawesome-free-5.15.3-web/css/all.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/toggleMenu.js"></script>
+    <script src="/js/closeMenu.js"></script>
+    <script src="/js/onload.js"></script>
+</head>
+
+<body style="max-width: 100%;  min-height: 100%">
+    <a id="top"></a>
+    <header>
+        <iframe src="/header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
+    </header>
+    <div id="title-container">
+        <div id="title-inner">
+            <div id="title-content" class="open-sans-bold f-x-large">
+                <p id="title">Learning Center</p>
+                
+                <div id="search-bar">
+                    <div id="search-bar-inner">
+                        <div id="search-bar-icon">
+                            <img id="search-image" src="/images/searchicon.svg">
+                        </div>
+                        <input type="text" id="search-bar-entry" class="f-medium" oninput="search('learn', value)" />
+                    </div>
+                </div>
+            </div>
+            <div id="title-line"></div>
+        </div>
+    </div>
+    <div id="content-container">
+        <div id="content-inner">
+            <div id="main-content">
+                <div id="table-of-contents-container">
+<!--
+                    <div id="table-of-contents-header" class="open-sans-bold f-large">
+                        Table of Contents
+                    </div>
+-->
+                    <ul id="table-of-contents" class="f-small">
+                        <li class="item"><a href="/learn">Welcome</a></li>
+                        <li class="item"><a href="/learn/getting-started">Getting Started</a></li>
+                        <li>
+                            <span class="dropdown"> 
+                                <span class="chevron fas fa-chevron-right f-chevron"></span>
+                                Dropdown
+                            </span>
+                            <ul>
+                                <li class="item">First link</li>
+                                <li class="item">Second</li>
+                                <li class="item">Here's another link</li>
+                                <li>
+                                    <span class="dropdown">
+                                        <span class="chevron fas fa-chevron-right f-chevron"></span>
+                                        A nested dropdown
+                                    </span>
+                                    <ul>
+                                        <li class="item">Double nesting!</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="reading-content">
+                    <div id="reading-content-header" class="open-sans-bold f-large">
+                        Getting Started
+                    </div>
+                    <div id="reading-content-body">
+                    </div>
+                </div>
+            </div>
+            <div id="other-resources">
+            <div id="other-resources-title" class="open-sans-bold f-large">
+                Other Resources
+            </div>
+            <div id="other-resources-links" class="open-sans f-small">
+                <a href="/demo">Demonstration slides</a>
+                <a href="/#contact-section">Contact us</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--- FOOTER --->
+        <footer id="site-footer">
+            <div id="footer-top-container">
+                <div id="footer-top-inner">
+                    <div id="footer-content" class="f-x-small">
+                        Copyright © 2019-2021
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    <script type="text/javascript">
+        $(document).on('click', '.dropdown', function () {
+            
+            if (!$(this).children('.chevron').hasClass('rotate90chevron')) {
+                console.log("rotate1");
+                $(this).children('.chevron').addClass('rotate90chevron');
+            }
+            else {
+                console.log("rotate2");
+                $(this).children('.chevron').removeClass('rotate90chevron');
+            }
+            
+            $(this).parent().children('ul').toggle();
+        });
+    </script>
+</body>
+
+</html>
