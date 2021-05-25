@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="styles/learn-992.css">
     <link rel="stylesheet" href="styles/learn-1200.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/fontawesome-free-5.15.3-web/css/all.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/search.js"></script>
@@ -55,18 +56,34 @@
         <div id="content-inner">
             <div id="main-content">
                 <div id="table-of-contents-container">
+<!--
                     <div id="table-of-contents-header" class="open-sans-bold f-large">
                         Table of Contents
                     </div>
+-->
                     <ul id="table-of-contents" class="f-small">
-                        <li onclick="openSlide(0)">Case Management</li>
-                        <li onclick="openSlide(27)">
-                            Searching for Records
+                        <li class="item">Welcome</li>
+                        <li class="item">Getting Started</li>
+                        <li>
+                            <span class="dropdown"> 
+                                <span class="chevron fas fa-chevron-right f-chevron"></span>
+                                Dropdown
+                            </span>
+                            <ul>
+                                <li class="item">First link</li>
+                                <li class="item">Second</li>
+                                <li class="item">Here's another link</li>
+                                <li>
+                                    <span class="dropdown">
+                                        <span class="chevron fas fa-chevron-right f-chevron"></span>
+                                        A nested dropdown
+                                    </span>
+                                    <ul>
+                                        <li class="item">Double nesting!</li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
-                        <li onclick="openSlide(47)">Red Alerts</li>
-                        <li onclick="openSlide(52)">Tables</li>
-                        <li onclick="openSlide(59)">Documents</li>
-                        <li onclick="openSlide(78)">Payments</li>
                     </ul>
                 </div>
                 <div id="reading-content">
@@ -114,6 +131,22 @@
                 </div>
             </div>
         </footer>
+        
+    <script type="text/javascript">
+        $(document).on('click', '.dropdown', function () {
+            
+            if (!$(this).children('.chevron').hasClass('rotate90chevron')) {
+                console.log("rotate1");
+                $(this).children('.chevron').addClass('rotate90chevron');
+            }
+            else {
+                console.log("rotate2");
+                $(this).children('.chevron').removeClass('rotate90chevron');
+            }
+            
+            $(this).parent().children('ul').toggle();
+        });
+    </script>
 </body>
 
 </html>

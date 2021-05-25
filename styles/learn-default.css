@@ -118,13 +118,36 @@
     margin: 0.5rem 0;
 }
 
-#table-of-contents li {
-    line-height: 1.5rem;
+#table-of-contents * {
+    cursor: pointer;
+    user-select: none;
 }
 
-#table-of-contents li:hover {
-    color: #006DFF;
-    cursor: pointer;
+.item, .dropdown {
+    line-height: 160%;
+}
+
+.item:hover, .dropdown:hover {
+    text-decoration: underline;
+}
+
+.dropdown {  
+    position: relative;
+}
+
+.dropdown ~ ul {
+    display: none;
+}
+
+.chevron {
+    position: absolute;
+    right: calc(100% + 0.4rem);
+    top: 0.075rem;
+}
+
+ul {
+    margin-left: 2rem;
+    list-style: none;
 }
 
 #reading-content {

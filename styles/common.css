@@ -13,6 +13,12 @@ html {
     overflow-y: scroll;
 }
 
+.rotate90chevron {
+    transform-origin: 50% 50%;
+    transform: rotate(90deg);
+    transition: transform 0.2s;
+}
+
 .lora-bold {
     font-family: 'Lora Bold';
 }

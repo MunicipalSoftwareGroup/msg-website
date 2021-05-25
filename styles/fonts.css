@@ -94,6 +94,12 @@
     font-size: 0.55rem;
 }
 
+.f-chevron {
+    font-size: 0.56rem;
+    margin-top: 0.03rem;
+    margin-right: 0.15rem;
+}
+
 @media (min-width: 375px) {
     .f-thanks-text {
         font-size: 0.65rem;
@@ -150,6 +156,12 @@
     
     .f-thanks-text {
         font-size: 0.83rem;
+    }
+    
+    .f-chevron {
+        font-size: 0.56rem;
+        margin-top: 0.03rem;
+        margin-right: 0.15rem;
     }
     
     @media (max-width: 850px) {
@@ -216,7 +228,7 @@
     }
     
     .f-splash-body {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     
     .f-splash-buttons {
@@ -229,6 +241,12 @@
     
     .f-thanks-text {
         font-size: 0.68rem;
+    }
+    
+    .f-chevron {
+        font-size: 0.51rem;
+        margin-top: 0.025rem;
+        margin-right: 0.12rem;
     }
 }
 
@@ -262,7 +280,7 @@
     }
     
     .f-splash-body {
-        font-size: 5.5rem;
+        font-size: 5rem;
     }
     
     .f-pitch-body {
@@ -271,6 +289,12 @@
     
     .f-thanks-text {
         font-size: 0.75rem;
+    }
+    
+    .f-chevron {
+        font-size: 0.56rem;
+        margin-top: 0.03rem;
+        margin-right: 0.15rem;
     }
 }
 
@@ -313,5 +337,11 @@
     
     .f-thanks-text {
         font-size: 0.95rem;
+    }
+    
+    .f-chevron {
+        font-size: 0.7rem;
+        margin-top: 0.05rem;
+        margin-right: 0.2rem;
     }
 }

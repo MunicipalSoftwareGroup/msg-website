@@ -28,7 +28,7 @@
         max-height: -moz-calc(60vh - 100px);
         /* firefox */
         max-height: calc(60vh - 100px);
-        background: linear-gradient(to right, #003375, #003375, #006DFF); 
+        background: linear-gradient(to right, #003375, #003375, #0049BB); 
     }
     
     #splash-inner {
