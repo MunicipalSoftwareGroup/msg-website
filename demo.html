@@ -11,28 +11,28 @@
     <meta name="author" content="Collin Brittain" />
     <meta name="description" content />
 
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/common.css" />
-    <link rel="stylesheet" href="styles/fonts.css" />
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/burger.css" />
-    <link rel="stylesheet" href="styles/demo-default.css" />
-    <link rel="stylesheet" href="styles/demo-480.css" />
-    <link rel="stylesheet" href="styles/demo-992.css" />
-    <link rel="stylesheet" href="styles/demo-1200.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/common.css" />
+    <link rel="stylesheet" href="/styles/fonts.css" />
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/burger.css" />
+    <link rel="stylesheet" href="/styles/demo-default.css" />
+    <link rel="stylesheet" href="/styles/demo-480.css" />
+    <link rel="stylesheet" href="/styles/demo-992.css" />
+    <link rel="stylesheet" href="/styles/demo-1200.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <script src="js/toggleMenu.js"></script>
-    <script src="js/closeMenu.js"></script>
-    <script src="js/onload.js"></script>
-    <script src="js/demo.js"></script>
+    <script src="/js/toggleMenu.js"></script>
+    <script src="/js/closeMenu.js"></script>
+    <script src="/js/onload.js"></script>
+    <script src="/js/demo.js"></script>
 </head>
 
 <body>
     <a id="top"></a>
     <header>
-        <iframe src="header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
+        <iframe src="/header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
     </header>
     <div id="wrapper">
         <p id="current-slide" hidden>0</p>
@@ -82,8 +82,8 @@
                     <br />
                     <p>
                         If you are an existing user, we recommend visiting
-                        the <a href="help">help center</a>, and then
-                        <a href="#contact-section">contact us</a> if you do
+                        the <a href="/learn">learning center</a> (under construction), and then
+                        <a href="/#contact-section">contact us</a> if you do
                         not find an answer to your question.
                     </p>
                     <div id="start-button-container">
@@ -101,7 +101,7 @@
                     <div id="prev-arrow"></div>
                 </div>
                 <div id="slide-area">
-                    <img id="slide" src="images/slides/0.png" />
+                    <img id="slide" src="/images/slides/0.png" />
                 </div>
                 <div id="next" class="nav-arrow" onclick="nextSlide()" onerror="prevSlide()">
                     <div id="next-arrow"></div>

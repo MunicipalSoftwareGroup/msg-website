@@ -12,22 +12,22 @@
     <meta name="author" content="Collin Brittain">
     <meta name="description" content>
 
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/burger.css">
-    <link rel="stylesheet" href="styles/scrollArrow.css">
-    <link rel="stylesheet" href="styles/main-default.css">
-    <link rel="stylesheet" href="styles/main-480.css">
-    <link rel="stylesheet" href="styles/main-992.css">
-    <link rel="stylesheet" href="styles/main-1200.css">
-    <link rel="stylesheet" href="styles/popup.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/burger.css">
+    <link rel="stylesheet" href="/styles/scrollArrow.css">
+    <link rel="stylesheet" href="/styles/main-default.css">
+    <link rel="stylesheet" href="/styles/main-480.css">
+    <link rel="stylesheet" href="/styles/main-992.css">
+    <link rel="stylesheet" href="/styles/main-1200.css">
+    <link rel="stylesheet" href="/styles/popup.css">
+    <link rel="stylesheet" href="/styles/footer.css">
     <link rel="stylesheet" href="https://use.typekit.net/smw6ofn.css">
-    <link rel="stylesheet" href="styles/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="/styles/fontawesome-free-5.15.3-web/css/all.css">
     
-    <script src="js/splash.js"></script>
+    <script src="/js/splash.js"></script>
 </head>
 
 <body class="open-sans" onscroll="highlight()">
@@ -35,16 +35,16 @@
     <div id="wrapper">
         <div id="scroll-menu" hidden>
             <ul id="scroll-menu-list">
-                <a href="#top">
+                <a href="/#top">
                     <li class="scroll-menu-item">Top</li>
                 </a>
-                <a href="#pitch-section">
+                <a href="/#pitch-section">
                     <li class="scroll-menu-item">Our Software</li>
                 </a>
-                <a href="#about-us-section">
+                <a href="/#about-us-section">
                     <li class="scroll-menu-item">About Us</li>
                 </a>
-                <a href="#contact-section">
+                <a href="/#contact-section">
                     <li class="scroll-menu-item">Contact Us</li>
                 </a>
             </ul>
@@ -70,7 +70,7 @@
 
         <!--- HEADER --->
         <header id="grid-site-header">
-            <iframe src="header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
+            <iframe src="/header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
         </header>
 
         <!-- MAIN CONTENT --->
@@ -136,7 +136,7 @@
                             <div id="pitch-body" class="f-medium light-blue-background-text">
                                 <div id="feature1" class="feature" onclick="openPopup(this)">
                                     <div class="feature-image">
-                                        <img id="feature1-image" src="images/CaseDataGraphic.svg" />
+                                        <img id="feature1-image" src="/images/CaseDataGraphic.svg" />
                                     </div>
                                     <div id="feature1-title" class="feature-title open-sans-bold f-feature-title">
                                         Data Entry
@@ -147,7 +147,7 @@
                                 </div>
                                 <div id="feature2" class="feature" onclick="openPopup(this)">
                                     <div class="feature-image">
-                                        <img id="feature2-image" src="images/PDFGraphic.svg" />
+                                        <img id="feature2-image" src="/images/PDFGraphic.svg" />
                                     </div>
                                     <div id="feature2-title" class="feature-title open-sans-bold f-feature-title">
                                         Create and Edit Documents
@@ -158,7 +158,7 @@
                                 </div>
                                 <div id="feature5" class="feature" onclick="openPopup(this)">
                                     <div class="feature-image">
-                                        <img id="feature5-image" src="images/ReportGraphic.svg" />
+                                        <img id="feature5-image" src="/images/ReportGraphic.svg" />
                                     </div>
                                     <div id="feature5-title" class="feature-title open-sans-bold f-feature-title">
                                         Generate Reports
@@ -169,7 +169,7 @@
                                 </div>
                                 <div id="feature4" class="feature" onclick="openPopup(this)">
                                     <div class="feature-image">
-                                        <img id="feature4-image" src="images/SignaturePadGraphic.svg" />
+                                        <img id="feature4-image" src="/images/SignaturePadGraphic.svg" />
                                     </div>
                                     <div id="feature4-title" class="feature-title open-sans-bold f-feature-title">
                                         Sign Documents
@@ -180,7 +180,7 @@
                                 </div>
                                 <div id="feature3" class="feature" onclick="openPopup(this)">
                                     <div class="feature-image">
-                                        <img id="feature3-image" src="images/PaymentGraphic.svg" />
+                                        <img id="feature3-image" src="/images/PaymentGraphic.svg" />
                                     </div>
                                     <div id="feature3-title" class="feature-title open-sans-bold f-feature-title">
                                         Take Payments
@@ -198,7 +198,7 @@
                     <div id="about-us-inner">
                         <div id="about-us-content">
                             <div id="about-us-bg-box"></div>
-                            <img src="images/about-us.png" id="about-us-image" />
+                            <img src="/images/about-us.png" id="about-us-image" />
                             <div id="about-us-text">
                                 <div id="about-us-header" class="open-sans-bold f-x-large">
                                     About Us
@@ -218,7 +218,7 @@
                             </div>
                             <div id="team-line" class="orange-line"></div>
                             <div id="daryl" class="profile light-blue-background-text">
-                                <img src="images/daryl.jpg" class="profile-image" />
+                                <img src="/images/daryl.jpg" class="profile-image" />
                                 <div class="profile-text">
                                     <div class="profile-header open-sans-bold f-large">
                                         DARYL ROTTA
@@ -244,7 +244,7 @@
                                         Collin is the newest addition to the team. He and his wife, Cara, enjoy spending time with their puppy and kitten, watching Auburn football, and brewing perfect cups of coffee.
                                     </div>
                                 </div>
-                                <img src="images/collin.jpg" class="profile-image" />
+                                <img src="/images/collin.jpg" class="profile-image" />
                             </div>
                         </div>
                     </div>
@@ -300,16 +300,15 @@
         </footer>
     </div>
 </body>
-<script src="js/highlightScrollMenu.js"></script>
-<script src="js/toggleMenu.js"></script>
-<script src="js/closeMenu.js"></script>
-<script src="js/popup.js"></script>
-<script src="js/onload.js"></script>
+<script src="/js/highlightScrollMenu.js"></script>
+<script src="/js/toggleMenu.js"></script>
+<script src="/js/closeMenu.js"></script>
+<script src="/js/popup.js"></script>
+<script src="/js/onload.js"></script>
+<script>
+    var infoContainer = document.getElementById("info-container");
+    var splashContent = document.getElementById("splash-content");
 
-                        <script>
-                            var infoContainer = document.getElementById("info-container");
-                            var splashContent = document.getElementById("splash-content");
-
-                            infoContainer.style.height = getComputedStyle(splashContent).height;
-                        </script>
+    infoContainer.style.height = getComputedStyle(splashContent).height;
+</script>
 </html>

@@ -11,28 +11,28 @@
     <meta name="author" content="Collin Brittain">
     <meta name="description" content>
 
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/burger.css">
-    <link rel="stylesheet" href="styles/faq-default.css">
-    <link rel="stylesheet" href="styles/faq-480.css">
-    <link rel="stylesheet" href="styles/faq-992.css">
-    <link rel="stylesheet" href="styles/faq-1200.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/burger.css">
+    <link rel="stylesheet" href="/styles/faq-default.css">
+    <link rel="stylesheet" href="/styles/faq-480.css">
+    <link rel="stylesheet" href="/styles/faq-992.css">
+    <link rel="stylesheet" href="/styles/faq-1200.css">
+    <link rel="stylesheet" href="/styles/footer.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/search.js"></script>
-    <script src="js/toggleMenu.js"></script>
-    <script src="js/closeMenu.js"></script>
-    <script src="js/onload.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/toggleMenu.js"></script>
+    <script src="/js/closeMenu.js"></script>
+    <script src="/js/onload.js"></script>
 </head>
 
 <body style="max-width: 100%;  min-height: 100%">
     <a id="top"></a>
     <header>
-        <iframe src="header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
+        <iframe src="/header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
     </header>
     <div id="title-container">
         <div id="title-inner">
@@ -42,7 +42,7 @@
             <div id="search-bar">
                 <div id="search-bar-inner">
                     <div id="search-bar-icon">
-                        <img id="search-image" src="images/searchicon.svg">
+                        <img id="search-image" src="/images/searchicon.svg">
                     </div>
                     <input type="text" id="search-bar-entry" class="f-medium" oninput="search('faq', value)" />
                 </div>
@@ -140,9 +140,8 @@
                 Other Resources
             </div>
             <div id="other-resources-links" class="open-sans f-small">
-                <a href="#">Demonstration slides</a>
-                <a href="#">Documentation</a>
-                <a href="#">Contact us</a>
+                <a href="/demo">Demonstration slides</a>
+                <a href="/#contact-section">Contact us</a>
             </div>
             </div>
         </div>

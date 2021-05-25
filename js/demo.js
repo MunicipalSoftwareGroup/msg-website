@@ -1,7 +1,7 @@
 function startDemo() {
 	var slide = document.getElementById("slide");
 
-	slide.src = "images\\slides\\0.png";
+	slide.src = "\\images\\slides\\0.png";
 	setCurrentSlide(0);
 	showDemo();
 }
@@ -85,11 +85,11 @@ function setCurrentSlide(num) {
 }
 
 function getSlidesPath() {
-	return "images\\slides\\";
+	return "\\images\\slides\\";
 }
 
 async function getSlides() {
-	return await $.getJSON("demo.json", null).then(function (json) {
+	return await $.getJSON("\\demo.json", null).then(function (json) {
 		return json.slides;
 	});
 }
