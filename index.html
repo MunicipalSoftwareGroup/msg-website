@@ -70,57 +70,7 @@
 
         <!--- HEADER --->
         <header id="grid-site-header">
-            <div id="header-top-container">
-                <div id="header-top-inner">
-                    <div id="msg-logo">
-                        <div id="msg-logo-content" class="open-sans-bold f-logo">
-                            <a href="">
-                                <img src="images/LogoWithText.svg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div id="burger-wrapper">
-                        <input id="burger-input" type="checkbox" />
-                        <div id="burger">
-                            <span id="burger-top-line"></span>
-                            <span id="burger-middle-line"></span>
-                            <span id="burger-bottom-line"></span>
-                        </div>
-                        <ul id="burger-menu" class="open-sans-bold">
-                            <li class="burger-menu-item">
-                                <a href="demo" class="burger-link">Learn</a>
-                            </li>
-                            <li class="burger-menu-item">
-                                <a href="faq" class="burger-link">FAQ</a>
-                            </li>
-                            <li class="burger-menu-item">
-                                <a href="#contact-section" class="burger-link">Contact Us</a>
-                            </li>
-                            <!--<li class="header-menu-item">
-                        <a href="documentation/introduction.html" class="burger-link">Documentation</a>
-                    </li>-->
-                        </ul>
-                    </div>
-                    <nav id="header-menu" class="open-sans-bold f-menu">
-                        <div id="header-menu-inner">
-                            <ul id="header-menu-content">
-                                <li class="header-menu-item">
-                                    <a href="">Learn</a>
-                                </li>
-                                <li class="header-menu-item">
-                                    <a href="faq">FAQ</a>
-                                </li>
-                                <li class="header-menu-item">
-                                    <a href="#contact-section">Contact Us</a>
-                                </li>
-                                <!--<li class="header-menu-item">
-                            <a href="documentation/introduction.html">Documentation</a>
-                        </li>-->
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
+            <iframe src="header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
         </header>
 
         <!-- MAIN CONTENT --->
