@@ -1,0 +1,5 @@
+Dark Blue: #003375
+Orange: #FAC173
+Light Blue: #006DFF
+Very Light Blue: 
+Very Light Orange: #FFFCF7
