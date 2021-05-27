@@ -97,13 +97,25 @@
         <div id="dark-overlay"></div>
         <div id="demo-container" onclick="checkClose(event)">
             <div id="demo-container-inner">
+                <div id="toc-navigation">
+                    <div id="toc-controls">
+                        <span></span>
+                        <span id="c1" class="tc-control" onclick="openSlide(0)"><p>Case Management</p></span>
+                        <span id="c2" class="tc-control" onclick="openSlide(27)"><p>Search</p></span>
+                        <span id="c3" class="tc-control" onclick="openSlide(47)"><p>Red Alerts</p></span>
+                        <span id="c4" class="tc-control" onclick="openSlide(52)"><p>Tables</p></span>
+                        <span id="c5" class="tc-control" onclick="openSlide(59)"><p>Documents</p></span>
+                        <span id="c6" class="tc-control" onclick="openSlide(78)"><p>Payments</p></span>
+                        <span></span>
+                    </div>
+                </div>
                 <div id="prev" class="nav-arrow" onclick="prevSlide()">
                     <div id="prev-arrow"></div>
                 </div>
                 <div id="slide-area">
                     <img id="slide" src="/images/slides/0.png" />
                 </div>
-                <div id="next" class="nav-arrow" onclick="nextSlide()" onerror="prevSlide()">
+                <div id="next" class="nav-arrow" onclick="nextSlide()">
                     <div id="next-arrow"></div>
                 </div>
                 <div id="top-bar" onclick="hideDemo()">
@@ -113,6 +125,9 @@
             </div>
         </div>
     </div>
+<script>
+    window.addEventListener("keydown", "checkKey(e)"
+</script>
 </body>
 <footer>
 </footer>

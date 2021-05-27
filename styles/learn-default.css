@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     width: 100%;
-    min-height: 5rem;
+    min-height: calc(40vh - 100px);
     background-color: #FAC173;
     align-items: center;
 }

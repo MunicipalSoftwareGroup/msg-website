@@ -2,7 +2,7 @@ function startDemo() {
 	var slide = document.getElementById("slide");
 
 	slide.src = "\\images\\slides\\0.png";
-	setCurrentSlide(0);
+	openSlide(0);
 	showDemo();
 }
 
@@ -31,45 +31,48 @@ function hideDemo() {
 }
 
 async function nextSlide() {
-	var slide = document.getElementById("slide");
-	var slides = await getSlides();
-	slides.keys;
 	var num = getCurrentSlide();
-	var newNum = num + 1;
-
-	if (slides[newNum + 1] === undefined) {
-		console.error("Slide is null");
-		return;
-	}
-
-	slide.src = getSlidesPath() + slides[newNum];
-	setCurrentSlide(newNum);
+    
+    openSlide(num + 1);
 }
 
 async function prevSlide() {
-	var slide = document.getElementById("slide");
-	var slides = await getSlides();
 	var num = getCurrentSlide();
-	var newNum = num - 1;
-
-	if (newNum < 0) return;
-
-	if (slides[newNum] === undefined) {
-		console.error("Slide is null");
-		return;
-	}
-
-	slide.src = getSlidesPath() + slides[newNum];
-	setCurrentSlide(newNum);
+    
+    openSlide(num - 1);
 }
 
 async function openSlide(newNum) {
 	var slide = document.getElementById("slide");
 	var slides = await getSlides();
-	var num = getCurrentSlide();
 
-	slide.src = getSlidesPath() + slides[newNum];
+	if (slides[newNum] === undefined) {
+		console.error("Slide is null");
+		return;
+	}
+    
 	setCurrentSlide(newNum);
+	slide.src = getSlidesPath() + slides[newNum];
+    
+    if (newNum >= 0 && newNum < 27) {
+        highlight("c1");
+    }
+    else if (newNum >= 27 && newNum < 47) {
+        highlight("c2");
+    }
+    else if (newNum >= 47 && newNum < 52) {
+        highlight("c3");
+    }
+    else if (newNum >= 52 && newNum < 59) {
+        highlight("c4");
+    }
+    else if (newNum >= 59 && newNum < 78) {
+        highlight("c5");
+    }
+    else if (newNum >= 78 && newNum < 95) {
+        highlight("c6");
+    }
+    
 	showDemo();
 }
 
@@ -92,4 +95,20 @@ async function getSlides() {
 	return await $.getJSON("\\demo.json", null).then(function (json) {
 		return json.slides;
 	});
+}
+
+async function updateControls() {
+    var controls = document.getElementsByClassName("tc-control");
+    
+//    highlight(id);
+}
+
+function highlight(id) {
+    var controls = document.getElementsByClassName("tc-control");
+    
+    for (var i = 1; i <= 6; i++) {
+        controls["c" + i].style.color = "#666";
+    }
+
+    document.getElementById(id).style.color = "white";
 }
