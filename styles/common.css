@@ -19,6 +19,11 @@ html {
     transition: transform 0.2s;
 }
 
+.back-home {
+    color: #003375;
+    margin-top: 1rem;
+}
+
 .lora-bold {
     font-family: 'Lora Bold';
 }

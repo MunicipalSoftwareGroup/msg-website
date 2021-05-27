@@ -2,10 +2,6 @@
     #title-container {
         height: 12rem; 
     }
-    
-    #search-bar{
-        margin-bottom: 1.5rem;
-    }
 }
 
 @media (min-width: 1350px) {
@@ -17,7 +13,4 @@
         height: 13rem;
     }
     
-    #search-bar {
-        margin: 1rem 0 2rem 0;   
-    }
 }

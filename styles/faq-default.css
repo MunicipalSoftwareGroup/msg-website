@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     grid-column: 2 / 3;
-    justify-content: flex-end;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
     align-content: center;
@@ -19,33 +19,42 @@
 
 #title-content {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     color: #003375;
     grid-column: 2 / 3;
+    margin-bottom: 1.5rem;
 }
 
 #search-bar {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.2rem;
-    width: 100%;
+    height: auto;
     border: 1px solid #003375;
     border-radius: 1.5rem;
-    margin: 1rem 0;
+    background-color: white;
 }
 
 #search-bar-inner {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
+    height: 2.2rem;
     margin: 0 0.5rem;
 }
 
-#search-bar-icon, #search-image {
+#search-bar-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+#search-image {
     width: 1rem;
-    height: inherit;   
 }
 
 #search-bar-entry {
