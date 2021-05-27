@@ -7,7 +7,6 @@
 /********** COLUMN LAYOUT **********/
 
 #splash-container,
-#pitch-container,
 #about-us-container,
 #team-container,
 #contact-container {
@@ -16,7 +15,6 @@
 }
 
 #splash-inner,
-#pitch-inner,
 #about-us-inner,
 #team-inner,
 #contact-inner {
@@ -146,40 +144,25 @@
 }
 
 #pitch-container {
+    display: flex;
+    flex-direction: column;
     height: auto;
     min-height: 100vh;
+    min-width: calc(100vw + 180rem);
+    justify-content: flex-start;
     background-color: #EBF3FF;
 }
 
-#pitch-inner {
+#feature-container {
     display: flex;
-    margin: 5rem 0 5rem 0;
-}
-
-#pitch-content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-}
-
-#pitch-header {
-    width: 12em;
-}
-
-#pitch-line {
-    margin: 0.5rem 0 1.5rem 0;
-}
-
-#pitch-body {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
+    position: relative;
+    left: calc(50vw - 18rem);
+    margin-top: 2rem;
 }
 
 .feature {
-    width: 100%;
-    margin: 2rem 0 6rem 0;
+    width: 30rem;
+    margin: 0 3rem;
 }
 
 .feature-image {
@@ -198,6 +181,27 @@
 
 .feature-body {
     text-align: center;
+}
+
+#feature-nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    width: 10rem;
+    left: calc(50vw - 5rem);
+    margin-top: 3rem;
+}
+
+.feature-nav-button {
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 100%;
+    background-color: #003375;
+}
+
+.feature-nav-button:hover {
+    cursor: pointer;
 }
 
 #about-us-container {

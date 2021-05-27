@@ -30,12 +30,6 @@
         height: auto;
     }
     
-    
-    #pitch-body {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
     #contact-form {
         max-width: 27rem;
         width: 110%;
@@ -58,7 +52,7 @@
             line-height: 4.7rem;
         }
         
-        #splash-container, #pitch-container, #about-us-container, #team-container, #contact-container {
+        #splash-container, #about-us-container, #team-container, #contact-container {
             grid-template-columns: auto 1203px auto;
         }
     }
