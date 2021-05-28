@@ -30,6 +30,10 @@
         height: auto;
     }
     
+    #feature-container {
+        flex-wrap: nowrap;
+    }
+    
     #contact-form {
         max-width: 27rem;
         width: 110%;

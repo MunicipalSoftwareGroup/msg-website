@@ -146,6 +146,28 @@
         padding: 0rem 1rem;
         padding-right: 0.5rem;
     }
+    
+    #pitch-container {
+        min-height: -o-calc(40vh);
+        /* opera */
+        min-height: -webkit-calc(40vh);
+        /* google, safari */
+        min-height: -moz-calc(40vh);
+        /* firefox */
+        min-height: calc(40vh);
+    }
+    
+    #feature-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .feature {
+        position: relative;
+        flex-basis: 33%;
+        width: 12rem;
+        margin-top: 3rem;
+    }
 
     #pitch-line {
         width: 75%;

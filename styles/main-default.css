@@ -145,10 +145,8 @@
 
 #pitch-container {
     display: flex;
-    position: static;
     flex-direction: column;
     height: auto;
-    min-height: 100vh;
 /*    min-width: calc(100vw + 180rem);*/
     justify-content: flex-start;
     background-color: #EBF3FF;
@@ -156,16 +154,14 @@
 
 #feature-container {
     display: flex;
-    position: absolute;
-    left: 0;
-    margin-top: 2rem;
-    width: 100vw;
-    transition: left 1s ease-in-out;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 2rem;
+    height: auto;
 }
 
 .feature {
-    width: 20rem;
-    height: 20rem;
 /*    margin: 0 4rem;*/
 }
 
@@ -175,7 +171,7 @@
 }
 
 .feature-image img {
-    height: 10rem;
+    height: 7.5rem;
 }
 
 .feature-title {
@@ -184,6 +180,7 @@
 }
 
 .feature-body {
+    display: none;
     text-align: center;
     font-size: 0.9rem;
 }
