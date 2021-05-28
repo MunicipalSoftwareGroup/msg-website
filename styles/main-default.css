@@ -145,24 +145,28 @@
 
 #pitch-container {
     display: flex;
+    position: static;
     flex-direction: column;
     height: auto;
     min-height: 100vh;
-    min-width: calc(100vw + 180rem);
+/*    min-width: calc(100vw + 180rem);*/
     justify-content: flex-start;
     background-color: #EBF3FF;
 }
 
 #feature-container {
     display: flex;
-    position: relative;
-    left: calc(50vw - 18rem);
+    position: absolute;
+    left: 0;
     margin-top: 2rem;
+    width: 100vw;
+    transition: left 1s ease-in-out;
 }
 
 .feature {
-    width: 30rem;
-    margin: 0 3rem;
+    width: 20rem;
+    height: 20rem;
+/*    margin: 0 4rem;*/
 }
 
 .feature-image {
@@ -181,6 +185,7 @@
 
 .feature-body {
     text-align: center;
+    font-size: 0.9rem;
 }
 
 #feature-nav {
@@ -188,9 +193,19 @@
     position: relative;
     align-items: center;
     justify-content: space-around;
+    height: 1rem;
     width: 10rem;
     left: calc(50vw - 5rem);
     margin-top: 3rem;
+    top: 22rem;
+}
+
+#feature-nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
 }
 
 .feature-nav-button {
@@ -198,6 +213,15 @@
     height: 0.65rem;
     border-radius: 100%;
     background-color: #003375;
+}
+
+.selected-nav-button {
+    width: 0.85rem;
+    height: 0.85rem;
+    background-color: #006DFF;
+    transition-property: background-color, width, height;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
 }
 
 .feature-nav-button:hover {

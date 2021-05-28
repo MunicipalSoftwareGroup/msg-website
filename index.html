@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="/styles/footer.css">
     <link rel="stylesheet" href="https://use.typekit.net/smw6ofn.css">
     <link rel="stylesheet" href="/styles/fontawesome-free-5.15.3-web/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script src="/js/splash.js"></script>
 </head>
@@ -185,12 +186,76 @@
                         </div>
                     </div>
                     <div id="feature-nav">
-                        <span class="feature-nav-button"></span>
-                        <span class="feature-nav-button"></span>
-                        <span class="feature-nav-button"></span>
-                        <span class="feature-nav-button"></span>
-                        <span class="feature-nav-button"></span>
+                        <div><span id="0" class="feature-nav-button selected-nav-button"></span></div>
+                        <div><span id="1" class="feature-nav-button"></span></div>
+                        <div><span id="2" class="feature-nav-button"></span></div>
+                        <div><span id="3" class="feature-nav-button"></span></div>
+                        <div><span id="4" class="feature-nav-button"></span></div>
                     </div>
+<!--
+                    <script>
+                        function nextFeature() {
+                            var container = document.getElementById("feature-container");
+                            var rect = container.getBoundingClientRect();
+                            var shift = rect.width/ 5;
+                            var pos = rect.left;
+                            
+                            if (pos < -(rect.width - (2*shift)))
+                                container.style.left = "calc(50vw - 15rem)";
+                            else 
+                                container.style.left = pos - shift + "px";
+                                
+                            nextNav(parseInt(sessionStorage.getItem("count")) + 1);
+                        }
+                        
+                        function nextNav(i) {
+                        console.log(i);
+                            var buttons = document.getElementsByClassName("feature-nav-button");
+                            var selected = "selected-nav-button";
+                            
+                            if (i == buttons.length)  {
+                                i = 0;
+                                buttons[buttons.length - 1].classList.remove(selected);
+                            }
+                            else {
+                                buttons[i - 1].classList.remove(selected);
+                            }
+                            
+                            buttons[i].classList.add(selected);
+                            
+                            sessionStorage.setItem("count", i);
+                        }
+                        
+                        function selectFeature(e) {
+                            var target = e.target;
+                            var id = parseInt(target.id);
+                            
+                            clearInterval(sessionStorage.getItem("intervalId"));
+                            
+                            // Move container to position
+                            var container = document.getElementById("feature-container");
+                            var rect = container.getBoundingClientRect();
+                            var shift = rect.width/ 5;
+                            
+                            container.style.left = "calc(50vw - 15rem - " + id * shift + "px)";
+                            
+                            // Update buttons
+                            var buttons = document.getElementsByClassName("feature-nav-button");
+                            
+                            for (var i = 0; i < buttons.length; i++) {
+                                buttons[i].classList.remove("selected-nav-button");
+                            }
+                            
+                            buttons[id].classList.add("selected-nav-button");
+                        }
+                        
+                        sessionStorage.setItem("count", 0);
+                        
+                        sessionStorage.setItem("intervalId", setInterval(nextFeature, 5000));
+                        
+                        $(".feature-nav-button").on("click", selectFeature);
+                    </script>
+-->
                 </div>
                 <!--
                             <div id="pitch-body" class="f-medium light-blue-background-text">
