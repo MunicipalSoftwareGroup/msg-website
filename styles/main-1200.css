@@ -31,7 +31,9 @@
     }
     
     #feature-container {
+        margin: 0;
         flex-wrap: nowrap;
+        height: 40vh;
     }
     
     .feature {
