@@ -131,6 +131,7 @@
 .answer-text {
     color: #003375;
     padding: 0.25rem 0.5rem;
+    margin: 0.5rem 1rem;
 }
 
 .question-toggle ~ .answer {
