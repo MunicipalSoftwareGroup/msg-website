@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/styles/faq-992.css">
     <link rel="stylesheet" href="/styles/faq-1200.css">
     <link rel="stylesheet" href="/styles/footer.css">
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/js/search.js"></script>
     <script src="/js/toggleMenu.js"></script>
@@ -39,7 +39,7 @@
             <div class="back-home f-x-small"><a href="/">&lt;&#160;&#160;&#160;Home</a></div>
             <div id="title-content" class="open-sans-bold f-x-large">
                 <div id="title">Frequently Asked Questions</div>
-                    <div id="search-bar">
+                <div id="search-bar">
                     <div id="search-bar-inner">
                         <div id="search-bar-icon">
                             <img id="search-image" src="/images/searchicon.svg">
@@ -53,35 +53,141 @@
     <div id="questions-container">
         <div id="questions-inner">
             <div id="common-questions">
-            <div id="search-results" class="open-sans f-small"></div>
-            <div id="questions-card" class="open-sans f-small">
-                <div id="faq1" class="question">
-                    <label for="1">
-                        <div class="question-inner">
-                            <input id="1" type="checkbox" class="question-toggle" />
-                            <div class="question-text">
-                                How do I merge two profiles?
-                            </div>
-                            <div class="answer">
-                                <div class="answer-text">
-                                    <ol>
-                                        <li>Open the Profile that is to be removed and click on the Delete button.</li>
+                <div id="search-results" class="open-sans f-small"></div>
+                <div id="questions-card" class="open-sans f-small">
+                    <div id="faq1" class="question">
+                        <label for="1">
+                            <div class="question-inner">
+                                <input id="1" type="checkbox" class="question-toggle" />
+                                <div class="question-text">
+                                    How do I merge two profiles?
+                                </div>
+                                <div class="answer">
+                                    <div class="answer-text">
+                                        <ol>
+                                            <li>Open the Profile that is to be removed and click on the Delete button.</li>
 
-                                        <li>If there are any records attached to this Profile a message asking to merge them with another Profile will appear.</li>
+                                            <li>If there are any records attached to this Profile a message asking to merge them with another Profile will appear.</li>
 
-                                        <li>Click ‘Yes’ and find the Profile to merge into.</li>
+                                            <li>Click ‘Yes’ and find the Profile to merge into.</li>
 
-                                        <li>Make sure the information on the confirmation screen is correct and click ‘Yes’. </li>
-                                    </ol>
+                                            <li>Make sure the information on the confirmation screen is correct and click ‘Yes’. </li>
+                                        </ol>
 
                                         <p>The old Profile is deleted and merged into the Profile that is now being displayed.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </label>
-                </div>
+                        </label>
+                    </div>
+                    <div id="faq2" class="question">
+                        <label for="2">
+                            <div class="question-inner">
+                                <input id="2" type="checkbox" class="question-toggle" />
+                                <div class="question-text">
+                                    How do I add a new charge?
+                                </div>
+                                <div class="answer">
+                                    <div class="answer-text">
+                                        <ol>
+                                            <li>Go to the Charges Table by clicking Tables > Quick Menu > Charges</li>
 
-<!--                <div id="faq2" class="question">
+                                            <li>Click on the Add Record icon in the top left corner.</li>
+
+                                            <li>Type in the Charge as it is desired to appear (Example: RUNNING A STOP SIGN)</li>
+
+                                            <li>If this is a traffic offence, type in the charge code under both Charge Code and State Charge Code (Example: T012)</li>
+
+                                            <li>Some Misdemeanor Charges have a charge code, but it is not required to be entered in the Charge Code Fields.</li>
+
+                                            <li>Traffic Charge Codes may be found on an eCitation on which they were given in the middle of the screen under TCode.</li>
+
+                                            <li>Enter the State Statute in the Statute field. (Example: 32-5A-112 or 13A-13-5)</li>
+
+                                            <li>Enter the Local Ordinance (that adopts all the state codes) in the Local Ordinance Field (Example: 13-1)</li>
+
+                                            <li>If the charge is not a state charge but is just a local ordinance, leave the Statute blank and enter that Local Ordinance.</li>
+
+                                            <li>If this Charge is NOT payable prior to court date, check the ‘Appearance Required’ Box.</li>
+
+                                            <li>If the payable amount is increased for Failure to Appear, put the amount increased (if any) in ‘FTA Add’ (example: $25)</li>
+
+                                            <li>In ‘FTA Amount’ put the total amount for a Failure to Appear.</li>
+
+                                            <li>If there is not increase for an FTA, this amount will be the same as the original payable amount.</li>
+
+                                            <li>Fill in the Complaint Verbiage if desired for use as the starting content of a new complaint.</li>
+
+                                            <li>Save the record.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div id="faq3" class="question">
+                        <label for="3">
+                            <div class="question-inner">
+                                <input id="3" type="checkbox" class="question-toggle" />
+                                <div class="question-text">
+                                    How do I add a new officer?
+                                </div>
+                                <div class="answer">
+                                    <div class="answer-text">
+                                        <ol>
+                                            <li>Go to the Officers Table by clicking Tables > Parties > Officers</li>
+
+                                            <li>Click on the Add icon in the upper left corner.</li>
+
+                                            <li>Right Click on the Officer Name Field and select ‘Create New Profile’</li>
+
+                                            <li>Enter the Officer’s Last Name, a comma, a space, and the First Name.</li>
+
+                                            <li>Press Enter.</li>
+
+                                            <li>Select the Officer’s Name if found OR click on ‘Not Found’</li>
+
+                                            <li>Enter the officer name. This is the only required field, other information is optional.</li>
+
+                                            <li>Click on the Save Button.</li>
+
+                                            <li>Exit out of the window by pressing ‘Esc’ or by clicking on the ‘X’ in the upper right corner.
+
+                                                This should bring up the Officer Screen again with the name in place.</li>
+
+                                            <li>The only other field that must be entered is the Badge Number.</li>
+
+                                            <li>Save the record.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div id="faq4" class="question">
+                        <label for="4">
+                            <div class="question-inner">
+                                <input id="4" type="checkbox" class="question-toggle" />
+                                <div class="question-text">
+                                    How do I change an officer’s badge number?
+                                </div>
+                                <div class="answer">
+                                    <div class="answer-text">
+                                        <ol>
+                                            <li>Go to the Officers Table by clicking Tables > Parties > Officers</li>
+
+                                            <li>Click on the Search icon and find the officer whose badge is to be changed.</li>
+
+                                            <li>Click on the ‘Officer Badge #’ field toward the middle left of the page.</li>
+
+                                            <li>Change the Badge Number to the correct number and save the record</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <!--                <div id="faq2" class="question">
                     <label for="2">
                         <div class="question-inner">
                             <input id="2" type="checkbox" class="question-toggle" />
@@ -144,29 +250,29 @@
                         </div>
                     </label>
                 </div>-->
-            </div>
+                </div>
             </div>
             <div id="other-resources">
-            <div id="other-resources-title" class="open-sans-bold f-large">
-                Other Resources
-            </div>
-            <div id="other-resources-links" class="open-sans f-small">
-                <a href="/demo">Demonstration slides</a>
-                <a href="/#contact-section">Contact us</a>
-            </div>
+                <div id="other-resources-title" class="open-sans-bold f-large">
+                    Other Resources
+                </div>
+                <div id="other-resources-links" class="open-sans f-small">
+                    <a href="/demo">Demonstration slides</a>
+                    <a href="/#contact-section">Contact us</a>
+                </div>
             </div>
         </div>
     </div>
     <!--- FOOTER --->
-        <footer id="site-footer">
-            <div id="footer-top-container">
-                <div id="footer-top-inner">
-                    <div id="footer-content" class="f-x-small">
-                        Copyright © 2019-2021
-                    </div>
+    <footer id="site-footer">
+        <div id="footer-top-container">
+            <div id="footer-top-inner">
+                <div id="footer-content" class="f-x-small">
+                    Copyright © 2019-2021
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 </body>
 
 </html>

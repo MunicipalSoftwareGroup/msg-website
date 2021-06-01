@@ -7,22 +7,17 @@
         },
         {
             "id": "faq2",
-            "question": "How do I change or delete officer badge number?",
-            "answer": ""
-        },
-        {
-            "id": "faq3",
             "question": "How do I add a new charge?",
             "answer": ""
         },
         {
-            "id": "faq4",
-            "question": "How do I add a new employee?",
+            "id": "faq3",
+            "question": "How do I add a new officer?",
             "answer": ""
         },
         {
-            "id": "faq5",
-            "question": "How do I add court dates?",
+            "id": "faq4",
+            "question": "How do I change an officer’s badge number?",
             "answer": ""
         }
     ]

@@ -116,8 +116,8 @@
 
 
 .answer {
-    transition-property: height;
-    transition-duration: 0.25s;
+    transition-property: max-height;
+    transition-duration: 0.5s;
     transition-delay: 0;
     overflow-y: scroll;
     border-bottom: 1px solid #CCC;
@@ -135,11 +135,11 @@
 }
 
 .question-toggle ~ .answer {
-    height: 0;
+    max-height: 0;
 }
 
 .question-toggle:checked ~ .answer {
-    height: 10rem;
+    max-height: 100rem;
 }
 
 .question {
