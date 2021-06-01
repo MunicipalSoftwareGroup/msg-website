@@ -147,12 +147,29 @@ ul {
     flex-direction: column;
     width: 100%;
     margin: 0 3rem;
+    word-wrap: normal;
 }
 
 #reading-content * {
     margin-bottom: 1.2rem;
 }
 
+.captioned-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.captioned-image img {
+    max-width: 95%;
+}
+
+.caption {
+    font-style: italic;
+}
 
 #reading-content-header {
 

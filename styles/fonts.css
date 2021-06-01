@@ -62,7 +62,7 @@
     font-size: 0.72rem;
 }
 
-.f-x-small {
+.f-x-small, .caption {
     font-size: 0.6rem;
 }
 
@@ -215,7 +215,7 @@
         font-size: 0.66rem;
     }
     
-    .f-x-small {
+    .f-x-small, .caption {
         font-size: 0.55rem;
     }
     
@@ -267,7 +267,7 @@
         font-size: 0.72rem;
     }
     
-    .f-x-small {
+    .f-x-small, .caption {
         font-size: 0.6rem;
     }
     
@@ -315,7 +315,7 @@
         font-size: 0.9rem;
     }
     
-    .f-x-small {
+    .f-x-small, .caption {
         font-size: 0.75rem;
     }
     
