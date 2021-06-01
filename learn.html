@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="/styles/learn-1200.css">
     <link rel="stylesheet" href="/styles/footer.css">
     <link rel="stylesheet" href="/styles/fontawesome-free-5.15.3-web/css/all.css">
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/js/search.js"></script>
     <script src="/js/toggleMenu.js"></script>
@@ -40,7 +40,7 @@
             <div class="back-home f-x-small"><a href="/">&lt;&#160;&#160;&#160;Home</a></div>
             <div id="title-content" class="open-sans-bold f-x-large">
                 <p id="title">Learning Center</p>
-                
+
                 <div id="search-bar">
                     <div id="search-bar-inner">
                         <div id="search-bar-icon">
@@ -56,14 +56,14 @@
         <div id="content-inner">
             <div id="main-content">
                 <div id="table-of-contents-container">
-<!--
+                    <!--
                     <div id="table-of-contents-header" class="open-sans-bold f-large">
                         Table of Contents
                     </div>
 -->
                     <ul id="table-of-contents" class="f-small">
                         <li class="item">Welcome</li>
-<!--
+                        <!--
                         <li class="item">Getting Started</li>
                         <li>
                             <span class="dropdown"> 
@@ -101,41 +101,41 @@
                 </div>
             </div>
             <div id="other-resources">
-            <div id="other-resources-title" class="open-sans-bold f-large">
-                Other Resources
-            </div>
-            <div id="other-resources-links" class="open-sans f-small">
-                <a href="/demo">Demonstration slides</a>
-                <a href="/#contact-section">Contact us</a>
-            </div>
+                <div id="other-resources-title" class="open-sans-bold f-large">
+                    Other Resources
+                </div>
+                <div id="other-resources-links" class="open-sans f-small">
+                    <a href="/demo">Demonstration slides</a>
+                    <a href="/#contact-section">Contact us</a>
+                </div>
             </div>
         </div>
     </div>
     <!--- FOOTER --->
-        <footer id="site-footer">
-            <div id="footer-top-container">
-                <div id="footer-top-inner">
-                    <div id="footer-content" class="f-x-small">
-                        Copyright © 2019-2021
-                    </div>
+    <footer id="site-footer">
+        <div id="footer-top-container">
+            <div id="footer-top-inner">
+                <div id="footer-content" class="f-x-small">
+                    Copyright © 2019-2021
                 </div>
             </div>
-        </footer>
-        
+        </div>
+    </footer>
+
     <script type="text/javascript">
-        $(document).on('click', '.dropdown', function () {
-            
+        $(document).on('click', '.dropdown', function() {
+
             if (!$(this).children('.chevron').hasClass('rotate90chevron')) {
                 console.log("rotate1");
                 $(this).children('.chevron').addClass('rotate90chevron');
-            }
-            else {
+            } else {
                 console.log("rotate2");
                 $(this).children('.chevron').removeClass('rotate90chevron');
             }
-            
+
             $(this).parent().children('ul').toggle();
         });
+
     </script>
 </body>
 
