@@ -50,21 +50,6 @@
                 </a>
             </ul>
         </div>
-        <!--<div id="feature-popup" onclick="closePopup()">
-            <div id="feature-popup-content">
-                <div id="feature-popup-close">X</div>
-                <img id="feature-popup-image" />
-                <div id="feature-popup-title" class="open-sans-bold f-x-large">
-                </div>
-                <div id="feature-popup-body">
-                    Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah
-                    Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah
-                    Blah blah blah blah Blah blah blah blah Blah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blah
-                    Blah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blah
-                    Blah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blahBlah blah blah blah
-                </div>
-            </div>
-        </div>-->
 
         <!--- HEADER --->
         <header id="grid-site-header">
@@ -88,11 +73,6 @@
                                         <p>Product Demo</p>
                                     </div>
                                 </a>
-                                <!-- <a href="help">
-                                    <div id="support" class="button open-sans-bold f-splash-buttons">
-                                        <p>Support</p>
-                                    </div>
-                                </a> -->
                             </div>
                         </div>
                         <div id="info-container">
@@ -182,139 +162,7 @@
                             </div>
                         </div>
                     </div>
-<!--
-                    <div id="feature-nav">
-                        <div><span id="0" class="feature-nav-button selected-nav-button"></span></div>
-                        <div><span id="1" class="feature-nav-button"></span></div>
-                        <div><span id="2" class="feature-nav-button"></span></div>
-                        <div><span id="3" class="feature-nav-button"></span></div>
-                        <div><span id="4" class="feature-nav-button"></span></div>
-                    </div>
--->
-<!--
-                    <script>
-                        function nextFeature() {
-                            var container = document.getElementById("feature-container");
-                            var rect = container.getBoundingClientRect();
-                            var shift = rect.width/ 5;
-                            var pos = rect.left;
-                            
-                            if (pos < -(rect.width - (2*shift)))
-                                container.style.left = "calc(50vw - 15rem)";
-                            else 
-                                container.style.left = pos - shift + "px";
-                                
-                            nextNav(parseInt(sessionStorage.getItem("count")) + 1);
-                        }
-                        
-                        function nextNav(i) {
-                        console.log(i);
-                            var buttons = document.getElementsByClassName("feature-nav-button");
-                            var selected = "selected-nav-button";
-                            
-                            if (i == buttons.length)  {
-                                i = 0;
-                                buttons[buttons.length - 1].classList.remove(selected);
-                            }
-                            else {
-                                buttons[i - 1].classList.remove(selected);
-                            }
-                            
-                            buttons[i].classList.add(selected);
-                            
-                            sessionStorage.setItem("count", i);
-                        }
-                        
-                        function selectFeature(e) {
-                            var target = e.target;
-                            var id = parseInt(target.id);
-                            
-                            clearInterval(sessionStorage.getItem("intervalId"));
-                            
-                            // Move container to position
-                            var container = document.getElementById("feature-container");
-                            var rect = container.getBoundingClientRect();
-                            var shift = rect.width/ 5;
-                            
-                            container.style.left = "calc(50vw - 15rem - " + id * shift + "px)";
-                            
-                            // Update buttons
-                            var buttons = document.getElementsByClassName("feature-nav-button");
-                            
-                            for (var i = 0; i < buttons.length; i++) {
-                                buttons[i].classList.remove("selected-nav-button");
-                            }
-                            
-                            buttons[id].classList.add("selected-nav-button");
-                        }
-                        
-                        sessionStorage.setItem("count", 0);
-                        
-                        sessionStorage.setItem("intervalId", setInterval(nextFeature, 5000));
-                        
-                        $(".feature-nav-button").on("click", selectFeature);
-                    </script>
--->
                 </div>
-                <!--
-                            <div id="pitch-body" class="f-medium light-blue-background-text">
-                                <div id="feature1" class="feature" onclick="openPopup(this)">
-                                    <div class="feature-image">
-                                        <img id="feature1-image" src="/images/CaseDataGraphic.svg" />
-                                    </div>
-                                    <div id="feature1-title" class="feature-title open-sans-bold f-feature-title">
-                                        Data Entry
-                                    </div>
-                                    <div id="feature1-body" class="feature-body">
-                                        Manage defendents, cases, warrants, and eCitation records with detailed data entry interfaces.
-                                    </div>
-                                </div>
-                                <div id="feature2" class="feature" onclick="openPopup(this)">
-                                    <div class="feature-image">
-                                        <img id="feature2-image" src="/images/PDFGraphic.svg" />
-                                    </div>
-                                    <div id="feature2-title" class="feature-title open-sans-bold f-feature-title">
-                                        Create and Edit Documents
-                                    </div>
-                                    <div id="feature2-body" class="feature-body">
-                                        With our intuitive PDF viewer, you can manage and print all of the documents attached to a case or defendent.
-                                    </div>
-                                </div>
-                                <div id="feature5" class="feature" onclick="openPopup(this)">
-                                    <div class="feature-image">
-                                        <img id="feature5-image" src="/images/ReportGraphic.svg" />
-                                    </div>
-                                    <div id="feature5-title" class="feature-title open-sans-bold f-feature-title">
-                                        Generate Reports
-                                    </div>
-                                    <div id="feature5-body" class="feature-body">
-                                        Periodic and one-off reports can be generated in state-standard format effortlessly.
-                                    </div>
-                                </div>
-                                <div id="feature4" class="feature" onclick="openPopup(this)">
-                                    <div class="feature-image">
-                                        <img id="feature4-image" src="/images/SignaturePadGraphic.svg" />
-                                    </div>
-                                    <div id="feature4-title" class="feature-title open-sans-bold f-feature-title">
-                                        Sign Documents
-                                    </div>
-                                    <div id="feature4-body" class="feature-body">
-                                        Employees sign with a click, defendents can sign with a signature pad.
-                                    </div>
-                                </div>
-                                <div id="feature3" class="feature" onclick="openPopup(this)">
-                                    <div class="feature-image">
-                                        <img id="feature3-image" src="/images/PaymentGraphic.svg" />
-                                    </div>
-                                    <div id="feature3-title" class="feature-title open-sans-bold f-feature-title">
-                                        Take Payments
-                                    </div>
-                                    <div id="feature3-body" class="feature-body">
-                                        Enter card details directly or use an external device. Defendents can also pay online.
-                                    </div>
-                                </div>
-                            </div>
--->
                 <a name="about-us-section"></a>
                 <div id="about-us-container">
                     <div id="about-us-inner">
