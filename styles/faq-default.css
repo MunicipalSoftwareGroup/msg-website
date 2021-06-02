@@ -161,7 +161,7 @@
 }
 
 .question-text {
-    margin-bottom: 0.75rem;   
+    margin-bottom: 0.35rem;   
     user-select:none; 
 }
 
@@ -170,13 +170,12 @@
 }
 
 .question:first-child {
-/*    padding-bottom: 0.75rem;*/
 }
 
 .question:not(.question:first-child) {
 /*    border-top: 1px solid #CCC;*/
 /*    padding: 0.75rem 0;*/
-    padding-top: 0.75rem;
+    padding-top: 0.25rem;
 }
 
 #other-resources-title {
