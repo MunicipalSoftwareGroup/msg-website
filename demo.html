@@ -101,12 +101,24 @@
                 <div id="toc-navigation">
                     <div id="toc-controls">
                         <span></span>
-                        <span id="c1" class="tc-control" onclick="openSlide(0)"><p>Case Management</p></span>
-                        <span id="c2" class="tc-control" onclick="openSlide(27)"><p>Search</p></span>
-                        <span id="c3" class="tc-control" onclick="openSlide(47)"><p>Red Alerts</p></span>
-                        <span id="c4" class="tc-control" onclick="openSlide(52)"><p>Tables</p></span>
-                        <span id="c5" class="tc-control" onclick="openSlide(59)"><p>Documents</p></span>
-                        <span id="c6" class="tc-control" onclick="openSlide(78)"><p>Payments</p></span>
+                        <span id="c1" class="tc-control" onclick="openSlide(0)">
+                            <p>Case Management</p>
+                        </span>
+                        <span id="c2" class="tc-control" onclick="openSlide(27)">
+                            <p>Search</p>
+                        </span>
+                        <span id="c3" class="tc-control" onclick="openSlide(47)">
+                            <p>Red Alerts</p>
+                        </span>
+                        <span id="c4" class="tc-control" onclick="openSlide(52)">
+                            <p>Tables</p>
+                        </span>
+                        <span id="c5" class="tc-control" onclick="openSlide(59)">
+                            <p>Documents</p>
+                        </span>
+                        <span id="c6" class="tc-control" onclick="openSlide(78)">
+                            <p>Payments</p>
+                        </span>
                         <span></span>
                     </div>
                 </div>
@@ -126,9 +138,31 @@
             </div>
         </div>
     </div>
-<script>
-    window.addEventListener("keydown", "checkKey(e)")
-</script>
+    <script>
+        // Keyboard demo navigation
+        window.addEventListener("keydown", function(e) {
+            if (!e) {
+                e = window.event;
+            } // for old IE compatible
+            var keycode = e.keyCode || e.which; // also for cross-browser compatible
+
+            switch (keycode) {
+                // Left
+                case 37:
+                    prevSlide();
+                    break;
+                    // Right
+                case 39:
+                    nextSlide();
+                    break;
+                    // Escape
+                case 27:
+                    hideDemo();
+            }
+
+        });
+
+    </script>
 </body>
 <footer>
 </footer>
