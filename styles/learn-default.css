@@ -176,6 +176,11 @@ ul {
     margin-bottom: 2rem;
 }
 
+#back-to-top {
+    text-decoration: underline;
+    color: #006DFF;
+}
+
 #other-resources-title {
     grid-column: 2 / 3 ;
     color: #003375;
