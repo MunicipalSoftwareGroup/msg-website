@@ -183,6 +183,11 @@
 #prev {
     grid-column: 1 / 2;
 }
+#slide-number {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
 
 #next {
     grid-column: 3 / 4;

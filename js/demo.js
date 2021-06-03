@@ -85,6 +85,10 @@ function getCurrentSlide() {
 function setCurrentSlide(num) {
 	var p = document.getElementById("current-slide");
 	p.innerHTML = num;
+    
+    var slideNumber = document.getElementById("slide-number");
+    
+    slideNumber.textContent = parseInt(p.innerHTML) + 1 + "/151";
 }
 
 function getSlidesPath() {
