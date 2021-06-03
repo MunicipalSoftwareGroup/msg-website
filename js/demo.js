@@ -38,18 +38,31 @@ async function nextSlide() {
 
 async function prevSlide() {
 	var num = getCurrentSlide();
+    var newNum = num - 1;
     
-    openSlide(num - 1);
+    openSlide(newNum);
 }
 
 async function openSlide(newNum) {
 	var slide = document.getElementById("slide");
 	var slides = await getSlides();
 
+    var prevArrow = document.getElementById("prev-arrow"); 
+    var nextArrow = document.getElementById("next-arrow");
+    
 	if (slides[newNum] === undefined) {
-		console.error("Slide is null");
-		return;
+		return newNum;
 	}
+    else if (newNum === 0) {
+        prevArrow.style.display = "hidden";
+    }
+    else if (newNum === 150) {
+        nextArrow.style.display = "hidden";
+    }
+    else {
+        prevArrow.style.display = "flex";
+        nextArrow.style.display = "flex";
+    }
     
 	setCurrentSlide(newNum);
 	slide.src = getSlidesPath() + slides[newNum];
