@@ -54,10 +54,10 @@ async function openSlide(newNum) {
 		return newNum;
 	}
     else if (newNum === 0) {
-        prevArrow.style.display = "hidden";
+        prevArrow.style.display = "none";
     }
     else if (newNum === 150) {
-        nextArrow.style.display = "hidden";
+        nextArrow.style.display = "none";
     }
     else {
         prevArrow.style.display = "flex";
