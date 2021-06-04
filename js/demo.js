@@ -49,8 +49,9 @@ async function openSlide(newNum) {
 
     var prevArrow = document.getElementById("prev-arrow"); 
     var nextArrow = document.getElementById("next-arrow");
-    
-	if (slides[newNum] === undefined) {
+    var finishButton = document.getElementById("finish-button");
+	
+    if (slides[newNum] === undefined) {
 		return newNum;
 	}
     else if (newNum === 0) {
@@ -58,10 +59,12 @@ async function openSlide(newNum) {
     }
     else if (newNum === 150) {
         nextArrow.style.display = "none";
+        finishButton.style.display = "flex";
     }
     else {
         prevArrow.style.display = "flex";
         nextArrow.style.display = "flex";
+        finishButton.style.direction = "flex";
     }
     
 	setCurrentSlide(newNum);
