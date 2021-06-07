@@ -50,6 +50,8 @@ async function openSlide(newNum) {
     var prevArrow = document.getElementById("prev-arrow"); 
     var nextArrow = document.getElementById("next-arrow");
     var finishButton = document.getElementById("finish-button");
+    
+    finishButton.style.display = "none";
 	
     if (slides[newNum] === undefined) {
 		return newNum;
@@ -64,7 +66,6 @@ async function openSlide(newNum) {
     else {
         prevArrow.style.display = "flex";
         nextArrow.style.display = "flex";
-        finishButton.style.direction = "flex";
     }
     
 	setCurrentSlide(newNum);
