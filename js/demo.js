@@ -83,11 +83,14 @@ async function openSlide(newNum) {
     else if (newNum >= 52 && newNum < 59) {
         highlight("c4");
     }
-    else if (newNum >= 59 && newNum < 78) {
+    else if (newNum >= 59 && newNum < 79) {
         highlight("c5");
     }
-    else if (newNum >= 78 && newNum < 95) {
+    else if (newNum >= 79 && newNum < 96) {
         highlight("c6");
+    }
+    else if (newNum >= 96 && newNum < 152) {
+        highlight("c7");
     }
     
 	showDemo();
@@ -127,7 +130,7 @@ async function updateControls() {
 function highlight(id) {
     var controls = document.getElementsByClassName("tc-control");
     
-    for (var i = 1; i <= 6; i++) {
+    for (var i = 1; i <= controls.length; i++) {
         controls["c" + i].style.color = "#666";
     }
 
