@@ -154,6 +154,11 @@ ul {
     margin-bottom: 1.2rem;
 }
 
+#reading-content a {
+    text-decoration: underline;
+    color: #006DFF;
+}
+
 .captioned-image {
     display: flex;
     flex-direction: column;
