@@ -281,7 +281,11 @@
     var splashContent = document.getElementById("splash-content");
 
     infoContainer.style.height = getComputedStyle(splashContent).height;
-
+    
+    $.getJSON("\\tips.json", null).then(function (json) {
+        var didYouKnow = document.getElementById("tip-box-body"); 
+        didYouKnow.textContent = json.tips[Math.floor(Math.random() * json.tips.length)];
+	});
 </script>
 
 </html>

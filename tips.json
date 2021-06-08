@@ -1,0 +1,8 @@
+{
+    "tips": [
+        "Entering the letter 'T' in a Date Field will enter today’s date.",
+        "The Year is not needed on a Date Field the current year is desired. For example, 10/1 will change to 10/1/2021 automatically.",
+        "On the Case Payment Screen, Ctrl-F will bring up a box to allow you to easily enter a Fine Amount.",
+        "The Profile Table has an Entity field to use for Profiles on Businesses or Organizations.  No need to put a Business name in the First, Middle or Last Name fields."
+    ]
+}
