@@ -45,13 +45,11 @@ async function prevSlide() {
 
 async function openSlide(newNum) {
 	var slide = document.getElementById("slide");
-	var slides = await getSlides();
+    var slides = await getSlides();
 
     var prevArrow = document.getElementById("prev-arrow"); 
     var nextArrow = document.getElementById("next-arrow");
     var finishButton = document.getElementById("finish-button");
-    
-    finishButton.style.display = "none";
 	
     if (slides[newNum] === undefined) {
 		return newNum;
@@ -59,17 +57,21 @@ async function openSlide(newNum) {
     else if (newNum === 0) {
         prevArrow.style.display = "none";
     }
-    else if (newNum === 150) {
+    else if (newNum === 151) {
         nextArrow.style.display = "none";
         finishButton.style.display = "flex";
     }
     else {
         prevArrow.style.display = "flex";
         nextArrow.style.display = "flex";
+        finishButton.style.display = "none";
     }
     
 	setCurrentSlide(newNum);
-	slide.src = getSlidesPath() + slides[newNum];
+	slide.src = getSlidesPath() + slides[newNum].file;
+    var content = document.getElementById("commentary-content");
+    
+    content.textContent = slides[newNum].comment;
     
     if (newNum >= 0 && newNum < 27) {
         highlight("c1");
@@ -108,7 +110,7 @@ function setCurrentSlide(num) {
     
     var slideNumber = document.getElementById("slide-number");
     
-    slideNumber.textContent = parseInt(p.innerHTML) + 1 + "/151";
+    slideNumber.textContent = parseInt(p.innerHTML) + 1 + "/152";
 }
 
 function getSlidesPath() {
