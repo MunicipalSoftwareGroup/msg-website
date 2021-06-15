@@ -71,7 +71,7 @@ async function openSlide(newNum) {
 	slide.src = getSlidesPath() + slides[newNum].file;
     var content = document.getElementById("commentary-content");
     
-    content.textContent = slides[newNum].comment;
+    content.innerHTML = slides[newNum].comment;
     
     if (newNum >= 0 && newNum < 27) {
         highlight("c1");

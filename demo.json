@@ -10,7 +10,7 @@
         },
         "2": {
             "file": "2.png",
-            "comment": "The Name is large at the top for visibility. Also in the red highlight box is the current age. If the current age and the age at the time of offense are different, both will be shown. For example 'AGE 64, 62'."
+            "comment": "The Name is large at the top for visibility. Also in the red highlight box is the current age. If the current age and the age at the time of offense are different, both will be shown.<br> For example 'AGE 64, 62'."
         },
         "3": {
             "file": "3.png",
@@ -82,7 +82,7 @@
         },
         "20": {
             "file": "20.png",
-            "comment": "The Date Reprinted is above the receipt followed by the original receipt. Other Case balances and Payment Plan information are also included. A customized municipal logo may be used as a watermark."
+            "comment": "The Date Reprinted is above the receipt followed by the original receipt. Other Case balances and Payment Plan information are also included.<br> A customized municipal logo may be used as a watermark."
         },
         "21": {
             "file": "21.png",
@@ -214,7 +214,7 @@
         },
         "53": {
             "file": "1T.png",
-            "comment": "A group of records are held in a Table.   In a Municipal Court you spend most of your time in the Case Table which holds all the Case Docket Records.<br> You will also need to get other Tables like Profiles, Warrants, eCitations, Payments,  Bonds and Driving School.  There are many tables you will almost never need to go to like Eye Color, Hair Color and US States.<br> You may change from one Table to another by using the Tables Menu (see above) where you would select a SubMenu to then select the desired Table. If you want to go to Warrants you would click  Tables->Warrant Menu->Warrants as shown."
+            "comment": "A group of records are held in a Table.   In a Municipal Court you spend most of your time in the Case Table which holds all the Case Docket Records.<br> You will also need to get other Tables like Profiles, Warrants, eCitations, Payments,  Bonds and Driving School.  There are many tables you will almost never need to go to like Eye Color, Hair Color and US States.<br> You may change from one Table to another by using the Tables Menu (see above) where you would select a SubMenu to then select the desired Table. If you want to go to Warrants you would click  <b>Tables -> Warrant Menu -> Warrants</b> as shown."
         },
         "54": {
             "file": "2T.png",
@@ -246,7 +246,7 @@
         },
         "61": {
             "file": "2D.png",
-            "comment": "When this Case Action Summary was printed, it was placed as the top document in the filing cabinet for that case. The most recent document will be the first."
+            "comment": "When this Case Action Summary was printed, it was placed as the top document in the filing cabinet for that case.<br> The most recent document will be the first."
         },
         "62": {
             "file": "3D.png",
@@ -270,7 +270,7 @@
         },
         "67": {
             "file": "8D.png",
-            "comment": "A document may be exported to any folder on the computer. Certain folders may be preset. Documents may also be Deleted, Printed or Edited."
+            "comment": "A document may be exported to any folder on the computer. Certain folders may be preset.<br> Documents may also be Deleted, Printed or Edited."
         },
         "68": {
             "file": "9D.png",
@@ -350,7 +350,7 @@
         },
         "87": {
             "file": "8P.png",
-            "comment": "The Fines and Court Costs are shown on this screen. The “Original” column shows the initial amount. The “Paid” column shows the amount previously paid. The “Current” column shows amounts currently being credited."
+            "comment": "The Fines and Court Costs are shown on this screen. <br>The “Original” column shows the initial amount.<br> The “Paid” column shows the amount previously paid.<br> The “Current” column shows amounts currently being credited."
         },
         "88": {
             "file": "9P.png",
@@ -362,7 +362,7 @@
         },
         "90": {
             "file": "11P.png",
-            "comment": "The “B” button will allow and add the appropriate Bail Bond Fee Amounts. “C” will clear all costs “P” will add PreTrial Diversion Costs  “I” will add Interlock Costs  “A” if for Additional Customizable Costs"
+            "comment": "The “B” button will allow and add the appropriate Bail Bond Fee Amounts.<br> “C” will clear all costs<br> “P” will add PreTrial Diversion Costs<br>  “I” will add Interlock Costs<br>  “A” if for Additional Customizable Costs"
         },
         "91": {
             "file": "12P.png",
@@ -378,7 +378,7 @@
         },
         "94": {
             "file": "15P.png",
-            "comment": "Any outstanding Cash Bonds will show up on the Bond Line and be available for Applying, Forfeiting, Returning or Transferring. Cash Bonds may be partially used. Any Cash Bond on a given Defendant may be used on any of that Defendant’s cases."
+            "comment": "Any outstanding Cash Bonds will show up on the Bond Line and be available for Applying, Forfeiting, Returning or Transferring.<br> Cash Bonds may be partially used.<br> Any Cash Bond on a given Defendant may be used on any of that Defendant’s cases."
         },
         "95": {
             "file": "16P.png",
@@ -390,7 +390,7 @@
         },
         "97": {
             "file": "PO1-1.png",
-            "comment": "There are over 200 different Forms and Reports grouped by Categories in the Print Menu. The menus and the forms themselves are all customizable to fit the municipal courts’ needs. Each Form or Report generates a PDF file which may be edited and attached to the case when appropriate. Appearance Forms are typically printed just before Court Day. The most common printouts are put at the top of the menu followed by the rest in alphabetical order."
+            "comment": "There are over 200 different Forms and Reports grouped by Categories in the Print Menu. The menus and the forms themselves are all customizable to fit the municipal courts’ needs. Each Form or Report generates a PDF file which may be edited and attached to the case when appropriate. Appearance Forms are typically printed just before Court Day."
         },
         "98": {
             "file": "PO1.png",
@@ -398,7 +398,7 @@
         },
         "99": {
             "file": "PO2.png",
-            "comment": "Case Action Summary Checked boxes may be clicked and data entered right on the Case Action Summary. A Case Action Summary may be printed for a single case or all cases for a given court date at once."
+            "comment": "Case Action Summary Checked boxes may be clicked and data entered right on the Case Action Summary.<br> A Case Action Summary may be printed for a single case or all cases for a given court date at once."
         },
         "100": {
             "file": "PO3.png",
@@ -426,7 +426,7 @@
         },
         "106": {
             "file": "PO9.png",
-            "comment": "Bonds Received Report Bond Received Report shows all bonds received for a given time period. Options exist for showing only Cash Bonds or only Surety Bonds. It is noted if a Bond has been fully or partially Returned, Applied, Forfeited or sent to Circuit Court."
+            "comment": "Bonds Received Report Bond Received Report shows all bonds received for a given time period. Options exist for showing only Cash Bonds or only Surety Bonds.<br> It is noted if a Bond has been fully or partially Returned, Applied, Forfeited or sent to Circuit Court."
         },
         "107": {
             "file": "PO10.png",
@@ -538,11 +538,11 @@
         },
         "134": {
             "file": "PO37.png",
-            "comment": "Total Receipts Report List of Daily Receipts (or any time period) is followed by the Drawer Summary broken down by Payment Types. Report can be run for all or just individual cashiers."
+            "comment": "Total Receipts Report List of Daily Receipts (or any time period) is followed by the Drawer Summary broken down by Payment Types.<br> Report can be run for all or just individual cashiers."
         },
         "135": {
             "file": "PO38.png",
-            "comment": "The Subsequent Page totals up all the individual costs. Account Numbers can be either actual account numbers for an accounting system or a category title. The optional last page is the General Ledger report where each account number or category is totaled."
+            "comment": "The Subsequent Page totals up all the individual costs. Account Numbers can be either actual account numbers for an accounting system or a category title.<br> The optional last page is the General Ledger report where each account number or category is totaled."
         },
         "136": {
             "file": "PO39.png",
