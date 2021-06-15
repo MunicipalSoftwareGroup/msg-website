@@ -115,7 +115,11 @@
 }
 
 .item, .dropdown {
-    line-height: 160%;
+    margin: 0.3rem 0;
+}
+
+.item > a {
+    line-height: 0.1em;
 }
 
 .item:hover, .dropdown:hover {
