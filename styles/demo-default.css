@@ -85,6 +85,7 @@
 /********** DEMO SLIDES **********/
 #demo-container {
     display: none;
+    box-sizing: border-box;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -271,6 +272,10 @@
     flex-grow: 5;
     border-top: 1px solid white;
     color: white;
+}
+
+#commentary-content {
+    margin: 0.25rem 0.5rem;
 }
 
 #finish-button {
