@@ -1,612 +1,612 @@
 {
-    "slides": {
-        "0": {
+    "slides": [
+        {
             "file": "0.png",
             "comment": ""
         },
-        "1": {
+        {
             "file": "1.png",
             "comment": "Let's begin by looking at a Case record."
         },
-        "2": {
+        {
             "file": "2.png",
             "comment": "The Name is large at the top for visibility. Also in the red highlight box is the current age. If the current age and the age at the time of offense are different, both will be shown.<br> For example 'AGE 64, 62'."
         },
-        "3": {
+        {
             "file": "3.png",
             "comment": "Highlighted here we see how the Case Number and the Status are made more visible."
         },
-        "4": {
+        {
             "file": "4.png",
             "comment": "Open Cases shows the total number of cases for this defendant. 'Wrk' is the Worked Cases (Fines and Costs have been Setup). 'Pnd' is Pending cases that haven't been adjudicated. 'Total Owed' is the total amount this defendant owes for cases that have been worked."
         },
-        "5": {
+        {
             "file": "5.png",
             "comment": "'Total Owed' is the total amount this defendant owes for cases that have been worked. 'Pending' is the amount that could be paid if the defendant pleads guilty on payable cases. 'AR' means Appearance Required;  the amounts are determined at adjudication."
         },
-        "6": {
+        {
             "file": "6.png",
             "comment": "The History Book shows details of a Defendant's Open, Pending, and Closed Cases. This information is displayed in a new window shown in the next slide."
         },
-        "7": {
+        {
             "file": "7.png",
             "comment": ""
         },
-        "8": {
+        {
             "file": "8.png",
             "comment": ""
         },
-        "9": {
+        {
             "file": "9.png",
             "comment": "Lighter Gray amounts in the Balance column are Pending Amounts."
         },
-        "10": {
+        {
             "file": "10.png",
             "comment": "Actually owed and pending amounts are Totaled at the bottom of the table."
         },
-        "11": {
+        {
             "file": "11.png",
             "comment": "Payments are Grouped by Case with the setup first. Grayed out Case Numbers indicate that the case number for this payment is the same as the one above to more easily see the breaks."
         },
-        "12": {
+        {
             "file": "12.png",
             "comment": "Double click on a Case Number to open it for Viewing/Editing as shown in the next slide."
         },
-        "13": {
+        {
             "file": "13.png",
             "comment": ""
         },
-        "14": {
+        {
             "file": "14.png",
             "comment": "The Print History button creates a custom report on this defendant as show in the next slide."
         },
-        "15": {
+        {
             "file": "15.png",
             "comment": ""
         },
-        "16": {
+        {
             "file": "16.png",
             "comment": "Now let's open the Payments Tab."
         },
-        "17": {
+        {
             "file": "17.png",
             "comment": "The Payments Tab of the History Book shows all payments for this defendant in chronological  order starting with the most recent payment. Double clicking on a particular payment will display that payment record as shown in the following slide."
         },
-        "18": {
+        {
             "file": "18.png",
             "comment": ""
         },
-        "19": {
+        {
             "file": "19.png",
             "comment": "In the Payment window just opened, you can click on Reprint to print the receipt again."
         },
-        "20": {
+        {
             "file": "20.png",
             "comment": "The Date Reprinted is above the receipt followed by the original receipt. Other Case balances and Payment Plan information are also included.<br> A customized municipal logo may be used as a watermark."
         },
-        "21": {
+        {
             "file": "21.png",
             "comment": "There is also a button that will allow a receipt to be voided."
         },
-        "22": {
+        {
             "file": "22.png",
             "comment": "Moving on to the Warrants Tab in the Defendant Information window."
         },
-        "23": {
+        {
             "file": "23.png",
             "comment": "The Warrants Tab allows viewing and editing of the Warrant Record including marking the warrant as Executed.\nDouble clicking the Warrant Number will open the Warrant as shown in the follow slide."
         },
-        "24": {
+        {
             "file": "24.png",
             "comment": ""
         },
-        "25": {
+        {
             "file": "25.png",
             "comment": "Now we'll open the Bonds Tab."
         },
-        "26": {
+        {
             "file": "26.png",
             "comment": "The Bonds Tab displays Surety and Cash bonds with the current balance, if any."
         },
-        "27": {
+        {
             "file": "Notes 2 Bumper.png",
             "comment": ""
         },
-        "28": {
+        {
             "file": "1 Clicking Search Button.png",
             "comment": "Clicking on the magnifying glass, brings up the search dialog box."
         },
-        "29": {
+        {
             "file": "2 Opening Search window.png",
             "comment": "In the Case Table you may now type in a Case Number, Court Date, UTC Number, or Name and the software will figure out which one to search for."
         },
-        "30": {
+        {
             "file": "3 Search by Case Number.png",
             "comment": "Here we will search by record number. Note that can you leave out the leading zeros."
         },
-        "31": {
+        {
             "file": "4 Executing Search.png",
             "comment": "The results are displayed as a table in a new window. "
         },
-        "32": {
+        {
             "file": "5 Clicking Case Number result.png",
             "comment": "Pressing the Enter key or clicking OK will open the record as demonstrated in the following slide.                   "
         },
-        "33": {
+        {
             "file": "6 Opening Case from Results 1.png",
             "comment": ""
         },
-        "34": {
+        {
             "file": "7 Search by Name.png",
             "comment": "Searching by name works similarly. You only need to type part of the name, or even just the first letter."
         },
-        "35": {
+        {
             "file": "8 Click name result.png",
             "comment": "Once again, we can open a record from the search results."
         },
-        "36": {
+        {
             "file": "9 Open Case from Results 2.png",
             "comment": ""
         },
-        "37": {
+        {
             "file": "10 Date.png",
             "comment": "Search by court date. The date is entered in the format of Month/Day/Year.  If the year is omitted, the current year is assumed."
         },
-        "38": {
+        {
             "file": "11 Open case by date.png",
             "comment": ""
         },
-        "39": {
+        {
             "file": "12 Opening case by date.png",
             "comment": ""
         },
-        "40": {
+        {
             "file": "13 search by UTC.png",
             "comment": "Searching by UTC number..."
         },
-        "41": {
+        {
             "file": "14 Open UTC.png",
             "comment": ""
         },
-        "42": {
+        {
             "file": "15 Opening UTC.png",
             "comment": ""
         },
-        "43": {
+        {
             "file": "16 Partial Name.png",
             "comment": "Checking the Partial Name Box allows you to search for any part of a name instead of just the beginning. "
         },
-        "44": {
+        {
             "file": "17 Location.png",
             "comment": "There are other checkboxes. You may also search by a Non-Traffic UTC, Tag Number, Police Case Number, Evidence Number or Location by checking the appropriate box. Here we use the Location checkbox."
         },
-        "45": {
+        {
             "file": "18 Filters.png",
             "comment": "Any of these searches may be filtered further by checking the box for Drive School, Probation or Open only."
         },
-        "46": {
+        {
             "file": "19 Open Only.png",
             "comment": "Here we only want Open cases, so we check the Open Only checkbox."
         },
-        "47": {
+        {
             "file": "0RA.png",
             "comment": ""
         },
-        "48": {
+        {
             "file": "1RA.png",
             "comment": "You may have noticed the red alerts in the top area of the case data.  Most of the alerts show up based on the defendant or any of the defendants cases. Does the defendant have a Commercial Drivers License? Is the defendant on Probation for any of their cases?"
         },
-        "49": {
+        {
             "file": "2RA.png",
             "comment": "Has the license been suspended by the court with a UTC-6B? Are there any outstanding warrants on this defendant?"
         },
-        "50": {
+        {
             "file": "3RA.png",
             "comment": "Is the defendant currently on a Payment Plan? Has the Defendant been to Driving School in recent years?"
         },
-        "51": {
+        {
             "file": "4RA.png",
             "comment": "Is this case an Interlock case? You may also add your own Custom Alert for any given case by adding a ‘Red Alert’ entry in the Events."
         },
-        "52": {
+        {
             "file": "0T.png",
             "comment": ""
         },
-        "53": {
+        {
             "file": "1T.png",
             "comment": "A group of records are held in a Table.   In a Municipal Court you spend most of your time in the Case Table which holds all the Case Docket Records.<br> You will also need to get other Tables like Profiles, Warrants, eCitations, Payments,  Bonds and Driving School.  There are many tables you will almost never need to go to like Eye Color, Hair Color and US States.<br> You may change from one Table to another by using the Tables Menu (see above) where you would select a SubMenu to then select the desired Table. If you want to go to Warrants you would click  <b>Tables -> Warrant Menu -> Warrants</b> as shown."
         },
-        "54": {
+        {
             "file": "2T.png",
             "comment": "You can always tell what Table you are in by the main Header at the middle top of the window."
         },
-        "55": {
+        {
             "file": "3T.png",
             "comment": "Tables that are used frequently can be more easily accessed by clicking on the Table icon (circled) and then the desired table as shown on the next slide."
         },
-        "56": {
+        {
             "file": "4T.png",
             "comment": "Keystrokes may also be used, if preferred, without even clicking on a menu. Keystrokes include Cases (Ctrl-C),  Warrants (Ctrl-W), and eCitations (Ctrl-E)."
         },
-        "57": {
+        {
             "file": "5T.png",
             "comment": "All menus and Keystrokes are fully customizable for each user."
         },
-        "58": {
+        {
             "file": "6T.png",
             "comment": "As demonstrated earlier you may also jump to a particular record in another table by clicking on the entry in the History Book. "
         },
-        "59": {
+        {
             "file": "0D.png",
             "comment": ""
         },
-        "60": {
+        {
             "file": "1D.png",
             "comment": "When forms are printed that are related to a particular case, they can optionally be placed in the Filing Cabinet (circled)."
         },
-        "61": {
+        {
             "file": "2D.png",
             "comment": "When this Case Action Summary was printed, it was placed as the top document in the filing cabinet for that case.<br> The most recent document will be the first."
         },
-        "62": {
+        {
             "file": "3D.png",
             "comment": "The case number TR21-0000011 is shown to have 4 documents. The one being displayed is the Case Action Summary."
         },
-        "63": {
+        {
             "file": "4D.png",
             "comment": "The 4 documents may be viewed by clicking on the arrows in this control."
         },
-        "64": {
+        {
             "file": "5D.png",
             "comment": "Documents may also be viewed by being selected from the Drop Down Box"
         },
-        "65": {
+        {
             "file": "6D.png",
             "comment": ""
         },
-        "66": {
+        {
             "file": "7D.png",
             "comment": ""
         },
-        "67": {
+        {
             "file": "8D.png",
             "comment": "A document may be exported to any folder on the computer. Certain folders may be preset.<br> Documents may also be Deleted, Printed or Edited."
         },
-        "68": {
+        {
             "file": "9D.png",
             "comment": ""
         },
-        "69": {
+        {
             "file": "10D.png",
             "comment": ""
         },
-        "70": {
+        {
             "file": "11D.png",
             "comment": "As an example, let’s import a mugshot. Clicking the Import button will open the Import screen shown on the next slide."
         },
-        "71": {
+        {
             "file": "12D.png",
             "comment": ""
         },
-        "72": {
+        {
             "file": "13D.png",
             "comment": "Clicking the Pictures quick path will allow us to select a file from the file system in the user’s Pictures directory."
         },
-        "73": {
+        {
             "file": "14D.png",
             "comment": "From here we select the mugshot we want and click Open."
         },
-        "74": {
+        {
             "file": "15D.png",
             "comment": "When importing the Document Type should be defined."
         },
-        "75": {
+        {
             "file": "16D.png",
             "comment": "Now our mugshot is imported!"
         },
-        "76": {
+        {
             "file": "17D.png",
             "comment": "It will now appear on the defendent’s records."
         },
-        "77": {
+        {
             "file": "18D.png",
             "comment": "Documents may also be scanned in directly from a scanner."
         },
-        "78": {
+        {
             "file": "19D.png",
             "comment": ""
         },
-        "79": {
+        {
             "file": "0P.png",
             "comment": ""
         },
-        "80": {
+        {
             "file": "1P.png",
             "comment": "To take any kind of payment (Case, Bond, Driving School, etc) the Dollar icon is used (circled)."
         },
-        "81": {
+        {
             "file": "2P.png",
             "comment": ""
         },
-        "82": {
+        {
             "file": "3P.png",
             "comment": "The initial screen determines the Case Number and the Reason for Payment."
         },
-        "83": {
+        {
             "file": "4P.png",
             "comment": "A Regular Case Payment is most common. Case Payment Setup is used if the case now owes money, but no payment is being made yet."
         },
-        "84": {
+        {
             "file": "5P.png",
             "comment": "A Defendant with multiple Cases may pay all at once by checking Group All Costs."
         },
-        "85": {
+        {
             "file": "6P.png",
             "comment": "Clicking OK will open the Case Payments window as shown in the next slide."
         },
-        "86": {
+        {
             "file": "7P.png",
             "comment": ""
         },
-        "87": {
+        {
             "file": "8P.png",
             "comment": "The Fines and Court Costs are shown on this screen. <br>The “Original” column shows the initial amount.<br> The “Paid” column shows the amount previously paid.<br> The “Current” column shows amounts currently being credited."
         },
-        "88": {
+        {
             "file": "9P.png",
             "comment": "Many different Payment Methods are available for use."
         },
-        "89": {
+        {
             "file": "10P.png",
             "comment": "Defendants may be placed on a payment plan. "
         },
-        "90": {
+        {
             "file": "11P.png",
             "comment": "The “B” button will allow and add the appropriate Bail Bond Fee Amounts.<br> “C” will clear all costs<br> “P” will add PreTrial Diversion Costs<br>  “I” will add Interlock Costs<br>  “A” if for Additional Customizable Costs"
         },
-        "91": {
+        {
             "file": "12P.png",
             "comment": "The appropriate Bail Bond Fee Amounts will auto populate at the bottom of the fines and cost list."
         },
-        "92": {
+        {
             "file": "13P.png",
             "comment": "Cash, Property or Surety Bonds may also be taken."
         },
-        "93": {
+        {
             "file": "14P.png",
             "comment": ""
         },
-        "94": {
+        {
             "file": "15P.png",
             "comment": "Any outstanding Cash Bonds will show up on the Bond Line and be available for Applying, Forfeiting, Returning or Transferring.<br> Cash Bonds may be partially used.<br> Any Cash Bond on a given Defendant may be used on any of that Defendant’s cases."
         },
-        "95": {
+        {
             "file": "16P.png",
             "comment": "Options are available to interface with Credit Card Companies to take payments online or directly through the application by typing in a Credit Card Number, Swiping a Card, or using an EMV Chip Reader."
         },
-        "96": {
+        {
             "file": "PO0.png",
             "comment": ""
         },
-        "97": {
+        {
             "file": "PO1-1.png",
             "comment": "There are over 200 different Forms and Reports grouped by Categories in the Print Menu. The menus and the forms themselves are all customizable to fit the municipal courts’ needs. Each Form or Report generates a PDF file which may be edited and attached to the case when appropriate. Appearance Forms are typically printed just before Court Day."
         },
-        "98": {
+        {
             "file": "PO1.png",
             "comment": "Appearance Forms are typically printed before Court Day. The most common printouts are placed at the top of the menu followed by the rest in Alphabetical Order."
         },
-        "99": {
+        {
             "file": "PO2.png",
             "comment": "Case Action Summary Checked boxes may be clicked and data entered right on the Case Action Summary.<br> A Case Action Summary may be printed for a single case or all cases for a given court date at once."
         },
-        "100": {
+        {
             "file": "PO3.png",
             "comment": "Court Docket The Court Docket may be printed in Portrait of Landscape with many options for what is to be displayed. The Format of the Docket itself may be customized."
         },
-        "101": {
+        {
             "file": "PO4.png",
             "comment": "Officer Docket A docket may be created with a page for each officer."
         },
-        "102": {
+        {
             "file": "PO5.png",
             "comment": "Initial Appearance Clicking on the signature field will auto-sign the form with an employee profile signature."
         },
-        "103": {
+        {
             "file": "PO6.png",
             "comment": "The defendant may sign the form with the use of a signature pad."
         },
-        "104": {
+        {
             "file": "PO7.png",
             "comment": "These are the available Cash Bond forms and reports. The following slides will preview the Appearnace Bond form and the Bond Received Report."
         },
-        "105": {
+        {
             "file": "PO8.png",
             "comment": ""
         },
-        "106": {
+        {
             "file": "PO9.png",
             "comment": "Bonds Received Report Bond Received Report shows all bonds received for a given time period. Options exist for showing only Cash Bonds or only Surety Bonds.<br> It is noted if a Bond has been fully or partially Returned, Applied, Forfeited or sent to Circuit Court."
         },
-        "107": {
+        {
             "file": "PO10.png",
             "comment": "Reports and Forms that fit into multiple Categories such as Appearance Bond appear in more than one menu. The series of forms relating to Sureties and Bond Forfeitures are contained here. "
         },
-        "108": {
+        {
             "file": "PO11.png",
             "comment": ""
         },
-        "109": {
+        {
             "file": "PO12.png",
             "comment": "Case Reports are lists of cases within a given date range for various characteristics, including Entered, Opened, Closed, Adjudicated, Appealed, Deferred, Youthful Offender, Interlock and Probation."
         },
-        "110": {
+        {
             "file": "PO13.png",
             "comment": ""
         },
-        "111": {
+        {
             "file": "PO14.png",
             "comment": "Case Labels Case Labels may be customized and generated for various label sizes."
         },
-        "112": {
+        {
             "file": "PO15.png",
             "comment": "Data Transfer Reports relate to data transferred to and from the Municipal Court including Online Credit Card Payments, Documents Scanned in, Drivers Histories, R84 Disposition Reports, and Adjudications sent to the AOC."
         },
-        "113": {
+        {
             "file": "PO16.png",
             "comment": "R84 Disposition Report R84 Disposition Report may be exported to a PDF and e-mailed to ALEA."
         },
-        "114": {
+        {
             "file": "PO17.png",
             "comment": ""
         },
-        "115": {
+        {
             "file": "PO18.png",
             "comment": "Drivers Abstract Form Driver Histories may be returned via email and imported directly to each defendants’ case."
         },
-        "116": {
+        {
             "file": "PO19.png",
             "comment": ""
         },
-        "117": {
+        {
             "file": "PO20.png",
             "comment": "Driving School Docket, Notices and Certificates"
         },
-        "118": {
+        {
             "file": "PO21.png",
             "comment": "Forms relating to downloading, transmittal, case creation and printing of eCitations"
         },
-        "119": {
+        {
             "file": "PO22.png",
             "comment": ""
         },
-        "120": {
+        {
             "file": "PO23.png",
             "comment": "UTC Ticket Allows Magistrate and Police Officer to sign right on the ticket. The judge can also enter findings on the right side."
         },
-        "121": {
+        {
             "file": "PO24.png",
             "comment": ""
         },
-        "122": {
+        {
             "file": "PO25.png",
             "comment": ""
         },
-        "123": {
+        {
             "file": "PO26.png",
             "comment": ""
         },
-        "124": {
+        {
             "file": "PO27.png",
             "comment": ""
         },
-        "125": {
+        {
             "file": "PO28.png",
             "comment": "State Monthly Reports All 17 pages of the monthly reports may be printed out at once."
         },
-        "126": {
+        {
             "file": "PO29.png",
             "comment": ""
         },
-        "127": {
+        {
             "file": "PO30.png",
             "comment": ""
         },
-        "128": {
+        {
             "file": "PO31.png",
             "comment": "Notices sent to a Defendant, Witness, Complainant, Attorney, or the State."
         },
-        "129": {
+        {
             "file": "PO32.png",
             "comment": "Failure to Appear Notice Failure to Appear Notices may be sent on a single case or any case on a particular court date all at once. The notice will automatically change the court date. Folding on the dotted line allows the notice to fit into a windowed envelope."
         },
-        "130": {
+        {
             "file": "PO33.png",
             "comment": "Customized Notices Notices may be created with any custom header and text. These notices may be stored and produced as needed."
         },
-        "131": {
+        {
             "file": "PO34.png",
             "comment": "Overpayment Notice Used for returning money that a Defendant overpaid. Print out the notice, fold on the line and attach a return check."
         },
-        "132": {
+        {
             "file": "PO35.png",
             "comment": "UTC 6B UTC notices to state for suspension and clearance of licenses."
         },
-        "133": {
+        {
             "file": "PO36.png",
             "comment": ""
         },
-        "134": {
+        {
             "file": "PO37.png",
             "comment": "Total Receipts Report List of Daily Receipts (or any time period) is followed by the Drawer Summary broken down by Payment Types.<br> Report can be run for all or just individual cashiers."
         },
-        "135": {
+        {
             "file": "PO38.png",
             "comment": "The Subsequent Page totals up all the individual costs. Account Numbers can be either actual account numbers for an accounting system or a category title.<br> The optional last page is the General Ledger report where each account number or category is totaled."
         },
-        "136": {
+        {
             "file": "PO39.png",
             "comment": ""
         },
-        "137": {
+        {
             "file": "PO40.png",
             "comment": ""
         },
-        "138": {
+        {
             "file": "PO41.png",
             "comment": "Officer Citation Report Number of Citations given by all officers with percentages for given months and Year Total."
         },
-        "139": {
+        {
             "file": "PO42.png",
             "comment": ""
         },
-        "140": {
+        {
             "file": "PO43.png",
             "comment": ""
         },
-        "141": {
+        {
             "file": "PO44.png",
             "comment": ""
         },
-        "142": {
+        {
             "file": "PO45.png",
             "comment": ""
         },
-        "143": {
+        {
             "file": "PO46.png",
             "comment": "Restitution Due Payee Report Lists all Payees for which Restitution has been collected and has not been sent."
         },
-        "144": {
+        {
             "file": "PO47.png",
             "comment": "Restitution Due Payee Letter Letter to the person owed Restitution to fold and put in window envelope with Check attached."
         },
-        "145": {
+        {
             "file": "PO48.png",
             "comment": ""
         },
-        "146": {
+        {
             "file": "PO49.png",
             "comment": ""
         },
-        "147": {
+        {
             "file": "PO50.png",
             "comment": ""
         },
-        "148": {
+        {
             "file": "PO51.png",
             "comment": "Activity, Status and Balance Reports to help manage the Court are found under Management Reports."
         },
-        "149": {
+        {
             "file": "PO52.png",
             "comment": "Payment Plan Management Report Displays the Payment Plans that are next Due Date within the specified date range. May be used to determine which payment plans are Past Due."
         },
-        "150": {
+        {
             "file": "PO53.png",
             "comment": "All State forms that are in categories elsewhere are listed here in order of form number."
         },
-        "151": {
+        {
             "file": "End.png",
             "comment": ""
         }
-    }
+    ]
 }
