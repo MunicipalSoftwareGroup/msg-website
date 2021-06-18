@@ -51,8 +51,8 @@
                         Table of Contents
                     </div>
                     <ul id="table-of-contents" class="f-small">
-                        <li id="toc1" onclick="openSlide(0)">Case Management</li>
-                        <li id="toc2" onclick="openSlide(30)">
+                        <li id="toc1">Case Management</li>
+                        <li id="toc2">
                             Searching for Records
                         </li>
                         <li id="toc3" onclick="openSlide(50)">Red Alerts</li>
@@ -102,10 +102,10 @@
                 <div id="toc-navigation">
                     <div class="top-corner"></div>
                     <div id="toc-controls">
-                        <span id="c1" class="tc-control" onclick="openSlide(0)">
+                        <span id="c1" class="tc-control">
                             <p>Case Management</p>
                         </span>
-                        <span id="c2" class="tc-control" onclick="openSlide(30)">
+                        <span id="c2" class="tc-control">
                             <p>Search</p>
                         </span>
                         <span id="c3" class="tc-control" onclick="openSlide(50)">
@@ -152,7 +152,7 @@
     </div>
     <script>
         // Assign proper slide indeces to ToC and nav bar buttons.
-//        loadNavigation();
+        loadNavigation();
     
         // Keyboard demo navigation
         window.addEventListener("keydown", function(e) {
