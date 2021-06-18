@@ -18,11 +18,15 @@
         },
         {
             "file": "4.png",
-            "comment": "Open Cases shows the total number of cases for this defendant. 'Wrk' is the Worked Cases (Fines and Costs have been Setup). 'Pnd' is Pending cases that haven't been adjudicated. 'Total Owed' is the total amount this defendant owes for cases that have been worked."
+            "comment": "Open Cases shows the total number of cases for this defendant.<br> 'Wrk' is the Worked Cases (Fines and Costs have been Setup).<br> 'Pnd' is Pending cases that haven't been adjudicated."
+        },
+        {
+            "file":"5-1.png",
+            "comment": "'Total Owed' is the total amount this defendant owes for cases that have been worked."
         },
         {
             "file": "5.png",
-            "comment": "'Total Owed' is the total amount this defendant owes for cases that have been worked. 'Pending' is the amount that could be paid if the defendant pleads guilty on payable cases. 'AR' means Appearance Required;  the amounts are determined at adjudication."
+            "comment": "'Pending' is the amount that could be paid if the defendant pleads guilty on payable cases.<br> 'AR' means Appearance Required;  the amounts are determined at adjudication."
         },
         {
             "file": "6.png",
@@ -69,8 +73,12 @@
             "comment": "Now let's open the Payments Tab."
         },
         {
+            "file": "17-1.png",
+            "comment": "The Payments Tab of the History Book shows all payments for this defendant in chronological  order starting with the most recent payment."
+        },
+        {
             "file": "17.png",
-            "comment": "The Payments Tab of the History Book shows all payments for this defendant in chronological  order starting with the most recent payment. Double clicking on a particular payment will display that payment record as shown in the following slide."
+            "comment": "Double clicking on a particular payment will display that payment record as shown in the following slide."
         },
         {
             "file": "18.png",
@@ -82,7 +90,7 @@
         },
         {
             "file": "20.png",
-            "comment": "The Date Reprinted is above the receipt followed by the original receipt. Other Case balances and Payment Plan information are also included.<br> A customized municipal logo may be used as a watermark."
+            "comment": "The Date Reprinted is above the original receipt. Case Balances and Payment Plan information are also included.<br> A customized municipal log may be used as a watermark."
         },
         {
             "file": "21.png",
@@ -93,8 +101,12 @@
             "comment": "Moving on to the Warrants Tab in the Defendant Information window."
         },
         {
+            "file": "23-1.png",
+            "comment": "The Warrants Tab allows viewing and editing of the Warrant Record including marking the warrant as Executed."
+        },
+        {
             "file": "23.png",
-            "comment": "The Warrants Tab allows viewing and editing of the Warrant Record including marking the warrant as Executed.\nDouble clicking the Warrant Number will open the Warrant as shown in the follow slide."
+            "comment": "Double clicking the Warrant Number will open the Warrant as shown in the follow slide."
         },
         {
             "file": "24.png",
@@ -122,7 +134,7 @@
         },
         {
             "file": "3 Search by Case Number.png",
-            "comment": "Here we will search by record number. Note that can you leave out the leading zeros."
+            "comment": "Here we will search by record number. Note that you may leave out the leading zeros."
         },
         {
             "file": "4 Executing Search.png",
@@ -349,8 +361,20 @@
             "comment": ""
         },
         {
+            "file": "8-3P.png",
+            "comment": "The Fines and Court Costs are shown on this screen."
+        },
+        {
+            "file": "8-2P.png",
+            "comment": "The “Original” column shows the initial amount."
+        },
+        {
+            "file": "8-1P.png",
+            "comment": "The “Paid” column shows the amount previously paid."
+        },
+        {
             "file": "8P.png",
-            "comment": "The Fines and Court Costs are shown on this screen. <br>The “Original” column shows the initial amount.<br> The “Paid” column shows the amount previously paid.<br> The “Current” column shows amounts currently being credited."
+            "comment": "The “Current” column shows amounts currently being credited."
         },
         {
             "file": "9P.png",
@@ -362,11 +386,24 @@
         },
         {
             "file": "11P.png",
-            "comment": "The “B” button will allow and add the appropriate Bail Bond Fee Amounts.<br> “C” will clear all costs<br> “P” will add PreTrial Diversion Costs<br>  “I” will add Interlock Costs<br>  “A” if for Additional Customizable Costs"
+            "comment": "“C” will clear all costs<br> “B” button will allow and add the appropriate Bail Bond Fee Amounts."
         },
         {
             "file": "12P.png",
             "comment": "The appropriate Bail Bond Fee Amounts will auto populate at the bottom of the fines and cost list."
+        },
+        
+        {
+            "file": "13-2P.png",
+            "comment": "“P” Button will add PreTrial Diversion Costs"
+        },
+        {
+            "file": "13-1P.png",
+            "comment": "“I” Button will add Interlock Costs<br> “A” Button will add Additional Customizable Costs"
+        },
+        {
+            "file": "Whatever.png",
+            "comment": "Any outstanding Cash Bonds will show up on the Bond Line and be available for Applying, Forfeiting, Returning or Transferring."
         },
         {
             "file": "13P.png",
@@ -378,7 +415,7 @@
         },
         {
             "file": "15P.png",
-            "comment": "Any outstanding Cash Bonds will show up on the Bond Line and be available for Applying, Forfeiting, Returning or Transferring.<br> Cash Bonds may be partially used.<br> Any Cash Bond on a given Defendant may be used on any of that Defendant’s cases."
+            "comment": "Any Cash Bond on a given Defendant may be used on any of that Defendant’s cases.<br> Cash Bonds may be partially used. "
         },
         {
             "file": "16P.png",
@@ -389,8 +426,12 @@
             "comment": ""
         },
         {
+            "file": "PO0.png",
+            "comment": "There are over 200 different Forms and Reports grouped by Categories in the Print Menu.<br> The menus and forms themselves are all customizable to fit the Municipals Courts’ needs.<br> Each Form or Report generates a PDF file which may be edited and attached to the case when appropriate.<br> Reports and Forms that fit into multiple Categories may appear in  more than one menu."
+        },
+        {
             "file": "PO1-1.png",
-            "comment": "There are over 200 different Forms and Reports grouped by Categories in the Print Menu. The menus and the forms themselves are all customizable to fit the municipal courts’ needs. Each Form or Report generates a PDF file which may be edited and attached to the case when appropriate. Appearance Forms are typically printed just before Court Day."
+            "comment": ""
         },
         {
             "file": "PO1.png",
@@ -430,7 +471,7 @@
         },
         {
             "file": "PO10.png",
-            "comment": "Reports and Forms that fit into multiple Categories such as Appearance Bond appear in more than one menu. The series of forms relating to Sureties and Bond Forfeitures are contained here. "
+            "comment": "The series of forms relating to Sureties and Bond Forfeitures are contained here. "
         },
         {
             "file": "PO11.png",
