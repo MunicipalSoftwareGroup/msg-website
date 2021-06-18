@@ -51,15 +51,15 @@
                         Table of Contents
                     </div>
                     <ul id="table-of-contents" class="f-small">
-                        <li onclick="openSlide(0)">Case Management</li>
-                        <li onclick="openSlide(27)">
+                        <li id="toc1" onclick="openSlide(0)">Case Management</li>
+                        <li id="toc2" onclick="openSlide(30)">
                             Searching for Records
                         </li>
-                        <li onclick="openSlide(47)">Red Alerts</li>
-                        <li onclick="openSlide(52)">Tables</li>
-                        <li onclick="openSlide(59)">Documents</li>
-                        <li onclick="openSlide(79)">Payments</li>
-                        <li onclick="openSlide(96)">Forms and Reports</li>
+                        <li id="toc3" onclick="openSlide(50)">Red Alerts</li>
+                        <li id="toc4" onclick="openSlide(55)">Tables</li>
+                        <li id="toc5" onclick="openSlide(62)">Documents</li>
+                        <li id="toc6" onclick="openSlide(82)">Payments</li>
+                        <li id="toc7" onclick="openSlide(105)">Forms and Reports</li>
                     </ul>
                 </div>
                 <div id="instructions" class="open-sans f-small">
@@ -105,22 +105,22 @@
                         <span id="c1" class="tc-control" onclick="openSlide(0)">
                             <p>Case Management</p>
                         </span>
-                        <span id="c2" class="tc-control" onclick="openSlide(27)">
+                        <span id="c2" class="tc-control" onclick="openSlide(30)">
                             <p>Search</p>
                         </span>
-                        <span id="c3" class="tc-control" onclick="openSlide(47)">
+                        <span id="c3" class="tc-control" onclick="openSlide(50)">
                             <p>Red Alerts</p>
                         </span>
-                        <span id="c4" class="tc-control" onclick="openSlide(52)">
+                        <span id="c4" class="tc-control" onclick="openSlide(55)">
                             <p>Tables</p>
                         </span>
-                        <span id="c5" class="tc-control" onclick="openSlide(59)">
+                        <span id="c5" class="tc-control" onclick="openSlide(62)">
                             <p>Documents</p>
                         </span>
-                        <span id="c6" class="tc-control" onclick="openSlide(79)">
+                        <span id="c6" class="tc-control" onclick="openSlide(82)">
                             <p>Payments</p>
                         </span>
-                        <span id="c7" class="tc-control" onclick="openSlide(96)">
+                        <span id="c7" class="tc-control" onclick="openSlide(105)">
                             <p>Forms and Reports</p>
                         </span>
                     </div>
@@ -151,6 +151,9 @@
         </div>
     </div>
     <script>
+        // Assign proper slide indeces to ToC and nav bar buttons.
+//        loadNavigation();
+    
         // Keyboard demo navigation
         window.addEventListener("keydown", function(e) {
             if (!e) {
@@ -173,7 +176,6 @@
             }
 
         });
-
     </script>
 </body>
 <footer>
