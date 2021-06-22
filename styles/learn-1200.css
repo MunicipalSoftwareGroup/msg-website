@@ -5,8 +5,12 @@
 }
 
 @media (min-width: 1350px) {
-    #title-container, #content-container {
-        grid-template-columns: auto 1203px auto;
+    #title-container {
+        grid-template-columns: 1fr 1203px 1fr;
+    }
+    
+    #content-container {
+        grid-template-columns: 1fr 1000px 1fr;
     }
     
     #title-container {
