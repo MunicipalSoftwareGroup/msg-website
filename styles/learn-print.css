@@ -1,0 +1,39 @@
+/*
+:root { font: 20px/1.2 sans-serif; }
+body, body * {
+    margin:          unset;
+    box-sizing:      unset;
+    padding:         unset;
+    font-size:       unset;
+    color:           unset;
+    text-decoration: unset;
+}
+*/
+
+#top,
+header,
+#title-container,
+#table-of-contents-container,
+#back-to-top,
+#other-resources,
+footer {
+    display: none;
+}
+
+#content-container {
+    /*    display: block;*/
+    grid-template-columns: 0 1fr 0;
+    padding: 0;
+}
+
+ol {
+    margin-left: 1.2rem;
+}
+
+@page {
+    margin: 1in;
+}
+
+p, .captioned-image {
+    break-inside: avoid-page;
+}
