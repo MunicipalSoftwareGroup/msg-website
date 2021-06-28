@@ -230,24 +230,3 @@ section {
     color: #006DFF;
     margin-bottom: 3rem;
 }
-
-#other-resources-title {
-    grid-column: 2 / 3 ;
-    color: #003375;
-    margin-top: 1rem;   
-}
-
-#other-resources-links {
-    display: flex;
-    flex-direction: column;
-    color: #003375;
-    margin-top: 1rem;
-}
-
-#other-resources-links a {
-    padding: 0.25rem 0;   
-}
-
-#other-resources a:hover {
-    text-decoration: underline;   
-}
