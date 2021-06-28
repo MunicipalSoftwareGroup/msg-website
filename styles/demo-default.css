@@ -105,7 +105,7 @@
     /*    grid-template-columns: 1fr 10fr 1fr;*/
     width: 100%;
     max-width: 80rem;
-    max-height: 95vh;
+    max-height: 100vh;
     z-index: 11;
 }
 
@@ -180,7 +180,7 @@
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     grid-column: 1 / 4;
-    height: 83vh;
+    height: 88vh;
 }
 
 #prev {
@@ -238,6 +238,7 @@
 
 #slide-area {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -264,8 +265,11 @@
 
 #slide-commentary {
     display: flex;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
     width: 100%;
-    height: 100%;
+    height: auto;
     min-height: 5rem;
     max-height: 8rem;
     background-color: #4B4B4B;
