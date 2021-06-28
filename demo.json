@@ -225,8 +225,12 @@
             "comment": ""
         },
         {
+            "file": "1T-1.png",
+            "comment": "A group of records are held in a Table.   In a Municipal Court you spend most of your time in the Case Table which holds all the Case Docket Records.<br> You will also need to get other Tables like Profiles, Warrants, eCitations, Payments,  Bonds and Driving School.  There are many tables you will almost never need to go to like Eye Color, Hair Color and US States."
+        },
+        {
             "file": "1T.png",
-            "comment": "A group of records are held in a Table.   In a Municipal Court you spend most of your time in the Case Table which holds all the Case Docket Records.<br> You will also need to get other Tables like Profiles, Warrants, eCitations, Payments,  Bonds and Driving School.  There are many tables you will almost never need to go to like Eye Color, Hair Color and US States.<br> You may change from one Table to another by using the Tables Menu (see above) where you would select a SubMenu to then select the desired Table. If you want to go to Warrants you would click  <b>Tables -> Warrant Menu -> Warrants</b> as shown."
+            "comment": "You may change from one Table to another by using the Tables Menu (see above) where you would select a SubMenu to then select the desired Table. If you want to go to Warrants you would click  <b>Tables -> Warrant Menu -> Warrants</b> as shown."
         },
         {
             "file": "2T.png",
@@ -402,10 +406,6 @@
             "comment": "“I” Button will add Interlock Costs<br> “A” Button will add Additional Customizable Costs"
         },
         {
-            "file": "Whatever.png",
-            "comment": "Any outstanding Cash Bonds will show up on the Bond Line and be available for Applying, Forfeiting, Returning or Transferring."
-        },
-        {
             "file": "13P.png",
             "comment": "Cash, Property or Surety Bonds may also be taken."
         },
@@ -426,8 +426,8 @@
             "comment": ""
         },
         {
-            "file": "PO0.png",
-            "comment": "There are over 200 different Forms and Reports grouped by Categories in the Print Menu.<br> The menus and forms themselves are all customizable to fit the Municipals Courts’ needs.<br> Each Form or Report generates a PDF file which may be edited and attached to the case when appropriate.<br> Reports and Forms that fit into multiple Categories may appear in  more than one menu."
+            "file": "PO1-2.png",
+            "comment": ""
         },
         {
             "file": "PO1-1.png",
@@ -439,7 +439,7 @@
         },
         {
             "file": "PO2.png",
-            "comment": "Case Action Summary Checked boxes may be clicked and data entered right on the Case Action Summary.<br> A Case Action Summary may be printed for a single case or all cases for a given court date at once."
+            "comment": "Checked boxes may be clicked and data entered right on the Case Action Summary.<br> A Case Action Summary may be printed for a single case or all cases for a given court date at once."
         },
         {
             "file": "PO3.png",
@@ -543,7 +543,7 @@
         },
         {
             "file": "PO28.png",
-            "comment": "State Monthly Reports All 17 pages of the monthly reports may be printed out at once."
+            "comment": "State Monthly Reports: All 17 pages of the monthly reports may be printed out at once."
         },
         {
             "file": "PO29.png",
@@ -615,11 +615,11 @@
         },
         {
             "file": "PO46.png",
-            "comment": "Restitution Due Payee Report Lists all Payees for which Restitution has been collected and has not been sent."
+            "comment": "Restitution Due Payee Report lists all Payees for which Restitution has been collected and has not been sent."
         },
         {
             "file": "PO47.png",
-            "comment": "Restitution Due Payee Letter Letter to the person owed Restitution to fold and put in window envelope with Check attached."
+            "comment": "Restitution Due Payee Letter is a letter to the person owed Restitution. It can be folded and put in a windowed envelope with a Check attached."
         },
         {
             "file": "PO48.png",
@@ -639,7 +639,7 @@
         },
         {
             "file": "PO52.png",
-            "comment": "Payment Plan Management Report Displays the Payment Plans that are next Due Date within the specified date range. May be used to determine which payment plans are Past Due."
+            "comment": "Payment Plan Management Report displays the Payment Plans that are next Due Date within the specified date range. May be used to determine which payment plans are Past Due."
         },
         {
             "file": "PO53.png",

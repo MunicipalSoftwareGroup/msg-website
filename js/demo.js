@@ -56,7 +56,7 @@ async function openSlide(newNum) {
         return newNum;
     } else if (newNum === 0) {
         prevArrow.style.display = "none";
-    } else if (newNum === 151) {
+    } else if (newNum === slides.length - 1) {
         nextArrow.style.display = "none";
         finishButton.style.display = "flex";
     } else {
@@ -103,7 +103,7 @@ async function setCurrentSlide(num) {
 
     var slideNumber = document.getElementById("slide-number");
 
-    slideNumber.textContent = parseInt(p.innerHTML) + 1 + "/152";
+    slideNumber.textContent = parseInt(p.innerHTML) + 1 + "/" + slides.length;
 }
 
 function getSlidesPath() {
