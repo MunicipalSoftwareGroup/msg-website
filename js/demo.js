@@ -24,9 +24,11 @@ function checkClose(event) {
 
 function hideDemo() {
     var demo = document.getElementById("demo-container");
-
+    var finishButton = document.getElementById("finish-button");
+    
     if (demo.style.display != "none") {
         demo.style.display = "none";
+        finishButton.style.display = "none";
     }
 }
 
