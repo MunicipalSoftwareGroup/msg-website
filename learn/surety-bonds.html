@@ -24,12 +24,12 @@
     <link rel="stylesheet" href="/styles/fontawesome-free-5.15.3-web/css/all.css">
     <link rel="stylesheet" type="text/css" media="print" href="/styles/learn-print.css" />
 
-    <script src="/images/learn/surety-bonds/.jpg"></script>
-    <script src="/images/learn/surety-bonds/.jpg"></script>
-    <script src="/images/learn/surety-bonds/.jpg"></script>
-    <script src="/images/learn/surety-bonds/.jpg"></script>
-    <script src="/images/learn/surety-bonds/.jpg"></script>
-    <script src="/images/learn/surety-bonds/.jpg"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/toggleMenu.js"></script>
+    <script src="/js/closeMenu.js"></script>
+    <script src="/js/onload.js"></script>
+    <script src="/js/learn/toc.js"></script>
 </head>
 
 <body style="max-width: 100%;  min-height: 100%">
@@ -42,7 +42,7 @@
     </div>
     <div id="content-container">
         <div id="table-of-contents-container">
-            <iframe src="/learn/components/table-of-contents.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
+            <iframe src="/learn/components/table-of-contents.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);dropdown('surety-bonds-dropdown');this.remove()" hidden></iframe>
         </div>
         <div id="content-inner">
             <div id="main-content">
@@ -53,6 +53,7 @@
                     <div id="reading-content-body">
                         <section>
                             <section>
+                                <div id="1"></div>
                                 <h2>Receiving a Surety Bond</h2>
                                 <p>Even though no money is initially received, Surety Bonds are taken through the payment screen. Like a Cash Bond, a Surety Bond may be taken on a particular case or may be taken on a Defendant Profile before a case is entered.</p>
                             </section>
@@ -167,6 +168,7 @@
                         
                         <section>
                             <section>
+                                <div id="2"></div>
                                 <h2>Surety Bond Forms</h2>
                                 <p>Should the defendant ‘Fail to Appear’ on a case with a Surety Bond, there are a number of forms relating to ‘Conditional Bond Forfeiture’, ‘Bondsman’s Process’ and ‘Final Bond Forfeiture’. <b>These forms require that a Surety Bond record exists for the Defendant.</b> (See ‘Receiving a Surety Bond’)</p>
 
@@ -218,6 +220,7 @@
 
                         <section>
                             <section>
+                                <div id="3"></div>
                                 <h3>Surety Bond Conditional Forfeiture</h3>
 
                                 <p>Should the Defendant not appear to fulfill the obligation of the surety bond, the court may issue a CR-24 Order of Conditional Bond Forfeiture.</p>
@@ -275,6 +278,7 @@
 
                         <section>
                             <section>
+                                <div id="4"></div>
                                 <h3>Bondsman's Process</h3>
                                 <p>The Bondsman’s Process allows the Surety to locate and arrest the Defendant for a short period of time. The Surety must first complete a CR28 “Application for Bondsman’s Process”.</p>
                                 <div class="captioned-image">
@@ -317,6 +321,7 @@
 
                         <section>
                             <section>
+                                <div id="5"></div>
                                 <h3>Final Bond Forfeiture</h3>
                                 <p>The ‘Conditional Bond Forfeiture’ period is 28 days after it is ordered.</p>
                                 <p>If the Surety does not present the Defendant or demonstrate a valid reason for not presenting the Defendant, the orfeiture will become a Final Bond Forfeiture (CR-22).</p>
@@ -346,6 +351,7 @@
 
                         <section>
                             <section>
+                                <div id="6"></div>
                                 <h2>Converting a Surety Bond to a Cash Bond</h2>
                                 <p>When a Surety Company pays on a Surety Bond, the Surety Bond is converted to a cash bond and then forfeited.</p>
                                 <p>In the Payment Manager the Case Reason is changed to BOND CONVERT SURETY. OK is clicked.</p>

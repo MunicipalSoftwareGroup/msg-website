@@ -10,3 +10,9 @@ $(document).on('click', '.dropdown', function() {
 
         $(this).parent().children('ul').toggle();
     });
+
+function dropdown(id) {
+    var dropdown = document.getElementById(id);
+    
+    $("#" + id).toggle();
+}

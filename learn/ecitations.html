@@ -42,7 +42,7 @@
     </div>
     <div id="content-container">
         <div id="table-of-contents-container">
-            <iframe src="/learn/components/table-of-contents.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
+            <iframe src="/learn/components/table-of-contents.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);dropdown('ecitations-dropdown');dropdown('other-ecitations-dropdown');this.remove()" hidden></iframe>
         </div>
         <div id="content-inner">
             <div id="main-content">
@@ -76,34 +76,34 @@
                             </section>
 
                             <section>
-                                <p>The software now downloads any eCitation that had not been previously been downloaded from the eCitation Database in Tuscaloosa.  The software also inserts the Defendant Name, Charge and Officer in the ‘Local Case Info’.  These fields are used to later create records in the Case Table.</p>
+                                <p>The software now downloads any eCitation that had not been previously been downloaded from the eCitation Database in Tuscaloosa. The software also inserts the Defendant Name, Charge and Officer in the ‘Local Case Info’. These fields are used to later create records in the Case Table.</p>
                                 <div class="captioned-image">
                                     <img src="/images/learn/ecitations/5.jpg" />
                                     <p class="caption"></p>
                                 </div>
                             </section>
                         </section>
-                        
+
                         <h2>eCitation List Report</h2>
                         <section>
                             <section>
-                            <p>The eCitation List Report will display tickets that have been Downloaded but do not yet have a Case Record created from them in the Case Table.</p>
-                            <p><b>Print > eCitation > eCitation List Report</b></p>
-                            <div class="captioned-image">
-                                <img src="/images/learn/ecitations/6.jpg" />
-                                <p class="caption"></p>
-                            </div>
+                                <p>The eCitation List Report will display tickets that have been Downloaded but do not yet have a Case Record created from them in the Case Table.</p>
+                                <p><b>Print > eCitation > eCitation List Report</b></p>
+                                <div class="captioned-image">
+                                    <img src="/images/learn/ecitations/6.jpg" />
+                                    <p class="caption"></p>
+                                </div>
                             </section>
-                            
+
                             <section>
                                 <p>This report shows 4 tickets were downloaded without any errors.</p>
-                            <div class="captioned-image">
-                                <img src="/images/learn/ecitations/7.jpg" />
-                                <p class="caption"></p>
-                            </div>
+                                <div class="captioned-image">
+                                    <img src="/images/learn/ecitations/7.jpg" />
+                                    <p class="caption"></p>
+                                </div>
                             </section>
                         </section>
-                        
+
                         <h2>Correcting eCitation Errors</h2>
                         <section>
                             <section>
@@ -293,7 +293,7 @@
                                 </section>
                             </section>
                         </section>
-                        
+
                         <h2>eCitation Transmittal Form</h2>
                         <section>
                             <p>The eCitation Swear Report is optionally run after the eCitation List Report. If the Officer has already turned in a Transmittal Sheet, this report may not be necessary. <b>Print > eCitation > eCitation Swear Report</b></p>
@@ -321,7 +321,7 @@
 
                                 <p>‘Include Citations Already Processed’ allows for tickets to be placed on a Transmittal form that have already had cases created from them.</p>
                             </section>
-                            
+
                             <section>
                                 <p>The Transmittal Form generates one page per officer.</p>
                                 <div class="captioned-image">
@@ -331,7 +331,7 @@
                                 <p>With a signature pad, the Officer may sign the Transmittal.</p>
                             </section>
                         </section>
-                        
+
                         <h2>Creating Cases from eCitation</h2>
                         <section>
                             <section>
@@ -351,13 +351,13 @@
                                 <p>The Case Records are now created in the Cases Table. The Resulting Case Number is listed in the last column of the report.</p>
                             </section>
                         </section>
-                        
+
                         <h2>Printing eCitation Tickets</h2>
                         <section>
                             <section>
-                            <p>There are 3 different paths to print eCitation tickets.</p>
+                                <p>There are 3 different paths to print eCitation tickets.</p>
                             </section>
-                            
+
                             <h3>1. Checking the Box</h3>
                             <section>
                                 <p>When creating Cases from the eCitation there is an optional ‘Print eCitation’ check box that will print the eCitation Ticket with the new Case Number on it. The Document is then attached to the eCitation Record and the Case Record.</p>
@@ -371,23 +371,23 @@
                                     <p class="caption"></p>
                                 </div>
                             </section>
-                            
+
                             <section>
                                 <p>With a signature pad the Officer and the Magistrate may sign the eCitation.</p>
                                 <p>Multiple tickets may be signed at once by holding the Ctrl Key down while clicking on the signature field.</p>
                                 <p>A judge may later fill in the fields on the right side and sign it as well.</p>
                             </section>
-                            
+
                             <h3>2. eCitation Ticket Report</h3>
                             <section>
-                                <p>The eCitation Tickets Report allows tickets to be reprinted or printed for the first time if they were not previously printed in ‘eCitation Create Cases’.  Tickets may be printed either before or after they were created.</p>
+                                <p>The eCitation Tickets Report allows tickets to be reprinted or printed for the first time if they were not previously printed in ‘eCitation Create Cases’. Tickets may be printed either before or after they were created.</p>
                                 <p><b>Print > eCitation > eCitation Tickets</b></p>
                                 <div class="captioned-image">
                                     <img src="/images/learn/ecitations/30.jpg" />
                                     <p class="caption"></p>
                                 </div>
                             </section>
-                            
+
                             <h3>3. Click on the Printer</h3>
                             <section>
                                 <p>A Single eCitation Ticket may be printed by clicking on the Printer icon.</p>
@@ -396,18 +396,18 @@
                                     <p class="caption"></p>
                                 </div>
                             </section>
-                            
+
                             <section>
                                 <p>The 'Quick Print' menu will appear. Current Record is selected.</p>
                                 <div class="captioned-image">
                                     <img src="/images/learn/ecitations/32.jpg" />
                                     <p class="caption"></p>
                                 </div>
-                                
+
                                 <p>The Current Record being displayed in the eCitation Table will print out in the ticket format.</p>
                             </section>
                         </section>
-                        
+
                         <h2>Other eCitation Topics</h2>
                         <section>
                             <h3>Creating an Account with CAPS</h3>
@@ -435,18 +435,18 @@
                                     Please set up a password and username for MSG to allow data integration for [City Name] Municipal Court.
                                 </p>
                             </section>
-                            
+
                             <h3>Non-Traffic eCitations</h3>
                             <section>
                                 <p>Non-Traffic eCitations have a number in the Format of NV1234567.</p>
                                 <p>The other big difference it that NV eCitations do not have to have a TCode.</p>
-                                <p>Instead the Charge is matched on the Citation Ordinance Number which needs to be the same in the Charge Record for the particular Charge.  If they do not match, the eCitation Translation table may be used to translate to the correct charge. Printing the NV ticket produces a slightly different form than the Traffic eCitations.</p>
+                                <p>Instead the Charge is matched on the Citation Ordinance Number which needs to be the same in the Charge Record for the particular Charge. If they do not match, the eCitation Translation table may be used to translate to the correct charge. Printing the NV ticket produces a slightly different form than the Traffic eCitations.</p>
                                 <div class="captioned-image">
                                     <img src="/images/learn/ecitations/33.jpg" />
                                     <p class="caption"></p>
                                 </div>
                             </section>
-                            
+
                             <h3>Voiding an eCitation Ticket</h3>
                             <section>
                                 <p>An eCitation Record should be voided if there is for any reason a case is not to be created from it. To void an eCitation Record, type VOID in the Local Case Field and check the ‘Already Used’ box.</p>
@@ -459,7 +459,7 @@
                                     <p class="caption"></p>
                                 </div>
                             </section>
-                        
+
                             <h3>What if an eCitation Ticket is Missing?</h3>
                             <section>
                                 <p>There are several reasons why a ticket might not appear in the eCitation Table.</p>
@@ -481,10 +481,10 @@
                                         <p><b>There was an error in downloading the eCitation from the State.</b></p>
                                         <p>The ticket could be flagged as already being sent and therefore would be sent again. The solution is to click on the Download Button so that there are no pending downloads. Click on the Add Record Icon in the upper left of the screen.</p>
                                         <p>Go to the Ticket Field and enter the eCitation Number. Press Tab or Enter.</p>
-                                        <p>The ticket would now be downloaded and placed in this new record. Save the Record.   If the fields all remain blank, this ticket is not available.</p>
+                                        <p>The ticket would now be downloaded and placed in this new record. Save the Record. If the fields all remain blank, this ticket is not available.</p>
                                     </li>
                                 </ul>
-                                
+
                                 <p>If none of these solutions work, the Police Department could contact the eCitation People at CAPS (Center for Advanced Public Safety) and have them look at the status of this ticket number.</p>
                             </section>
                         </section>
