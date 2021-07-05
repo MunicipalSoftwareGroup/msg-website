@@ -13,6 +13,20 @@ html {
     overflow-y: scroll;
 }
 
+#news-box-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+#news-box-body::-webkit-scrollbar-track {
+    background: transparent;
+    border: none;
+}
+
+#news-box-body::-webkit-scrollbar-thumb {
+    background-color: rgba(0,51,117,0.50);
+    border-radius: 1rem;
+}
+
 .rotate90chevron {
     transform-origin: 50% 50%;
     transform: rotate(90deg);
@@ -51,8 +65,24 @@ Open Sans is a temporary replacement*/
     letter-spacing: -0.05rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'lora Bold';
+h1 {
+    font-size: 32pt;
+    margin-bottom: 1rem;
+}
+
+h2 { 
+    font-size: 26pt; 
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 22pt;
+    margin-bottom: 0.65rem;
+}
+
+h4 {
+    font-size: 20pt;
+    margin-bottom: 0.6rem;
 }
 
 body, input, textarea {
