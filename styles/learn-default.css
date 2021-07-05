@@ -93,6 +93,8 @@
 }
 
 #table-of-contents-container {
+    display: flex;
+    justify-content: center;
     grid-column: 1 / 2;
     width: inherit;
     min-width: 18rem;
@@ -106,7 +108,8 @@
 #table-of-contents {
     list-style: none;
     color: #003375;
-    margin: 0.5rem 2rem 0 2.55rem;
+    border-top: 5px solid #FAC173;;
+    min-width: 50%;
 }
 
 #table-of-contents * {
@@ -128,8 +131,8 @@
     position: relative;
 }
 
-.dropdown > p {
-    margin: 0rem 0 0.4rem 0;
+#table-of-contents > li {
+    margin: 0.4rem 0 0.4rem 0 ;
 }
 
 .dropdown ~ ul {
