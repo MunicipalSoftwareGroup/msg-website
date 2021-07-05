@@ -89,6 +89,17 @@ async function openSlide(newNum) {
         highlight("c7");
     }
 
+    var titleOverlay = document.getElementById("form-title-overlay");
+
+    if ('title' in slides[newNum]) {
+        console.log(slides[newNum]);
+        titleOverlay.innerText = slides[newNum]["title"];
+        titleOverlay.style.display = "flex";
+    }
+    else {
+        titleOverlay.style.display = "none";
+    }
+
     showDemo();
 }
 
