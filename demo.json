@@ -90,7 +90,7 @@
         },
         {
             "file": "20.png",
-            "comment": "The Date Reprinted is above the original receipt. Case Balances and Payment Plan information are also included.<br> A customized municipal log may be used as a watermark."
+            "comment": "The Date Reprinted is above the original receipt. Case Balances and Payment Plan information are also included.<br> A customized municipal logo may be used as a watermark."
         },
         {
             "file": "21.png",
@@ -230,7 +230,7 @@
         },
         {
             "file": "1T.png",
-            "comment": "You may change from one Table to another by using the Tables Menu (see above) where you would select a SubMenu to then select the desired Table. If you want to go to Warrants you would click  <b>Tables -> Warrant Menu -> Warrants</b> as shown."
+            "comment": "You may change from one Table to another by using the Tables Menu where you would select a SubMenu to then select the desired Table. If you want to go to Warrants you would click  <b>Tables -> Warrant Menu -> Warrants</b> as shown."
         },
         {
             "file": "2T.png",
@@ -443,15 +443,15 @@
         },
         {
             "file": "PO3.png",
-            "comment": "Court Docket The Court Docket may be printed in Portrait of Landscape with many options for what is to be displayed. The Format of the Docket itself may be customized."
+            "comment": "The Court Docket may be printed in Portrait of Landscape with many options for what is to be displayed. The Format of the Docket itself may be customized."
         },
         {
             "file": "PO4.png",
-            "comment": "Officer Docket A docket may be created with a page for each officer."
+            "comment": "A docket may be created with a page for each officer."
         },
         {
             "file": "PO5.png",
-            "comment": "Initial Appearance Clicking on the signature field will auto-sign the form with an employee profile signature."
+            "comment": "Clicking on the signature field will auto-sign the form with an employee profile signature."
         },
         {
             "file": "PO6.png",
@@ -467,7 +467,7 @@
         },
         {
             "file": "PO9.png",
-            "comment": "Bonds Received Report Bond Received Report shows all bonds received for a given time period. Options exist for showing only Cash Bonds or only Surety Bonds.<br> It is noted if a Bond has been fully or partially Returned, Applied, Forfeited or sent to Circuit Court."
+            "comment": "This report shows all bonds received for a given time period. Options exist for showing only Cash Bonds or only Surety Bonds.<br> It is noted if a Bond has been fully or partially Returned, Applied, Forfeited or sent to Circuit Court."
         },
         {
             "file": "PO10.png",
@@ -487,7 +487,7 @@
         },
         {
             "file": "PO14.png",
-            "comment": "Case Labels Case Labels may be customized and generated for various label sizes."
+            "comment": "Labels may be customized and generated for various label sizes."
         },
         {
             "file": "PO15.png",
@@ -495,7 +495,7 @@
         },
         {
             "file": "PO16.png",
-            "comment": "R84 Disposition Report R84 Disposition Report may be exported to a PDF and e-mailed to ALEA."
+            "comment": "This report may be exported to a PDF and e-mailed to ALEA."
         },
         {
             "file": "PO17.png",
@@ -503,7 +503,7 @@
         },
         {
             "file": "PO18.png",
-            "comment": "Drivers Abstract Form Driver Histories may be returned via email and imported directly to each defendants’ case."
+            "comment": "Driver Histories may be returned via email and imported directly to each defendants’ case."
         },
         {
             "file": "PO19.png",
@@ -515,7 +515,7 @@
         },
         {
             "file": "PO21.png",
-            "comment": "Forms relating to downloading, transmittal, case creation and printing of eCitations"
+            "comment": "Forms related to downloading, transmittal, case creation and printing of eCitations"
         },
         {
             "file": "PO22.png",
@@ -523,7 +523,7 @@
         },
         {
             "file": "PO23.png",
-            "comment": "UTC Ticket Allows Magistrate and Police Officer to sign right on the ticket. The judge can also enter findings on the right side."
+            "comment": "Allows Magistrate and Police Officer to sign right on the ticket. The judge can also enter findings on the right side."
         },
         {
             "file": "PO24.png",
@@ -559,19 +559,19 @@
         },
         {
             "file": "PO32.png",
-            "comment": "Failure to Appear Notice Failure to Appear Notices may be sent on a single case or any case on a particular court date all at once. The notice will automatically change the court date. Folding on the dotted line allows the notice to fit into a windowed envelope."
+            "comment": "FTA Notices may be sent on a single case or any case on a particular court date all at once. The notice will automatically change the court date. Folding on the dotted line allows the notice to fit into a windowed envelope."
         },
         {
             "file": "PO33.png",
-            "comment": "Customized Notices Notices may be created with any custom header and text. These notices may be stored and produced as needed."
+            "comment": "Notices may be created and stored with any custom header and text."
         },
         {
             "file": "PO34.png",
-            "comment": "Overpayment Notice Used for returning money that a Defendant overpaid. Print out the notice, fold on the line and attach a return check."
+            "comment": "Used for returning money that a Defendant overpaid. Print out the notice, fold on the line and attach a return check."
         },
         {
             "file": "PO35.png",
-            "comment": "UTC 6B UTC notices to state for suspension and clearance of licenses."
+            "comment": "UTC notices to state for suspension and clearance of licenses."
         },
         {
             "file": "PO36.png",
@@ -579,15 +579,15 @@
         },
         {
             "file": "PO37.png",
-            "comment": "Total Receipts Report List of Daily Receipts (or any time period) is followed by the Drawer Summary broken down by Payment Types.<br> Report can be run for all or just individual cashiers."
+            "comment": "List of Daily Receipts (or any time period) is followed by the Drawer Summary broken down by Payment Types.<br> Report can be run for all or just individual cashiers."
         },
         {
             "file": "PO38.png",
-            "comment": "The Subsequent Page totals up all the individual costs. Account Numbers can be either actual account numbers for an accounting system or a category title.<br> The optional last page is the General Ledger report where each account number or category is totaled."
+            "comment": "The Subsequent Page totals up all the individual costs. Account Numbers can be either actual account numbers for an accounting system or a category title."
         },
         {
             "file": "PO39.png",
-            "comment": ""
+            "comment": "The optional last page is the General Ledger report where each account number or category is totaled."
         },
         {
             "file": "PO40.png",
@@ -595,7 +595,7 @@
         },
         {
             "file": "PO41.png",
-            "comment": "Officer Citation Report Number of Citations given by all officers with percentages for given months and Year Total."
+            "comment": "Number of Citations given by all officers with percentages for given months and Year Total."
         },
         {
             "file": "PO42.png",
@@ -615,11 +615,11 @@
         },
         {
             "file": "PO46.png",
-            "comment": "Restitution Due Payee Report lists all Payees for which Restitution has been collected and has not been sent."
+            "comment": "Lists all Payees for which Restitution has been collected and has not been sent."
         },
         {
             "file": "PO47.png",
-            "comment": "Restitution Due Payee Letter is a letter to the person owed Restitution. It can be folded and put in a windowed envelope with a Check attached."
+            "comment": "A letter to the person owed Restitution. It can be folded and put in a windowed envelope with a Check attached."
         },
         {
             "file": "PO48.png",
@@ -639,7 +639,7 @@
         },
         {
             "file": "PO52.png",
-            "comment": "Payment Plan Management Report displays the Payment Plans that are next Due Date within the specified date range. May be used to determine which payment plans are Past Due."
+            "comment": "Displays the Payment Plans that are next Due Date within the specified date range. May be used to determine which payment plans are Past Due."
         },
         {
             "file": "PO53.png",
