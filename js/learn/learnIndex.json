@@ -1,0 +1,266 @@
+[
+  {
+      "page": "attorneys",
+      "section": 1,
+      "title": "Adding an Attorney",
+      "text": "Adding an Attorney Before an Attorney may be added as a Party on a Case they must first be entered in the Attorney Table Go to the Attorneys Table via Tables  Parties  Attorneys Click on Add Record icon in the upper left corner If the Attorney already has a Profile click on the down arrow next to the Attorney Name Field and start typing the Attorney Name Select the name when it appears If the Attorney does not have a Profile right click on the Attorney Name field and Select Create New Profile Follow the Instructions for Adding a new Profile Record if needed If the Attorney is listed as an Individual Name enter it in the First and Last Name Fields If instead the listing is a Law Office enter the name in the Entity Field and leave the Name Fields Blank Save the New Attorney Name by clicking on the Save Record Icon After saving the new Profile Click on the X in the upper right or Press the ESC key on the keyboard to return to the Attorney Lookup Table Save the new record in the Attorney Lookup Table The Attorney may now be added as a Party in the Case Table by selecting ATTORNEY as the Relationship To Place the Attorney on Multiple Cases for the same Defendant check the Place Party on Multiple Cases in the Add Party window and Click on OK The Add Party to Multiple Cases Screen will appear Check the cases on which to add the Attorney and click OK"
+  },
+  {
+      "page": "cash-bonds",
+      "section": 1,
+      "title": "Taking a Cash Bond",
+      "text": "Cash Bonds are received through the payment screen Cash Bonds may be taken on a particular case or may be taken on a Defendant before a case is entered Steps Go to the Case or Profile on which the Cash Bond is to be taken and click on the Payment Icon The Payment Icon The Payment Manager screen should now appear The Payment Manager screen Change the Reason to BOND RECEIVE CASH Navigating to the Profiles table Click OK Clicking the OK button The Receive Bond Screen will appear The Receive Bond Screen If this Defendant had a Bond Amount from a Warrant that amount would be prefilled into the Tendered field Otherwise Enter the amount of the Cash Bond in the Tendered field The Receive Bond Screen This amount will be automatically placed in the Applied and Cash Bond fields The Receive Bond Screen Click OK to generate a Cash Bond Receipt Clicking OK The Cash Bond Receipt The Cash Bond of 50000 is now attached to this Defendant and Case It may be viewed by clicking on the History Book and then the Bonds tab The History Book icon Bond information attached to case Any Cash Bond with a Balance may also be viewed on the Payment Manager screen Notice the Cash Bond amount in red on the bottom right The total of all Cash Bonds taken will show up on the end of day Total Receipts Report so that it may be deposited into the Cash Bond Account A Total Receipts Report showing the Cash Bond amount"
+  },
+  {
+      "page": "cash-bonds",
+      "section": 2,
+      "title": "Applying a Cash Bond to a Case",
+      "text": "Cash Bonds taken on a Defendant may be later applied to any of that Defendants Cases through the Payment Manager Steps Go to the Case on which the Bond is to be applied and Click on the Payment Manager icon The Payment Icon Change the Reason to BOND DISPOSE APPLY Changing the Bond Reason Select the Bond to Use There may be many Cash Bonds from which to select Here there is only one Selecting the Bond to use Click on OK to bring up the Case Payment Screen Clicking OK Enter the Amount of the Bond to Apply and Click OK Entering Bond amount to apply The Printed Receipt shows the Remaining Balance of 36300 The Receipt The Payment Manager Screen also shows the Remaining Balance The remaining balance shown on the Payment Manager The Bond Apply amount will show up on the end of day Total Receipts Report in the last column This is not an amount that is being turned in for this day Instead it is amount that is to be distributed from the Bond Account The Total Receipts Report showing the total amount to be distributed"
+  },
+  {
+      "page": "cash-bonds",
+      "section": 3,
+      "title": "Returning a Cash Bond",
+      "text": "Cash Bonds taken on a Defendant may later be fully or partially returned to the Defendant through the Payment Manager Steps Go to the Case on which the Bond is to be applied and Click on the Payment Manager icon The Payment Icon Change the Reason to BOND DISPOSE RETURN Changing the Bond Reason Select the correct Bond as Bond to Use Selecting the Bond to use Click on OK On the Bond Dispose Screen change the amount to return if necessary and Click OK Entering Bond amount to return The Printed Receipt shows that there is no longer a Balance Remaining The Receipt The Bond will now show on the Bond Return Report with an option to generate a letter Bond Return Report will list all Bonds to be returned Navigating to the Bond Return Report screen The Bond Return Report Checking the One Payee Per Page will produce a letter to the Defendant Highlighted One Payee Per Page checkbox The letter may be folded on the dotted line to fit into a Windowed Envelope The letter for sending to Defendents"
+  },
+  {
+      "page": "cash-bonds",
+      "section": 4,
+      "title": "Forfeiting a Cash Bond",
+      "text": "Cash Bonds taken on a Defendant may be later applied to any of that Defendants Cases through the Payment Manager Steps Go to a Case for the Defendant from which the Bond is to be forfeited and Click on the Payment Manager icon The Payment Icon Change the Reason to BOND DISPOSE FORFEIT Changing the Bond Reason Select the correct Bond as Bond to Use Selecting the Bond to use Click on OK On the Bond Dispose Screen confirm the correct amount and Click OK Dispose Bond screen The Bond Forfeiture Receipt is then Printed The Receipt The Bond Forfeit amount will show up on the end of day Total Receipts Report in the last column This is not an amount that is being turned in for this day Instead it is amount that is to be distributed from the Bond Account Bond Return Report will list all Bonds to be returned The Total Receipts Report showing the Bond Forfeit amount"
+  },
+  {
+      "page": "charges",
+      "section": 1,
+      "title": "Adding a New Charge",
+      "text": "Occasionally you may get a new Traffic offense Misdemeanor or Local Ordinance These will need to be added as new records in Charges before they can be used Steps Open the Charges table in the Quick Menu green table Quick Menu button Selecting Charges in the Quick Menu Click on the Add Record icon in the upper left corner Add Record button Type in the charge Charge screen For Traffic Cases Type in the Charge Code and State Charge Code The Charge Code is not Required for Misdemeanors and Local Ordinances Entering the Charge code This Charge Code or TCode may be found on the issued eCitation Getting Charge code from TCode on eCitation Enter the State Statute for this Charge Traffic Tickets will normally start with 32 and Misdemeanors will often start with 13A Entering the State statute number Enter the Local Ordinance that adopts all the State Codes Entering the Local Ordinance code If the New Charge is not a State Charge but just a Local Ordinance leave the Statute Blank and enter the specific Local Ordinance Number for that Charge Local Ordinance Number without State charge If the charge is payable and NO Appearance is Required enter the amount that the defendant would pay if they Failed to Appear in FTA Amount In FTA Add enter the amount the fine was increased In this example RUNNING A STOP SIGN could be paid prior to the court date for 19100 If the Defendant did not appear that amount would be increased by 25 to 206 If Appearance is Required the Appearance Required box is checked and the FTA Amount should be blank Checking Appearance Required Optionally enter a Note as a Reminder for the Docket Anytime this charge appears on the docket this Note would also be printed Check any boxes for which the Charge falls in the category Optionally enter the Maximum Fine Amount and Jail Time for use on the Guilty Plea Waivers Complaint Verbiage may optionally be filled in This verbiage would be used as a starting point for a new complaint The Complaint Verbiage which appears on new cases with this charge Finally save the newly entered Charge by clicking the Save Record button The Save Record button"
+  },
+  {
+      "page": "ecitations",
+      "section": 1,
+      "title": "Downloading eCitations",
+      "text": "New eCitations must be downloaded into the software before they can be referenced CtrlE will go directly to the eCitations table Or click on the Quick Menu Table and then click on eCitations Click on the Download Button in the upper Right of the eCitation Form The software now downloads any eCitation that had not been previously been downloaded from the eCitation Database in Tuscaloosa The software also inserts the Defendant Name Charge and Officer in the Local Case Info These fields are used to later create records in the Case Table"
+  },
+  {
+      "page": "ecitations",
+      "section": 2,
+      "title": "eCitation List Report",
+      "text": "The eCitation List Report will display tickets that have been Downloaded but do not yet have a Case Record created from them in the Case Table Print  eCitation  eCitation List Report This report shows 4 tickets were downloaded without any errors"
+  },
+  {
+      "page": "ecitations",
+      "section": 3,
+      "title": "Correcting eCitation Errors",
+      "text": "Any errors found in the eCitation List Report must be corrected before Cases may be created There are 3 possible errors relating to the creation of an eCitation Record Invalid Defendent name Invalid Officer name and Invalid Charge As soon as new eCitations are downloaded the records are made ready to later create new cases from them Fields under the Local Case Info are created from the data in the eCitation Record ERROR  DEFENDANT NAME The Name Address DOB SSN DL Number and other fields from the eCitation Record are used to create a new Record in the Profile Table What if a Profile for this Defendant is already in the Profile Table The software attempts to find a previous Profile Record for this defendant by matching DL Numbers SSN and Name If a Profile Record is found to already be in the Profile Table that Profile Record is used in the Defendant field under Local Case Info in the eCitation Record A new address from eCitation Record may be updated in the current Profile Record What if a current Profile Record Name and eCitation Record Name are different A Defendant Name Error will be produced Looking at the Notation field under Local Case Info on that eCitation Record the following message will appear Carolyn Smith is the current name in the current Profile Record Carolyn Cumming is the name on the eCitation Record The names may not match for any number reasons The Defendant name may have changed or the name may have been entered incorrectly when first entered in the Profile Record Assuming that the eCitation Name is correct the solution is to change the name in the current Profile Record However if current Profile Record is correct the solution is to manually place the current Profile Name in the Defendant field under Local Case Info Changing the Name in the Profile Record to the Name in eCitation Record Right click on the empty Defendant Field Left click on BrowseEdit Item Find the first name in the Error message CAROLYN SMITH by doing a search in the Profile Table Change the name SMITH to the name CUMMING from the eCitation Record Save the Record and press the ESC key to get back to the eCitation Record It is not necessary to put the corrected name in the Defendant Field Instead click on Download again and the corrected name should appear ERROR  OFFICER NAME The Badge Number from the Badge field in the eCitation Record is used to determine which Officer from the Officer Table is placed in the Officer Field under the Local Case Info The Badge Number 831 in the eCitation Record matches the 00831 from the Officer Table What if a current Officer Table does not contain the eCitation Badge Number An Invalid Officer Error will be produced The Badge Number 843 in the eCitation Record is not found in the Officer Table The next step is to determine why and correct the issue If this Officer is new heshe needs to be entered in the Officer Table If this Badge Number has changed it needs to be changed in the Officer Table See Adding and Changing Officer Badge Number Links If an Officer just entered a wrong badge number on the eCitation Ticket the Officer Name should be manually entered under the Local Case Info What if a different set of numbers is used in eCitation Records than the Badge Numbers in the Officer table Go to the eCitation Translation Table Tables  eCitation Menu  eCitation Translation Data Add a new record Enter what the Officers will be using in the eCitation Records 843 Then add what the Badge Number is in the Officers Table 00123 Now the software knows what to do when it encounters this badge number and does not need to produce the error ERROR  INVALID CHARGE The TCode in the eCitation Record is used to determine which Charge from the Charges Table is placed in the Charge Field under the Local Case Info The TCode T008 matches the State Charge Code in the Charges Table for Driving While License Suspended What if a current Charges Table does not contain the TCode A Invalid Officer Error will be produced The TCode T763 does not exist in the Charges Table The Charge FAILURE TO SIGNAL may need to be entered into the Charges Table See the Link on how to enter a new charge The Charge FAILURE TO SIGNAL may be already in the Charges Table but have a different State Charge Code T022 For whatever reason same or similar charges may have multiple valid charges codes The solution is to use the eCitation Translation Table to translate the eCitation TCode T763 to the code in the Charges Table T022 Go to Tables  eCitation Menu  eCitation Translation Data Add a record to translate the Codes A similar process was describe in more detail under the Officer Error Section"
+  },
+  {
+      "page": "ecitations",
+      "section": 4,
+      "title": "eCitation Transmittal Form",
+      "text": "The eCitation Swear Report is optionally run after the eCitation List Report If the Officer has already turned in a Transmittal Sheet this report may not be necessary Print  eCitation  eCitation Swear Report The window prior to running the report allows for several different options on which Officers tickets are to be placed on a Transmittal Sheet The four tickets downloaded are ready to be placed on a transmittal form The check boxes next to the tickets allow them to be included or excluded Selecting a particular officer in the Officer Dropdown will display only that officers citations Include All Officers will allow Tickets for Officers who are no longer active Mark as Sworn is rarely used Tickets are considered sworn to when cases are created with them Tickets may be marked as sworn to prior to that time if desired Include Citations Already Processed allows for tickets to be placed on a Transmittal form that have already had cases created from them The Transmittal Form generates one page per officer With a signature pad the Officer may sign the Transmittal"
+  },
+  {
+      "page": "ecitations",
+      "section": 5,
+      "title": "Creating Cases From eCitations",
+      "text": "Now that the eCitations have been downloaded and officers have sworn to them cases may be created Print  eCitation  eCitation Create Cases A particular Officers cases may be specified in the Officer Dropdown The Case Records are now created in the Cases Table The Resulting Case Number is listed in the last column of the report"
+  },
+  {
+      "page": "ecitations",
+      "section": 6,
+      "title": "Printing eCitations Tickets",
+      "text": "There are 3 different paths to print eCitation tickets 1 Checking the Box When creating Cases from the eCitation there is an optional Print eCitation check box that will print the eCitation Ticket with the new Case Number on it The Document is then attached to the eCitation Record and the Case Record With a signature pad the Officer and the Magistrate may sign the eCitation Multiple tickets may be signed at once by holding the Ctrl Key down while clicking on the signature field A judge may later fill in the fields on the right side and sign it as well 2 eCitation Ticket Report The eCitation Tickets Report allows tickets to be reprinted or printed for the first time if they were not previously printed in eCitation Create Cases Tickets may be printed either before or after they were created Print  eCitation  eCitation Tickets 3 Click on the Printer A Single eCitation Ticket may be printed by clicking on the Printer icon The Quick Print menu will appear Current Record is selected The Current Record being displayed in the eCitation Table will print out in the ticket format"
+  },
+  {
+      "page": "ecitations",
+      "section": 8,
+      "title": "Creating an Account with CAPS",
+      "text": "Before eCitations issued by the Police Department can be downloaded into the Court Software a municipality must first request credentials from the Center for Advanced Public Safety CAPS in Tuscaloosa Contact Rhonda Stricklin Associate Director Analysis and Outreach Center for Advanced Public Safety CAPS The University of Alabama Phone 2053480991 Email rstricklincsuaedu Please adhere to the following email format when requesting an account Subject Line court integration password request Body Name Name Title Court ClerkMagistrateetc Court Court name Vendor Municipal Software Group Please set up a password and username for MSG to allow data integration for City Name Municipal Court"
+  },
+  {
+      "page": "ecitations",
+      "section": 9,
+      "title": "Non-Traffic eCitations",
+      "text": "NonTraffic eCitations have a number in the Format of NV1234567 The other big difference it that NV eCitations do not have to have a TCode Instead the Charge is matched on the Citation Ordinance Number which needs to be the same in the Charge Record for the particular Charge If they do not match the eCitation Translation table may be used to translate to the correct charge Printing the NV ticket produces a slightly different form than the Traffic eCitations"
+  },
+  {
+      "page": "ecitations",
+      "section": 10,
+      "title": "Voiding an eCitation Ticket",
+      "text": "An eCitation Record should be voided if there is for any reason a case is not to be created from it To void an eCitation Record type VOID in the Local Case Field and check the Already Used box"
+  },
+  {
+      "page": "ecitations",
+      "section": 11,
+      "title": "Missing eCitation Tickets",
+      "text": "There are several reasons why a ticket might not appear in the eCitation Table The Officer did not actually transmit the ticket to the state The solution is to try to have the officer transmit the tickets again The ticket was actually transmitted to another agency such as the county If the officer has a copy of the ticket check to see which court is entered The only solution here is for the Officer to create a new ticket or skip the eCitation process and manually enter the ticket in the Cases Table There was an error in downloading the eCitation from the State The ticket could be flagged as already being sent and therefore would be sent again The solution is to click on the Download Button so that there are no pending downloads Click on the Add Record Icon in the upper left of the screen Go to the Ticket Field and enter the eCitation Number Press Tab or Enter The ticket would now be downloaded and placed in this new record Save the Record If the fields all remain blank this ticket is not available If none of these solutions work the Police Department could contact the eCitation People at CAPS Center for Advanced Public Safety and have them look at the status of this ticket number"
+  },
+  {
+      "page": "employees",
+      "section": 1,
+      "title": "Adding a New Employee",
+      "text": "An Employee must be entered in the Employees Table before that employee can log into the Application Go to the Employees Table via Tables  Parties  Employees Click on Add Record icon in the upper left corner If the Employee already has a Profile click on the down arrow next to the Employee Name Field and start typing the Employee Name Select the name when it appears If the Employee does not have a Profile right click on the Employee Name field and Select Create New Profile Follow the Instructions for Adding a new Profile Record if needed The Name should now be in the Employee Name Field Enter the Employee Number This Number must be unique The leading zeros will be automatically inserted 999 will change to 00999 Prior to giving a new Employee a number it may be necessary to click on the search icon at the top to see a current list of employees and employee numbers to make sure the new number does not already exist Enter the Department for this Employee Normally COURT will be entered Options are available to enter Personnel from the Police Department Dispatch or Finance with varying degrees of access For Example View Only access may optionally be given to Warrants The new employee should enter his or her password This password may now be used when the initial login screen appears Normally it is a good idea to force the login and password at the start of the application However if the application is running on a computer that only the employee has access to the System Login Name may be entered instead This is the login name the employee uses to login to the computer It allows the user to bypass the application login screen if they have already logged in to the computer with the System Login Name Each employee should be placed in a Group that determines what and how much access they should have ADMINISTRATOR has complete access and is the only Group that has access to the employee data COURTUSER has access to most areas needed for daily work COURTPOWERUSER has even more access to functions such as Voiding Receipts POLICEUSER has view only access to the Warrants It is possible to create new Group with customized access The employee signature may optionally be captured See the Signature Pad page for more information Save the New Employee Record by clicking on the Save Record Icon The Employee should be able to login to the application"
+  },
+  {
+      "page": "employees",
+      "section": 2,
+      "title": "Making an Employee Inactive",
+      "text": "Making an Employee Inactive An Employee may be made inactive by clearing the Password System Login Name and Group This would make it easier to restore the employee later The employee record may also be deleted without affecting any of the other records that has the employee name"
+  },
+  {
+      "page": "expungements",
+      "section": 1,
+      "title": "Expunging a Record",
+      "text": "Create an Entity titled EXPUNGED using the process outlined in Adding a new Profile Record if needed In the Case Data go to the case that is to be Expunged Optionally the Defendants Name may be placed in Case Notes Clear the Defendants Name in the Name Field and type in the word EXPUNGED Click on the Save Icon Confirm the change by clicking Yes The Defendants Name has now been removed from the case and replaced with EXPUNGED"
+  },
+  {
+      "page": "expungements",
+      "section": 2,
+      "title": "Expungement Fee",
+      "text": "Expungement Fee The Court may receive an Expungement Fee of up to 50 This fee should be taken as a Miscellaneous Payment Enter EXPUNGEMENT FEE in the Cost Description and the amount Enter the amount for Tendered and click on OK"
+  },
+  {
+      "page": "interlock",
+      "section": 1,
+      "title": "Interlock Costs",
+      "text": "Interlock Costs should be added upon Setting up a DUI Case when necessary Click on the I button on the left The VehicleNo Vehicle Option will appear Selecting the Vehicle option will add the onetime costs of 200 to the Setup Selecting the No Vehicle option will place the Interlock costs for one year on the Setup Since the number of months may vary from 6 months to up to 3 years for a 3rd Offense DUI the 900 may need to be adjusted to a range from 450 to 2700"
+  },
+  {
+      "page": "interlock",
+      "section": 2,
+      "title": "Interlock Monthly Payments",
+      "text": "Monthly Interlock Payments For No Vehicle cases the payments are supposed to be paid at the rate of 75 a month Normally the total amount owed for Interlock No Vehicle is simply totaled and placed after the other court costs It is then paid in the same way as other court costs However if a Defendant is Setup to pay Interlock on a monthly basis there is an option on the Initial Payment Manager Screen to select INTERLOCK to ensure that the payment does indeed apply towards Interlock and no other costs The Amount Tendered and Applied is defaulted to 75 which is taken on the appropriate Interlock Cost"
+  },
+  {
+      "page": "interlock",
+      "section": 3,
+      "title": "Interlock Forms and Reports",
+      "text": "Interlock Forms and Reports There are several Forms and Reports relating to Interlock Print  Interlock Forms Interlock Instruction General Instructions relating to Interlock which may be customized No Vehicle Declaration A Form sent to ALEA Alabama Law Enforcement Agency in which the Defendant declares that there is no vehicle on which to install an Interlock Device Interlock Suspension Case Report Lists all Cases for a particular Date Range that have had an Interlock Suspension placed on their Drivers License Interlock Suspension Notice The Form requesting ALEA place the Interlock Restriction on the Defendants License Using this form places the Suspension Date in the Interlock Field on the Case Record Interlock Clearance Notice The Form used to request ALEA to remove the Interlock Restriction from the Defendants License"
+  },
+  {
+      "page": "officers",
+      "section": 1,
+      "title": "Adding a New Officer",
+      "text": "Interlock Forms and Reports There are several Forms and Reports relating to Interlock Print  Interlock Forms Interlock Instruction General Instructions relating to Interlock which may be customized No Vehicle Declaration A Form sent to ALEA Alabama Law Enforcement Agency in which the Defendant declares that there is no vehicle on which to install an Interlock Device Interlock Suspension Case Report Lists all Cases for a particular Date Range that have had an Interlock Suspension placed on their Drivers License Interlock Suspension Notice The Form requesting ALEA place the Interlock Restriction on the Defendants License Using this form places the Suspension Date in the Interlock Field on the Case Record Interlock Clearance Notice The Form used to request ALEA to remove the Interlock Restriction from the Defendants License"
+  },
+  {
+      "page": "officers",
+      "section": 2,
+      "title": "Changing an Officer's Badge Number",
+      "text": "If an officers badge number changes it can be updated in the associated Officer record Steps Navigate to the Officers table by clicking Tables  Parties  Officers Click on the Search button at the top and find the officer Click on the Badge number and change it to the correct number Click on the Save icon There should not be any duplicate badge numbers There should only be one record for any one officer"
+  },
+  {
+      "page": "officers",
+      "section": 3,
+      "title": "Making an Officer Inactive",
+      "text": "An Officer may be made Inactive by adding a letter to the end of the Badge Number Changing 00830 to 0830B would signify that the Officer is Inactive show what the Badge Number was and allow that same number to be used by another Officer See Changing an Officer Badge Number if needed An inactive officers record may be deleted without affecting any of the officers cases The Deleted Officers cases would still appear on a Normal Docket but the Officer would not be available when creating an Officer Docket"
+  },
+  {
+      "page": "officers",
+      "section": 4,
+      "title": "Adding an Officer to a Case",
+      "text": "The Officer may now be added as a Party in the Case Table clicking on Add Party or typing CtrlY Select ARRESTING OFFICER or ASSISTING OFFICER as the Relationship The Officer is now added to the Parties If the Officer is the ARRESTING OFFICER and not the ASSISTING OFFICER the Officers Badge Number may be entered in the Badge  Field and Enter Pressed This will place the Arresting Officer in the Parties Table without having to click on Add Party The officers signature may optionally be captured See Adding an Officers Signature on the Signature Pad page for more information An optional Password may be entered for the officer to use when signing an eCitation or Transmittal Form"
+  },
+  {
+      "page": "officers",
+      "section": 5,
+      "title": "Officer Signing an eCitation",
+      "text": "When Printing eCitations the Officer with a Stored Signature may sign eCitation by clicking on the space to the right under the Officer ID If the Officer Record has a Password the Password Box is displayed for the Officer to enter the password The Officer Signature will appear in the signature field along with the Date If the Officer did not have a signature stored in the Officer Record the Officer could sign at this point by using an attached Signature Pad Holding the Ctrl Key Down while clicking on the Signature Field will allow the Officer to sign all of the eCitations at Once"
+  },
+  {
+      "page": "profiles",
+      "section": 1,
+      "title": "Navigating to the Profile Table",
+      "text": "There are several ways to get to the Profile Table such as  Quick Menu  CtrlZ  Rightclicking a Name field  The P button Quick Menu Clicking on the Quick Table Menu will display the Profiles Menu Item The Quick Table Menu button The Quick Table Menu This will lead to the Profile Table Profile Table CtrlZ Typing CtrlZ will go to the Profile Table from anywhere Right Click on a Name Field A Right Click will display a menu with a choice to BrowseEdit or Create a Profile will display the Profile Record of the name in that field A Right Click will display a menu with a choice to BrowseEdit or Create a Profile will display the Profile Record of the name in that field Click on the P The P Profile Button will go to the Profile Table and display the Profile Record that is currently in the Name Field"
+  },
+  {
+      "page": "profiles",
+      "section": 2,
+      "title": "Adding a New Profile",
+      "text": "From a Blank Name Field Right Click and Select Create New Profile OR Click on the P Button next to a Blank Name Field OR From the Profile Table click on the Add Record Button in the upper left The Add Record button is on the far left The New Profile Box will appear The Last Name is entered followed by a Comma a Space First Name a Space and Middle Name Click OK or Press Enter to see a List of current Profiles with the same Last Name Profile Search Results If the Name is found click OK to go to that Profile A new Profile is not needed Otherwise click Not Found to begin entering the new Profile information The Name originally entered will be placed in the Name Fields A unique Profile ID will be created from the current date and time Note Up and Down arrow keys Tab and Enter may be used to navigate between and change fields in addition to using the mouse The Entity Field is for entering a business or organization instead of a name The Alias Fields contain other names this person may be known by The Street Number may be entered in a separate field or with the Street itself OR The Mailing Address need only be entered if different than the Main Address The Height is entered as a 3 digit number with no punctuation Any field with a down arrow has a drop down box from which a selection may be made After the available information has been entered the save record icon should be clicked If the Add Profile Originally came from a Name Field in another table either the ESC key should be pressed or the X in the upper right should be clicked Upon returning to the original table the new Profile name is auto populated"
+  },
+  {
+      "page": "profiles",
+      "section": 3,
+      "title": "Saving Profile History",
+      "text": "In the Profile Table there are 3 History Buttons with a single H on them The buttons are for saving the Name the Address or Vehicle Info to a history area prior to changing the fields Navigating to the Profiles table Name Navigating to the Profiles table Before changing ANITA RENEE BARNES to ANITA BARNES HAMILTON clicking on the H button will preserve the original name in the History Section for future reference  Navigating to the Profiles table Address Click on the H before changing the address to store in the History section Navigating to the Profiles table The History Section is at the Bottom of the Profile Form  Navigating to the Profiles table Vehicle Tag Vehicle Information may also be saved in History by Clicking on the H Navigating to the Profiles table Navigating to the Profiles table"
+  },
+  {
+      "page": "profiles",
+      "section": 4,
+      "title": "Merging Duplicate Profiles",
+      "text": "There should be only one Profile Record per person in the Profile Data Duplicate Profiles of the same person should be combined into one Profile Record Steps Once you have confirmed that two profiles exist for the same person by comparing the Address DOB SSN DL Number and other demographic fields choose one profile to be the Primary Profile Record This is the record that will be kept into which the second profile will be merged Navigate to the Profile Data by clicking Tables  Quick Menu  Profiles or Ctrl  Z Navigating to the Profiles table If you have correctly navigated to Profile Data you will see this header at the top of the window The Profile Data header Go to the Profile Record you wish to remove See Search for Records if needed The profile to be removed Make sure this is actually the Profile Record you wish to Remove and Click Delete The delete button If there are no records attached to this Profile then this Profile simply needs to be deleted as there is nothing to merge Profile deletion confirmation If there are records attached a message asking to merge will appear Merge confirmation Click on Yes Search for the Record you wish to merge into Searching for the profile to merge into The merged profile Look carefully at the information on the Confirmation and Click on Yes The search results The merged Profile has been deleted and the Primary Profile will appear The merged profile"
+  },
+  {
+      "page": "signature-pad",
+      "section": 1,
+      "title": "Signature Pad Model",
+      "text": "A Signature Pad may be used to electronically sign documents in the MSG Court Manager Employee Signatures are stored with the Employee Record so that Employees need only sign once Therefore Signature Pads should be placed instead where Defendants Attorneys and Complaintants would be signing The Topaz Model TLBK460HSBR is the only signature pad that currently works with the MSG Court Application Be sure to compare the model number carefully"
+  },
+  {
+      "page": "signature-pad",
+      "section": 2,
+      "title": "Installing the Signature Pad",
+      "text": "Of the software that comes with the Topaz Signature Pad only SigplusNetexe is needed for the MSG Court Manager SigplusNetexe may also be found at MSGSystemsFilesInstallsSigplusNetexe Double click on SigplusNetexe The User Account Control may pop up asking for permission to continue On some Networks Administrator Access may be required Click Next on the Welcome screen Click OK when this box appears Select TL as the Tablet Model Group and click OK Select the TLBK460 or TL460 as the Tablet Select HSB USB type as the Connection Type Click Agree Click Finish after the software is installed"
+  },
+  {
+      "page": "signature-pad",
+      "section": 3,
+      "title": "Adding an Employee Signature",
+      "text": "The Signature Pad must be connected to the computer and the Signature Pad Software previously installed Go to the Employees Table via Tables  Parties  Employees Click on the search icon at the top to find the Employee on which to add a Signature and press enter Click on the Signature Button Sign on the Signature Pad Click OK on the Signature Pad After a moment the Signature should appear on the screen The process may be aborted by clicking on the Cancel Button"
+  },
+  {
+      "page": "signature-pad",
+      "section": 4,
+      "title": "Adding an Officer's Signature",
+      "text": "A similar process is followed for adding an Officer Signature to an Officer Record Go to the Officers Record in the Officers Table Click on the Signature Button Have the Officer Sign and Follow the Instruction on the Signature Pad An optional Password may be entered for the officer to use when Signing an eCitation or Transmittal Form"
+  },
+  {
+      "page": "signature-pad",
+      "section": 5,
+      "title": "Signing a Document",
+      "text": "Documents with a Signature Field for an Employee may be signed by simply clicking on that field There must be a Signature attached to the Employee Record for the Employee that is currently logged in to the Application The Date and Time are also placed in a date field The Signature Field must also be clicked for a Defendant to Sign The Signature Field is enlarged as the Defendant Signs on the Signature Pad When OK is clicked on the Signature Pad the signature is scaled into the Signature Field and the Date is placed in the Date Field If multiple Documents are being printed all the Documents may be signed at Once by pressing the Ctrl Key when clicking on the Signature Field When Printing eCitations the Officer with a Stored Signature may sign an eCitation by clicking on the space to the right under the Officer ID If the Officer Record has a Password the Password Box is displayed for the Officer to enter the password The Officer Signature will appear in the signature field along with the Date If the Officer did not have a signature stored in the Officer Record the Officer could sign at this point by using an attached Signature Pad"
+  },
+  {
+      "page": "sureties",
+      "section": 1,
+      "title": "Adding a Surety Company",
+      "text": "Before a Professional Surety Company may be used with a Surety Bond or as a Party on a Case it must first be entered in the Surety Table Go to the Sureties Table via Tables  Parties  Sureties Click on Add Record icon in the upper left corner If the Surety Company already has a Profile click on the down arrow next to the Surety Name Field and start typing the Surety Name Select the name when it appears If the Surety Company does not have a Profile right click on the Surety Name field and Select Create New Profile Follow the Instructions for Adding a new Profile Record if needed Be sure to put the Surety Name in the Entity Field and not one of the Name Fields Save the New Surety Company by clicking on the Save Record Icon After saving the new Profile Click on the X in the upper right or Press the ESC key on the keyboard to return to the Surety Lookup Table Save the new record in the Surety Lookup Table The Surety Company will now be available when taking a Surety Bond The Surety 1 Field is for use of Professional Sureties from the Surety Table Surety 2 Field is for any person in the Profile Table The Surety may also be added as a Party in the Case Table by selecting SURETY as the Relationship"
+  },
+  {
+      "page": "surety-bonds",
+      "section": 1,
+      "title": "Receiving a Surety Bond",
+      "text": "Receiving a Surety Bond Even though no money is initially received Surety Bonds are taken through the payment screen Like a Cash Bond a Surety Bond may be taken on a particular case or may be taken on a Defendant Profile before a case is entered Steps Go to the Case or Profile on which the Cash Bond is to be taken and click on the Payment Icon The Payment Icon The Payment Manager screen should now appear The Payment Manager screen Change the Reason to BOND RECEIVE SURETY Changing the Reason Click OK The Receive Bond Screen will appear The Receive Bond Screen If this Defendant had a Bond Amount from a Warrant that amount would be prefilled into the Tendered field Otherwise Enter the amount of the Surety Bond in the Tendered field Entering the Bond Amount This amount will be automatically placed in the Applied and Surety Bond fields The Bond Amount added to appropriate fields Add the Professional Surety in the Surety 1 field if appropriate This Surety must first be in the Surety Table See adding a new Surety if needed The Receive Bond Screen Or add an individual Surety in Surety 2 or Surety 3 fields if appropriate This Individual must first be in the Profile Table See adding a new Profile if needed The Receive Bond Screen Click OK to generate a Surety Bond A Surety Bond Receipt is generated The Surety Bond Receipt The Surety Bond of 50000 is now attached to this Defendant and Case It may be viewed by clicking on the History Book and then the Bonds tab The History Book icon Bond information attached to case Double clicking on the Surety Bond will display the Bond Record The Bond record"
+  },
+  {
+      "page": "surety-bonds",
+      "section": 2,
+      "title": "Surety Bond Forms",
+      "text": "Surety Bond Forms Should the defendant Fail to Appear on a case with a Surety Bond there are a number of forms relating to Conditional Bond Forfeiture Bondsmans Process and Final Bond Forfeiture These forms require that a Surety Bond record exists for the Defendant See Receiving a Surety Bond Go to the Defendants Case Record in Cases Quick Menu  Cases OR Go to the Bond Record in the Bonds Bond Menu  Bond Table Select the appropriate form from the Surety Bond Forms Menu and press enter Print  Bond Surety Forms  desired form The initial Screen Form will appear with Date Issued defaulted to the current date This date may be changed if needed In the Bond Field select the appropriate Surety Bond Click on OK to Print the Form Each of these Surety Forms will have a similar procedure Some forms have other dates besides Date Issued such as a Forfeiture Date"
+  },
+  {
+      "page": "surety-bonds",
+      "section": 3,
+      "title": "Conditional Forfeiture",
+      "text": "Surety Bond Conditional Forfeiture Should the Defendant not appear to fulfill the obligation of the surety bond the court may issue a CR24 Order of Conditional Bond Forfeiture The Date of Forfeiture is setup to be 28 days after the issue date The Forfeiture is Conditional so that the Surety has an opportunity to respond A CR16 Notice of Conditional Bond Forfeiture would then be sent to the surety The Surety now has 28 days to Present the defendant or demonstrate a valid reason for not Presenting the Defendant to have the Conditional Bond Forfeiture Set Aside CR21 The Dates on each of these actions are entered in the Surety Bond Record"
+  },
+  {
+      "page": "surety-bonds",
+      "section": 4,
+      "title": "Bondsman's Process",
+      "text": "Bondsmans Process The Bondsmans Process allows the Surety to locate and arrest the Defendant for a short period of time The Surety must first complete a CR28 Application for Bondsmans Process After the Application is accepted the actual Bondsmans Process CR20 is Printed After five days or in certain events a Notice to Return Bondsmans Process CR30 may be issued Clicking the OK button Failure of the Surety to return the process may require a CR29 Failure to Return Bondsmans Process to be issued The Bondsmans Process Form As these actions are taken the dates are stamped in the Surety Bond Record Notice to Return Bondsmans Process CR30"
+  },
+  {
+      "page": "surety-bonds",
+      "section": 5,
+      "title": "Final Forfeiture",
+      "text": "Final Bond Forfeiture The Conditional Bond Forfeiture period is 28 days after it is ordered If the Surety does not present the Defendant or demonstrate a valid reason for not presenting the Defendant the orfeiture will become a Final Bond Forfeiture CR22 A CR16 Notice of Conditional Bond Forfeiture would be sent to the surety The Surety has 14 days to appeal As these actions are taken the dates are stamped in the Surety Bond Record"
+  },
+  {
+      "page": "surety-bonds",
+      "section": 6,
+      "title": "Converting to a Cash Bond",
+      "text": "Converting a Surety Bond to a Cash Bond When a Surety Company pays on a Surety Bond the Surety Bond is converted to a cash bond and then forfeited In the Payment Manager the Case Reason is changed to BOND CONVERT SURETY OK is clicked The Surety Bond to Convert must be selected The Cash Bond is received The Surety Bond converted to Cash Bond may be observed under the Bonds tab in the history The now Cash Bond is also displayed on the initial Payment Manager The Cash Bond is now Forfeited The end of the day report will show both the Cash Bond coming into the Bond Account and then the Forfeited Bond coming out of the Bond Account A normal Cash Bond would be taken in one day and Forfeited out on a later date This process happens on the same day for a Surety Bond that is converted to a Cash Bond"
+  }
+]
