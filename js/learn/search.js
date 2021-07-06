@@ -26,6 +26,17 @@ function searchTitles(term, index) {
   return results;
 }
 
+function searchContent(term, index) {
+  var results = [];
+
+  index.forEach(function (item) {
+    if ('content' in item && item.content.toLowerCase().includes(term)) {
+      results.push(item);
+    }
+  });
+  return results;
+}
+
 async function search(term) {
   const url = new URL(location.href);
   const params = new URLSearchParams(url.search);
@@ -39,10 +50,10 @@ async function search(term) {
   const index = await getIndex();
   term = term.toLowerCase();
 
-  var results = searchTitles(term, index);
-
-  console.log(results);
-
+  var titleResults = searchTitles(term, index);
+  var contentResults = searchContent(term, index);
+  var results = new Set(titleResults.concat(contentResults));
+  
   showResults(results);
 }
 
@@ -54,7 +65,7 @@ function showResults(results) {
     var a = document.createElement('a');
     var href = "/learn/" + item.page;
 
-    if (item.section != 0) {
+    if (item.section !== null && item.section !== undefined && item.section != 0) {
       href += "#" + item.section;
     }
     
