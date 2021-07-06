@@ -62,6 +62,9 @@ function showResults(results) {
 
   results.forEach(function (item) {
     var li = document.createElement('li');
+
+    li.className = 'result';
+
     var a = document.createElement('a');
     var href = "/learn/" + item.page;
 

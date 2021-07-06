@@ -1,0 +1,17 @@
+#main-content {
+  display:flex;
+  flex-direction: column;
+}
+
+#search-results-container {
+  margin-bottom: 5rem;
+}
+
+.result {
+  text-decoration: underline;
+  margin: 1rem 0;
+}
+
+.result a:hover {
+  color: #006DFF;
+}
