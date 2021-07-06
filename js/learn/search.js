@@ -1,3 +1,9 @@
+function checkKey(e) {
+  if (e.code == 'Enter') {
+    document.getElementById('search-button').click();
+  }
+}
+
 function getInputValue() {
   const input = document.getElementById('search-bar-entry');
 
