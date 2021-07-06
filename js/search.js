@@ -1,3 +1,4 @@
+// This stuff is for FAQ page
 async function getIndex(name) {
     return await $.getJSON("searchIndex.json", null).then(function (json) { 
         var index = json[name]

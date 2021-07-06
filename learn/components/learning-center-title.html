@@ -3,15 +3,15 @@
     <div id="title-content" class="open-sans-bold f-x-large">
         <p id="title">Learning Center</p>
 
-<!--
         <div id="search-bar">
             <div id="search-bar-inner">
                 <div id="search-bar-icon">
                     <img id="search-image" src="/images/searchicon.svg">
                 </div>
-                <input type="text" id="search-bar-entry" class="f-medium" oninput="search('learn', value)" />
+                <input type="text" id="search-bar-entry" class="f-medium" />
+                <button type="button" onclick="window.location.assign('/learn/search?term=' + getInputValue())">Search</button>
             </div>
         </div>
--->
+
     </div>
 </div>
