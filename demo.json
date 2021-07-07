@@ -62,7 +62,7 @@
         },
         {
             "file": "14.png",
-            "comment": "The Print History button creates a custom report on this defendant as show in the next slide."
+            "comment": "The Print History button creates a custom report on this defendant as shown in the next slide."
         },
         {
             "file": "15.png",
@@ -266,7 +266,7 @@
         },
         {
             "file": "3D.png",
-            "comment": "The case number TR21-0000011 is shown to have 4 documents. The one being displayed is the Case Action Summary."
+            "comment": "The case number TR21-0000011 is shown to have 3 documents. The one being displayed is the Case Action Summary."
         },
         {
             "file": "4D.png",
@@ -445,7 +445,7 @@
         {
             "file": "PO3.png",
             "title": "Docket Report",
-            "comment": "The Court Docket may be printed in Portrait of Landscape with many options for what is to be displayed. The Format of the Docket itself may be customized."
+            "comment": "The Court Docket may be printed in Portrait or Landscape with many options for what is to be displayed. The Format of the Docket itself may be customized."
         },
         {
             "file": "PO4.png",
@@ -634,7 +634,8 @@
         },
         {
             "file": "PO44.png",
-            "comment": "Commitment to Jail"
+            "title": "Commitment to Jail",
+            "comment": ""
         },
         {
             "file": "PO45.png",
@@ -643,7 +644,7 @@
         {
             "file": "PO46.png",
             "title": "Restitution Due Payees",
-            "comment": "Lists all Payees for which Restitution has been collected and has not been sent."
+            "comment": "Lists all Payees for which Restitution has been collected and has not yet been sent."
         },
         {
             "file": "PO47.png",
