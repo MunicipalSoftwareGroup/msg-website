@@ -7,9 +7,14 @@
   margin-bottom: 5rem;
 }
 
+#search-results {
+  margin: 0;
+}
+
 .result {
+  border-bottom: 1px solid lightgrey;
+  padding: 0.5rem 0 2rem 0;
   text-decoration: underline;
-  margin: 1rem 0;
 }
 
 .result a:hover {
