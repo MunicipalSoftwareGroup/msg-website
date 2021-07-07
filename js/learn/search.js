@@ -58,6 +58,7 @@ async function search(term) {
 
   var titleResults = searchTitles(term, index);
   var contentResults = searchContent(term, index);
+
   var results = new Set(titleResults.concat(contentResults));
   
   showResults(results);
@@ -65,6 +66,12 @@ async function search(term) {
 
 function showResults(results) {
   var resultsElement = document.getElementById('search-results');
+  
+  if (results.size == 0) {
+    var p = document.createElement('p').innerText = "No results found."
+
+    resultsElement.append(p);
+  }
 
   results.forEach(function (item) {
     var li = document.createElement('li');
