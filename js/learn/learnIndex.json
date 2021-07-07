@@ -107,6 +107,13 @@
       "title": "Making an Employee Inactive",
       "content": "Making an Employee Inactive An Employee may be made inactive by clearing the Password System Login Name and Group This would make it easier to restore the employee later The employee record may also be deleted without affecting any of the other records that has the employee name"
   },
+  
+  {
+      "page": "expungements",
+      "section": 0,
+      "title": "Expungements",
+      "content": "Defendants who have cases adjudicated as Dismissed Nol Pros or Not Guilty may file for an Expungement When granted the court must mark the Defendants case as Expunged so that the record will not be linked to the Defendant The case could just be deleted However this would cause a sequential case number to be missing without an explanation An alternative is to change the Defendant Name to EXPUNGED so that the Defendant is no longer attached to the case The very first Expungement requires a Profile to be created"
+  },
   {
       "page": "expungements",
       "section": 1,
@@ -118,6 +125,12 @@
       "section": 2,
       "title": "Expungement Fee",
       "content": "Expungement Fee The Court may receive an Expungement Fee of up to 50 This fee should be taken as a Miscellaneous Payment Enter EXPUNGEMENT FEE in the Cost Description and the amount Enter the amount for Tendered and click on OK"
+  },
+  {
+      "page": "interlock",
+      "section": 0,
+      "title": "Interlock",
+      "content": "If a Defendant is found guilty of DUI or enters into a PreTrial Diversion Program an Interlock Device is required by law to be placed on a Defendants vehicle under certain circumstances A Defendant may also elect to have an Interlock Device Installed even when not required by law The costs associated with Interlock are based on whether or not the Defendant owns a vehicle and for how long the Interlock device is required"
   },
   {
       "page": "interlock",
@@ -166,6 +179,12 @@
       "section": 5,
       "title": "Officer Signing an eCitation",
       "content": "When Printing eCitations the Officer with a Stored Signature may sign eCitation by clicking on the space to the right under the Officer ID If the Officer Record has a Password the Password Box is displayed for the Officer to enter the password The Officer Signature will appear in the signature field along with the Date If the Officer did not have a signature stored in the Officer Record the Officer could sign at this point by using an attached Signature Pad Holding the Ctrl Key Down while clicking on the Signature Field will allow the Officer to sign all of the eCitations at Once"
+  },
+  {
+      "page": "profiles",
+      "section": 0,
+      "title": "Profiles",
+      "content": "A Person anywhere in any Data Table must have a Profile with a corresponding ProfileID A Defendant with 3 cases who is also a witness in another case should have just one Profile that is referenced 4 times The Profile contains a persons demographic information including Name Address Sex Race Height Weight SSN and Drivers License Number"
   },
   {
       "page": "profiles",
