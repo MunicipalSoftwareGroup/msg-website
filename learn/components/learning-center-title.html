@@ -12,7 +12,16 @@
                     <input type="search" id="search-bar-entry" onkeydown="checkKey(event)" class="f-medium" />
                 </div>
             </div>
-            <button id="search-button" class="open-sans-bold f-small" type="button" onclick="window.location.assign('/learn/search?term=' + getInputValue())">Search</button>
+            <button id="search-button" 
+                    class="open-sans-bold f-small" 
+                    type="button" 
+                    onclick="
+                        const input = getInputValue();
+                        if (input) 
+                            window.location.assign('/learn/search?term=' + getInputValue())
+                    ">
+                    Search
+            </button>
         </div>
     </div>
 </div>
