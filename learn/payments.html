@@ -1,0 +1,552 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Payments</title>
+
+  <meta name="viewport" , content="width=device-width, initial-scale=1">
+  <meta name="author" content="Collin Brittain">
+  <meta name="description" content>
+
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/common.css">
+  <link rel="stylesheet" href="/styles/fonts.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/burger.css">
+  <link rel="stylesheet" href="/styles/learn-default.css">
+  <link rel="stylesheet" href="/styles/learn-480.css">
+  <link rel="stylesheet" href="/styles/learn-992.css">
+  <link rel="stylesheet" href="/styles/learn-1200.css">
+  <link rel="stylesheet" href="/styles/footer.css">
+  <link rel="stylesheet" href="/styles/fontawesome-free-5.15.3-web/css/all.css">
+  <link rel="stylesheet" type="text/css" media="print" href="/styles/learn-print.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/js/learn/search.js"></script>
+  <script src="/js/toggleMenu.js"></script>
+  <script src="/js/closeMenu.js"></script>
+  <script src="/js/onload.js"></script>
+  <script src="/js/learn/toc.js"></script>
+</head>
+
+<body style="max-width: 100%;  min-height: 100%">
+  <a id="top"></a>
+  <header>
+    <iframe src="/header.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
+  </header>
+  <div id="title-container">
+    <iframe src="/learn/components/learning-center-title.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()" hidden></iframe>
+  </div>
+  <div id="content-container">
+    <div id="table-of-contents-container">
+      <iframe src="/learn/components/table-of-contents.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);dropdown('payments-dropdown');this.remove()" hidden></iframe>
+    </div>
+    <div id="content-inner">
+      <div id="main-content">
+        <div id="reading-content" class="open-sans f-small">
+          <h1 id="reading-content-header" class="open-sans-bold f-large">
+            Payments
+          </h1>
+          <div id="reading-content-body">
+            <div id="1"></div>
+            <h2>Initial Payment Manager Screen</h2>
+
+            <section>
+              <p>Payments are started by clicking on the Dollar icon (top right).</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/1.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>The Initial Payment Manager Screen is displayed with the Name and Case Number defaulted from the previous Case Record.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/2.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>If the Case Number is not correct, another may be selected for this Defendant.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/3.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>If the Defendant is not correct the ‘Clear’ Button may be pressed.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/4.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Either a new Case Number or new Defendant may now be selected.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/5.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>Thus, a payment may be made on any case regardless of the current Case Data Record. However, starting from the correct Case Record means not having to adjust the Payer Name and Case Number.</p>
+            </section>
+
+            <section>
+              <p>Information about the Selected Defendant and Case Number is displayed in the center of the screen.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/6.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Clicking on the ‘Defendant Information’ button will display the Defendant History.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/7.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Clicking on the ‘Change Employee’ will allow a different employee name and password to be entered.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/8.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="2"></div>
+            <h2>Case Payment</h2>
+
+            <section>
+              <p>The most common Reason for coming to this Payment Manager Screen is to take a ‘Case Payment’.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/9.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+            
+            <section>
+              <p>The ‘Group All Costs’ check box allows taking one payment on multiple cases for this Defendant at the same time.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/10.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>The ‘PreAdjudication’ Check Box is for taking payments on this case prior to the case being adjudicated such as a ‘Warrant Fee’.</p>
+              <p>The ‘Exclude Costs’ Check Box will not setup up the Fines and Costs but instead give an empty Payment Screen.</p>
+            </section>
+
+            <section>
+              <p>Clicking OK will display the Case Payment Screen.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/11.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="3"></div>
+            <h2>Case Payment Screen</h2>
+
+            <section>
+              <p>The Fines and Court Costs are shown on the Payment screen.</p>
+              <p>Original Column shows initial amount.</p>
+              <p>Paid Column shows previous amounts paid.</p>
+              <p>Current Column shows amounts currently paying.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/12.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>While the default is CASH, there are many different ‘Pay Method’ options.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/13.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Once the ‘Tendered’ amount is entered, the ‘Applied’ amount will be populated with the smaller of that amount or the amount actually owed. ‘Change Due’ will also be entered. The ‘Applied’ amount may to be changed to a lesser amount, if appropriate, generating a corresponding ‘Change Due’ amount. The ‘Current’ Column in the Cost Table is also populated from the top down.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/14.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>The ‘Paid in Full’ check box use is to force the case is to be closed and considered completed even though there is still a balance. There is no need to check this box if the balance actually is zero.</p>
+              <p>‘By Mail’ may be optionally checked if it is desired to keep track of where the payment came from.</p>
+            </section>
+
+            <section>
+              <p>The Current Date is automatically placed in the ‘Post Date’ field, but may be changed if it is desired to be posted to a different date. The current Post Date is automatically changed daily. If the receipts are to be posted to the next business the Post Date may be changed in the Post Date Table.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/15.jpg" />
+                <p class="caption"></p>
+              </div>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/16.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>The ‘Cash’, ‘Check’, ’Credit Card’, or ‘Money Order’ boxes may be automatically checked based on the ‘Pay Method’. They may me manually changed if, for example, a ‘CASH BOND’ was paid by ‘Money Order’.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/17.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>The Printer will be set to the Default Receipt Printer but may be changed if necessary.</p>
+              <p>If the ‘Receipt #’ is left blank, the application will generate the next system receipt number. A manual receipt number may be entered which would then have no effect on the next system receipt number.</p>
+              <p>It is assumed that the receipt will be printed to the receipt printer. If it is desired to see the receipt on the screen first, the ‘Screen’ box should be checked.</p>
+              <p>A Comment may be entered and then optionally placed on the printed receipt. There are some instances such as a Credit Card authorization that could be automatically placed in the comment field.</p>
+            </section>
+
+            <div id="4"></div>
+            <h2>Credit Card</h2>
+
+            <p>Options are available to interface with Credit Card Companies to take payments online or directly through the application by typing in a Credit Card Number, Swiping a Card, or using an EMV Chip Reader.</p>
+
+            <section>
+              <p>An amount must be in the Applied field.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/18.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Click on the Credit Card Button. Note that the Pay Method does not need to be changed to ‘CREDIT CARD’. This will be automatically handled.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/19.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>The Credit Card interface screen will appear.</p>
+            </section>
+
+            <section>
+              <p>The card should be swiped or manually entered followed by the MMYY expiration date.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/20.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>Either an error should be returned or transaction completed by printing out a receipt. A transaction number on the receipt confirms that the charge was made.</p>
+            </section>
+
+            <div id="5"></div>
+            <h2>Case Info</h2>
+
+            <section>
+              <p>Choosing the ‘Case Info’ button will display fields from the Case being paid and allow editing of the case data. (Shown below in the Case Payment Setup Section.)</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/21.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="6"></div>
+            <h2>Restitution</h2>
+
+            <section>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/22.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>If Restitution has been added to the case, clicking on the Restitution button will display the Restitution Manager.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/23.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>The Payee may be entered so that payments may be tracked when received and demonstrated. (See Restitution for more information.)</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/24.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="7"></div>
+            <h2>Changing Costs in the "Current" Column</h2>
+
+            <section>
+              <p>As mentioned above, the Current column is populated with the applied amount from the top down. However, this column may be manually changed if it is desired to apply the amounts to different costs.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/25.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Also the Current column may have the amounts manually entered prior to entering the ‘Applied’ amount. </p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/26.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>The ‘NEED $20 LESS’ message is saying that the Current column has $20 more than the ‘Applied’ Amount. This message will go away once there is $20 or more in the Applied Amount.</p>
+            </section>
+
+            <div id="8"></div>
+            <h2>Payment Plan</h2>
+
+            <section>
+              <p>A Defendant may be placed on a Payment Plan entering the Recent Date (Start Date), the Payment Period (Normally Monthly), and the Payment Amount. The Application will then calculate the ‘Next Due’ Date and the ‘Finish Date’. The Next Due Date may be changed if appropriate. If the Next Due Date should be a Court Date, the ‘D’ button will display upcoming Court Dates.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/27.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>If a Defendant is to have payment completed by a certain Date, the ‘Fixed Finish’ Box may be checked and the Finish Date entered. The system will then calculate how much would need to be paid monthly (rounded to the nearest $5) to accomplish that goal. </p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/28.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>If the ‘Setup Return’ box is checked the application returns to the Initial Payment Manager Screen after either ‘OK’ or ‘CANCEL’ is selected. If ‘Setup Return’ is not checked the application returns back to the original Table (normally the Case Table).</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/29.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Clicking OK will now produce the Receipt.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/30.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>One, Two, or Three receipts may be printed on a single page.</p>
+              <p>One or Two pages may be printed. </p>
+              <p>A customized municipality water mark may replace the UJS watermark. Other case balances are listed on the receipt. </p>
+              <p>The Payment Plan information is printed on the receipt.</p>
+            </section>
+
+            <div id="9"></div>
+            <h2>Case Payment Setup</h2>
+
+            <section>
+              <p>A Case Payment Setup is only needed if the case has been adjudicated with at least some costs and the Defendant is not paying anything immediately. If the Defendant is making an initial partial payment, a Case Payment Setup is not needed as that Partial Payment will also create a Payment Setup Record.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/31.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Clicking OK will display the Case Disposition Update Form.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/32.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>The Adjudication may be entered along with any other appropriate data that will update the underlying Case Data Record. This screen is displayed the first a Case is either Setup or a Payment is made. Clicking ‘OK’ or ‘Cancel’ will display the Case Setup Screen.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/33.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>The costs setup are based on criteria of the Charge from the ‘Cost Groups’ Table found in the ‘Quick Table Menu’</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/34.jpg" />
+                <p class="caption"></p>
+              </div>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/35.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Amounts may be adjusted if appropriate on the ‘Case Payment Setup’ Screen. Ctrl-F will display a box to enter the Fine. It may also be entered by adding the cost in the ‘Current’ Column next to Fine.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/36.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="10"></div>
+            <h2>Cost Buttons</h2>
+
+            <section>
+              <p>Buttons on the Left have various functions to add or adjust the costs.</p>
+              <ul>
+                <li>‘C’ will clear all costs</li>
+                <li>‘B’ will add Bail Bond Fees</li>
+                <li>‘P’ will add PreTrial Diversion Costs</li>
+                <li>‘I’ will add Interlock Costs</li>
+                <li>‘A’ will add Additional Customized Costs</li>
+              </ul>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/37.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="11"></div>
+            <h2>Bail Bond Fee</h2>
+
+            <section>
+              <p>Clicking on the ‘B’ will display the Bond Fee Amount from which to select the correct Fee Amount.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/38.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>The Appropriate Bail Bond Fee Amounts will be placed at the bottom of the Fines and Costs.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/39.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="12"></div>
+            <h2>Pretrial Diversion</h2>
+
+            <section>
+              <p>Clicking on the ‘P’ will bring in the PreTrial Diversion amounts that were previously setup in the aforementioned ‘Cost Group’ Table.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/40.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>The Pretrial Diversion Costs will be placed at the bottom of the Setup Costs.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/41.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="13"></div>
+            <h2>Interlock</h2>
+
+            <section>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/42.jpg" />
+                <p class="caption"></p>
+              </div>
+              <p>Interlock Costs should be added upon Setting up a DUI Case when necessary.</p>
+            </section>
+
+            <section>
+              <p>Vehicle or No Vehicle need to first be determined.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/43.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Selecting the Vehicle option will add the one-time costs of $200 to the Setup.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/44.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Selecting the ‘No Vehicle’ option will place the Interlock costs for one year on the Setup. Since the number of months may vary from 6 months to up to 3 years for a 3rd Offense DUI, the $900 may need to be adjusted to a range from $450 to $2700.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/45.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="14"></div>
+            <h2>Monthly Interlock Payments</h2>
+
+            <section>
+              <p>For ‘No Vehicle’ cases the payments are supposed to be paid at the rate of $75 a month. Normally the total amount owed for Interlock ‘No Vehicle’ is simply totaled and placed after the other court costs. It is then paid in the same way as other court costs.</p>
+              <p>However, if a Defendant is Setup to pay Interlock on a monthly basis, there is an option on the Initial Payment Manager Screen to select ‘INTERLOCK’ to ensure that the payment does indeed apply towards Interlock and no other costs.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/46.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <p>The Amount Tendered and Applied is defaulted to $75 which is taken on the appropriate Interlock Cost.</p>
+
+            <div id="15"></div>
+            <h2>Driving School Payment</h2>
+
+            <section>
+              <p>Clicking on the Dollar Icon from a Driving School Record will default the Payment Reason to Driving School.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/47.jpg" />
+                <p class="caption"></p>
+              </div>
+              
+              <div class="captioned-image">
+                <img src="/images/learn/payments/48.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>Clicking ‘OK will display the Driving School Payment Screen with information from the Driving School Record.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/49.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>A Receipt is then generated with the Driving School Date and Time.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/50.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <div id="16"></div>
+            <h2>Miscellaneous Payment</h2>
+
+            <section>
+              <p>A Miscellaneous Payment is one that does not apply directly to a case. A case may or may not be referenced, but the payment does not decrease a case balance.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/51.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+            <section>
+              <p>The Payment Screen initially contains no costs. The appropriate costs and amounts of this Miscellaneous Receipt must be added before putting in the amount tendered and applied.</p>
+              <div class="captioned-image">
+                <img src="/images/learn/payments/52.jpg" />
+                <p class="caption"></p>
+              </div>
+            </section>
+
+          </div>
+          <a id="back-to-top" class="open-sans f-small" href="#top">Back to top</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--- FOOTER --->
+  <footer id="site-footer">
+    <div id="footer-top-container">
+      <div id="footer-top-inner">
+        <div id="footer-content" class="f-x-small">
+          Copyright © 2019-2021
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
